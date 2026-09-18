@@ -20,7 +20,7 @@ jobs:
             { id: 1, priority: 1, action: { type: "block" }, condition: { urlFilter: "doubleclick.net", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
             { id: 2, priority: 1, action: { type: "block" }, condition: { urlFilter: "googlesyndication.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
             { id: 3, priority: 1, action: { type: "block" }, condition: { urlFilter: "adnxs.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
-            { id: 4, priority: 1, action: { type: "block" }, condition: { urlFilter: "adservice.google.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
+            { id: 4, priority: 1, action: { type: "block" }, condition: { urlFilter: "://google.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
             { id: 5, priority: 1, action: { type: "block" }, condition: { urlFilter: "googletagservices.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } }
           ];
           fs.writeFileSync("rules.json", JSON.stringify(baseRules, null, 2));
