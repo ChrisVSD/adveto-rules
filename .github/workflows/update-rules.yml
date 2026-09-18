@@ -1,0 +1,77 @@
+name: Auto-Update AdVeto Rules
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Εκτελείται αυτόματα κάθε Κυριακή τα μεσάνυχτα
+  workflow_dispatch: # Σου επιτρέπει να το τρέξεις και με το χέρι οποιαδήποτε στιγμή θες
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Fetch and Convert Rules
+        run: |
+          node -e '
+          const fs = require("fs");
+          async function generate() {
+            try {
+              console.log("Fetching trusted adblock lists...");
+              // Παράδειγμα άντλησης από αξιόπιστη δημόσια πηγή φίλτρων
+              const res = await fetch("https://easylist.to/easylist/easylist.txt");
+              const text = await res.text();
+              const lines = text.split("\n");
+              
+              let rules = [];
+              let idCounter = 1;
+              
+              for (let line of lines) {
+                line = line.trim();
+                // Απλοποιημένος φιλτραρισμός για domains/URL filters που υποστηρίζονται από declarativeNetRequest
+                if (line && !line.startsWith("!") && !line.startsWith("[")) {
+                  let cleanUrl = line.replace(/^@@/, "").replace(/\|\|/, "").replace(/\^.*$/, "");
+                  if (cleanUrl.length > 3 && !cleanUrl.includes("*") && !cleanUrl.includes("/")) {
+                    rules.push({
+                      id: idCounter++,
+                      priority: 1,
+                      action: { type: "block" },
+                      condition: {
+                        urlFilter: cleanUrl,
+                        resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"]
+                      }
+                    });
+                    // Περιορίζουμε τον αριθμό των κανόνων σε ασφαλή όρια για αποφυγή performance issues
+                    if (rules.length >= 1500) break; 
+                  }
+                }
+              }
+              
+              // Ανάγνωση υπαρχόντων κανόνων αν θέλουμε να κρατήσουμε τυχόν δικούς μας
+              let existing = [];
+              if (fs.existsSync("rules.json")) {
+                try { existing = JSON.parse(fs.readFileSync("rules.json", "utf8")); } catch(e){}
+              }
+              
+              // Συνδυασμός ή αντικατάσταση
+              fs.writeFileSync("rules.json", JSON.stringify(rules, null, 2));
+              console.log(`Successfully generated ${rules.length} rules.`);
+            } catch (err) {
+              console.error("Error generating rules:", err);
+              process.exit(1);
+            }
+          }
+          generate();
+          '
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update adblock rules from trusted upstream"
+          file_pattern: "rules.json"
