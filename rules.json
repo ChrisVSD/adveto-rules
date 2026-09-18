@@ -1,82 +1,94 @@
-[
-  {
-    "id": 1,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "doubleclick.net",
-      "resourceTypes": [
-        "script",
-        "image",
-        "sub_frame",
-        "xmlhttprequest"
-      ]
-    }
-  },
-  {
-    "id": 2,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "googlesyndication.com",
-      "resourceTypes": [
-        "script",
-        "image",
-        "sub_frame",
-        "xmlhttprequest"
-      ]
-    }
-  },
-  {
-    "id": 3,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "adnxs.com",
-      "resourceTypes": [
-        "script",
-        "image",
-        "sub_frame",
-        "xmlhttprequest"
-      ]
-    }
-  },
-  {
-    "id": 4,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "://google.com",
-      "resourceTypes": [
-        "script",
-        "image",
-        "sub_frame",
-        "xmlhttprequest"
-      ]
-    }
-  },
-  {
-    "id": 5,
-    "priority": 1,
-    "action": {
-      "type": "block"
-    },
-    "condition": {
-      "urlFilter": "googletagservices.com",
-      "resourceTypes": [
-        "script",
-        "image",
-        "sub_frame",
-        "xmlhttprequest"
-      ]
-    }
-  }
-]
+name: Auto-Update AdVeto Rules
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+
+      - name: Advanced Rules Generator
+        run: |
+          node -e '
+          const fs = require("fs");
+
+          async function fetchCleanDomains(url) {
+            try {
+              const response = await fetch(url);
+              if (!response.ok) return [];
+              const text = await response.text();
+              const lines = text.split("\n");
+              const domains = new Set();
+
+              for (let line of lines) {
+                line = line.trim();
+                if (!line || line.startsWith("#") || line.startsWith("//")) continue;
+                
+                // Καθαρισμός αν η γραμμή περιέχει IP (π.χ. 0.0.0.0 domain.com)
+                const parts = line.split(/\s+/);
+                const domain = parts.length > 1 ? parts[1] : parts[0];
+                
+                if (domain && domain.includes(".") && !domain.includes("/") && !domain.includes("*")) {
+                  domains.add(domain);
+                }
+              }
+              return Array.from(domains);
+            } catch (e) {
+              console.error("Error fetching source:", e);
+              return [];
+            }
+          }
+
+          async function main() {
+            console.log("Compiling AdVeto Rules...");
+            
+            // Χρήση έτοιμων, καθαρών host λιστών για 100% επιτυχία
+            const easylistDomains = await fetchCleanDomains("https://githubusercontent.com");
+            const greekDomains = await fetchCleanDomains("https://githubusercontent.com");
+            
+            const initialDomains = [
+              "doubleclick.net", 
+              "googlesyndication.com", 
+              "adnxs.com", 
+              "://google.com", 
+              "googletagservices.com"
+            ];
+
+            const allDomains = new Set([...initialDomains, ...easylistDomains, ...greekDomains]);
+            const baseRules = [];
+            let currentId = 1;
+
+            for (const domain of allDomains) {
+              baseRules.push({
+                id: currentId++,
+                priority: 1,
+                action: { type: "block" },
+                condition: { 
+                  urlFilter: domain, 
+                  resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] 
+                }
+              });
+
+              if (currentId > 10000) break; // Ασφαλές όριο για ταχύτητα
+            }
+
+            fs.writeFileSync("rules.json", JSON.stringify(baseRules, null, 2));
+            console.log(`Created rules.json with ${baseRules.length} rules.`);
+          }
+
+          main();
+          '
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update ultimate adblock rules [automated]"
+          file_pattern: "rules.json"
