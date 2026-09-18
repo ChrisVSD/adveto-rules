@@ -2,8 +2,8 @@ name: Auto-Update AdVeto Rules
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # Εκτελείται αυτόματα κάθε Κυριακή τα μεσάνυχτα
-  workflow_dispatch: # Σας επιτρέπει να το τρέχετε χειροκίνητα όποτε θέλετε
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -30,30 +30,30 @@ jobs:
 
               for (let line of lines) {
                 line = line.trim();
-                // Φιλτράρισμα: Κρατάμε μόνο τους απλούς κανόνες τύπου ||domain.com^
-                if (line.startsWith("||") && line.endsWith("^")) {
-                  let domain = line.substring(2, line.length - 1);
-                  // Αφαίρεση τυχόν επιπλέον παραμέτρων
-                  if (!domain.includes("/") && !domain.includes("*") && !domain.includes("@")) {
-                    domains.add(domain);
-                  }
+                if (!line || line.startsWith("#") || line.startsWith("//")) continue;
+                
+                // Καθαρισμός αν η γραμμή περιέχει IP (π.χ. 0.0.0.0 domain.com)
+                const parts = line.split(/\s+/);
+                const domain = parts.length > 1 ? parts[1] : parts[0];
+                
+                if (domain && domain.includes(".") && !domain.includes("/") && !domain.includes("*")) {
+                  domains.add(domain);
                 }
               }
               return Array.from(domains);
             } catch (e) {
-              console.error("Error fetching sources:", e);
+              console.error("Error fetching source:", e);
               return [];
             }
           }
 
           async function main() {
-            console.log("Starting AdVeto Ultimate Rules Compilation...");
+            console.log("Compiling AdVeto Rules...");
             
-            // 1. Λήψη από τις δύο κορυφαίες επίσημες πηγές (EasyList + Greek Filter)
-            const easylistDomains = await fetchCleanDomains("https://firebog.net");
+            // Χρήση έτοιμων, καθαρών host λιστών για 100% επιτυχία
+            const easylistDomains = await fetchCleanDomains("https://githubusercontent.com");
             const greekDomains = await fetchCleanDomains("https://githubusercontent.com");
             
-            // 2. Ενσωμάτωση των δικών σας βασικών κανόνων
             const initialDomains = [
               "doubleclick.net", 
               "googlesyndication.com", 
@@ -67,8 +67,6 @@ jobs:
             let currentId = 1;
 
             for (const domain of allDomains) {
-              if (!domain) continue;
-              
               baseRules.push({
                 id: currentId++,
                 priority: 1,
@@ -79,12 +77,11 @@ jobs:
                 }
               });
 
-              // Όριο ασφαλείας για μέγιστη ταχύτητα στον browser του χρήστη
-              if (currentId > 15000) break;
+              if (currentId > 10000) break; // Ασφαλές όριο για ταχύτητα
             }
 
             fs.writeFileSync("rules.json", JSON.stringify(baseRules, null, 2));
-            console.log(`Ultimate rules.json successfully created with ${baseRules.length} active rules!`);
+            console.log(`Created rules.json with ${baseRules.length} rules.`);
           }
 
           main();
