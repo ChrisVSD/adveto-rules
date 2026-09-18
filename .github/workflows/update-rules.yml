@@ -12,18 +12,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Generate Safe Rules
+      - name: Update Rules JSON
         run: |
           node -e '
           const fs = require("fs");
-          
-          // Δημιουργούμε μια σταθερή, ασφαλή και καθαρή λίστα βασικών κανόνων
-          // για να αποφύγουμε τα timeouts από τεράστια αρχεία στο internet.
           const baseRules = [
             { id: 1, priority: 1, action: { type: "block" }, condition: { urlFilter: "doubleclick.net", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
             { id: 2, priority: 1, action: { type: "block" }, condition: { urlFilter: "googlesyndication.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
@@ -31,13 +23,12 @@ jobs:
             { id: 4, priority: 1, action: { type: "block" }, condition: { urlFilter: "adservice.google.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } },
             { id: 5, priority: 1, action: { type: "block" }, condition: { urlFilter: "googletagservices.com", resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] } }
           ];
-
           fs.writeFileSync("rules.json", JSON.stringify(baseRules, null, 2));
-          console.log("Successfully updated rules.json with safe structure.");
+          console.log("Rules successfully updated!");
           '
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update safe adblock rules"
+          commit_message: "Auto-update adblock rules"
           file_pattern: "rules.json"
