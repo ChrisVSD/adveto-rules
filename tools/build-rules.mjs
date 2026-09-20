@@ -96,8 +96,17 @@ function parseList(text) {
   return { network, cosmetic };
 }
 
+function ruleSpecificity(rule) {
+  const filter = rule.condition.urlFilter || "";
+  const isBroadHost = filter.startsWith("||") && filter.endsWith("^") && !filter.slice(2, -1).includes("/");
+  return isBroadHost ? 0 : 1;
+}
+
 async function loadSources() {
-  const sources = [];
+  const sources = [{
+    name: "priority-hosts.txt",
+    text: await fs.readFile(path.join(root, "priority-hosts.txt"), "utf8")
+  }];
   for (const url of remoteSources) {
     try {
       const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
@@ -120,7 +129,7 @@ for (const source of sources) {
 }
 
 const networkRules = [...networkByKey.values()]
-  .sort((left, right) => right.priority - left.priority)
+  .sort((left, right) => right.priority - left.priority || ruleSpecificity(left) - ruleSpecificity(right))
   .slice(0, maxNetworkRules)
   .map((rule, index) => ({ id: index + 1, ...rule }));
 const cosmeticRules = [...cosmeticByKey.values()].slice(0, maxCosmeticRules);
