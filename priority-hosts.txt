@@ -1,4 +1,15 @@
 ! Curated high-priority ad, analytics and telemetry domains.
+*ad-blocking-detector*$script,stylesheet
+*adblock-detect*$script
+*adblock-notify-by-bweb/*$script,stylesheet
+*adblock_detector2*$script
+*adblock_logger*$script
+*adBlockDetector/*$script
+*ads-blocking-detector*$script
+*anti-adblock*
+*no-adblock/*$script,stylesheet
+*blockblock/blockblock.jquery.js$script
+*jgcabd-detect-*$script
 ||adtago.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 ||analytics.s3.amazonaws.com^
