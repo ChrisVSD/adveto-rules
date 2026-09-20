@@ -1,95 +1,54 @@
-name: Auto-Update AdVeto Rules
+name: Update AdVeto rules
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Τρέχει αυτόματα κάθε βράδυ στις 00:00
-  workflow_dispatch: # Σου επιτρέπει να το τρέχεις και χειροκίνητα
+    - cron: "17 2 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  build-rules:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Ultimate Rules Generator
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build rules
+        run: node tools/build-rules.mjs
+
+      - name: Validate generated rules
         run: |
-          node -e '
-          const fs = require("fs");
-
-          async function fetchDomains(url) {
-            try {
-              console.log("Fetching from: " + url);
-              const response = await fetch(url);
-              if (!response.ok) return [];
-              const text = await response.text();
-              const lines = text.split("\n");
-              const domains = new Set();
-
-              for (let line of lines) {
-                line = line.trim();
-                // Αγνοούμε σχόλια και κενές γραμμές
-                if (!line || line.startsWith("#") || line.startsWith("!") || line.startsWith("//")) continue;
-                
-                // Καθαρισμός γραμμών τύπου hosts (0.0.0.0 domain.com)
-                const parts = line.split(/\s+/);
-                let domain = parts.length > 1 ? parts[1] : parts[0];
-                
-                // Αφαίρεση adblock syntax αν υπάρχει (π.χ. ||domain.com^)
-                domain = domain.replace(/^\|\|/, "").replace(/\^$/, "");
-
-                if (domain && domain.includes(".") && !domain.includes("/")) {
-                  domains.add(domain.toLowerCase());
-                }
+          node --input-type=module -e '
+            import fs from "node:fs";
+            const rules = JSON.parse(fs.readFileSync("rules.json"));
+            const cosmetic = JSON.parse(fs.readFileSync("cosmetic-rules.json"));
+            if (!rules.length || rules.length > 30000) throw new Error("Invalid network rule count");
+            if (!cosmetic.length || cosmetic.length > 50000) throw new Error("Invalid cosmetic rule count");
+            const ids = new Set(rules.map(rule => rule.id));
+            if (ids.size !== rules.length) throw new Error("Duplicate network rule IDs");
+            for (const rule of rules) {
+              if (!rule.action?.type || (!rule.condition?.urlFilter && !rule.condition?.regexFilter)) {
+                throw new Error(`Invalid rule ${rule.id}`);
               }
-              return Array.from(domains);
-            } catch (e) {
-              console.error("Error:", e);
-              return [];
             }
-          }
-
-          async function main() {
-            // Οι καλύτερες πηγές παγκοσμίως
-            const sources = [
-              "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts", // Ads + Malware
-              "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt", // EasyList
-              "https://raw.githubusercontent.com/hl2guide/Filter-Lists/master/Greek-AdBlock-Hosts.txt" // Greek Ads
-            ];
-
-            let allDomains = new Set();
-            for (const url of sources) {
-              const domains = await fetchDomains(url);
-              domains.forEach(d => allDomains.add(d));
-            }
-
-            const rules = [];
-            let id = 1;
-            // Μετατροπή σε μορφή Chrome Declarative Net Request
-            for (const domain of allDomains) {
-              rules.push({
-                id: id++,
-                priority: 1,
-                action: { type: "block" },
-                condition: { 
-                  urlFilter: domain, 
-                  resourceTypes: ["script", "image", "sub_frame", "xmlhttprequest"] 
-                }
-              });
-              if (id > 20000) break; // Όριο 20.000 κανόνων για μέγιστη ταχύτητα
-            }
-
-            fs.writeFileSync("rules.json", JSON.stringify(rules, null, 2));
-            console.log("Done! Created " + rules.length + " rules.");
-          }
-          main();
+            console.log(`Validated ${rules.length} network and ${cosmetic.length} cosmetic rules`);
           '
 
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "System: Ultimate rules auto-update"
-          file_pattern: "rules.json"
+      - name: Commit updated rules
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules.json cosmetic-rules.json rules-meta.json
+          if git diff --cached --quiet; then
+            echo "No rule changes"
+          else
+            git commit -m "chore: update generated rules"
+            git push
+          fi
