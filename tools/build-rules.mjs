@@ -19,6 +19,12 @@ const resourceTypes = new Set([
   "main_frame", "sub_frame", "stylesheet", "script", "image", "font",
   "object", "xmlhttprequest", "ping", "media", "websocket", "other"
 ]);
+const resourceTypeAliases = new Map([
+  ["subdocument", ["sub_frame"]],
+  ["document", ["main_frame", "sub_frame"]],
+  ["popup", ["main_frame"]],
+  ["frame", ["sub_frame"]]
+]);
 
 function sha256(value) {
   return crypto.createHash("sha256").update(value).digest("hex");
@@ -55,7 +61,9 @@ function parseNetworkFilter(line) {
 
   if (optionPart) {
     const options = optionPart.split(",");
-    const types = options.filter(option => resourceTypes.has(option));
+    const types = options.flatMap(option => resourceTypes.has(option)
+      ? [option]
+      : (resourceTypeAliases.get(option) || []));
     if (types.length) condition.resourceTypes = types;
     if (options.includes("third-party")) condition.domainType = "thirdParty";
     if (options.includes("~third-party")) condition.domainType = "firstParty";
