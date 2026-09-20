@@ -1,4 +1,16 @@
 ! Curated high-priority ad, analytics and telemetry domains.
+||popads.net^$popup
+||popcash.net^$popup
+||adsterra.com^$popup
+||exoclick.com^$popup
+||trafficjunky.net^$popup
+||juicyads.com^$popup
+||ero-advertising.com^$popup
+||propellerads.com^$popup
+||hilltopads.net^$popup
+||clickadu.com^$popup
+||admaven.com^$popup
+||onclickperformance.com^$popup
 *ad-blocking-detector*$script,stylesheet
 *adblock-detect*$script
 *adblock-notify-by-bweb/*$script,stylesheet

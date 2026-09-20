@@ -23,6 +23,8 @@ const resourceTypeAliases = new Map([
   ["subdocument", ["sub_frame"]],
   ["document", ["main_frame", "sub_frame"]],
   ["popup", ["main_frame"]],
+  ["popunder", ["main_frame"]],
+  ["tabunder", ["main_frame"]],
   ["frame", ["sub_frame"]]
 ]);
 
