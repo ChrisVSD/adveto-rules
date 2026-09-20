@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:21:11.165Z",
+  "generatedAt": "2026-09-20T13:26:26.733Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,7 +7,7 @@
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
-      "sha256": "6da937533c826aaf1f7e6042c22d78898a5634361f553c04962a18d13046d8ef"
+      "sha256": "e429a02f8434f60ab17c914d8c12921717fe07bb8f389ccb30c6dedeadb069b8"
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_general_block.txt",

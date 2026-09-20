@@ -124,7 +124,10 @@ const networkByKey = new Map();
 const cosmeticByKey = new Map();
 for (const source of sources) {
   const parsed = parseList(source.text);
-  for (const rule of parsed.network) networkByKey.set(JSON.stringify(rule), rule);
+  for (const rule of parsed.network) {
+    if (source.name === "priority-hosts.txt" && rule.action.type === "block") rule.priority = 3;
+    networkByKey.set(JSON.stringify(rule), rule);
+  }
   for (const rule of parsed.cosmetic) cosmeticByKey.set(JSON.stringify(rule), rule);
 }
 
