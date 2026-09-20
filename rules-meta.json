@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:57:56.737Z",
+  "generatedAt": "2026-09-20T14:03:12.433Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,7 +7,7 @@
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
-      "sha256": "78fea87d2b2d072d65380833bdcfcaa060c076e5f6b019e0f6093f0f24a16b83"
+      "sha256": "59301a8344470837c9df63051aa8f90e4865111c82abab424a78ba990e3c872d"
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_general_block.txt",
@@ -19,7 +19,7 @@
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "c360d794d78d965c9e213825320a14989264a06e11209176758b6283abd5e54f"
+      "sha256": "a7ae2b042621b27d684acdaf058f33fa24e97e545a97b6465809239d36ae8953"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",

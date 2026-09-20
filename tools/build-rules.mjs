@@ -57,6 +57,7 @@ function parseNetworkFilter(line) {
   if (hostsMatch) source = `||${hostsMatch[1]}^`;
   const [filterPart, optionPart] = source.split("$", 2);
   if (!filterPart || filterPart.includes("##") || filterPart.includes("#?#")) return null;
+  let rulePriority = allow ? 2 : 1;
   const condition = filterPart.startsWith("/") && filterPart.endsWith("/")
     ? { regexFilter: filterPart.slice(1, -1) }
     : { urlFilter: filterPart };
@@ -69,6 +70,8 @@ function parseNetworkFilter(line) {
     if (types.length) condition.resourceTypes = types;
     if (options.includes("third-party")) condition.domainType = "thirdParty";
     if (options.includes("~third-party")) condition.domainType = "firstParty";
+    if (options.includes("match-case")) condition.isUrlFilterCaseSensitive = true;
+    if (options.includes("important")) rulePriority = 4;
     const domainOption = options.find(option => option.startsWith("domain="));
     if (domainOption) {
       const { domains, excludedDomains } = parseDomains(domainOption.slice(7));
@@ -77,7 +80,7 @@ function parseNetworkFilter(line) {
     }
   }
   return condition.urlFilter || condition.regexFilter
-    ? { priority: allow ? 2 : 1, action: { type: allow ? "allow" : "block" }, condition }
+    ? { priority: rulePriority, action: { type: allow ? "allow" : "block" }, condition }
     : null;
 }
 
