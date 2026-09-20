@@ -28,8 +28,10 @@ jobs:
           node --input-type=module -e '
             import fs from "node:fs";
             const rules = JSON.parse(fs.readFileSync("rules.json"));
+            const extra = JSON.parse(fs.readFileSync("rules-extra.json"));
             const cosmetic = JSON.parse(fs.readFileSync("cosmetic-rules.json"));
             if (!rules.length || rules.length > 30000) throw new Error("Invalid network rule count");
+            if (extra.length > 30000) throw new Error("Invalid extended rule count");
             if (!cosmetic.length || cosmetic.length > 50000) throw new Error("Invalid cosmetic rule count");
             const ids = new Set(rules.map(rule => rule.id));
             if (ids.size !== rules.length) throw new Error("Duplicate network rule IDs");
@@ -45,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add rules.json cosmetic-rules.json rules-meta.json
+          git add rules.json rules-extra.json cosmetic-rules.json rules-meta.json
           if git diff --cached --quiet; then
             echo "No rule changes"
           else

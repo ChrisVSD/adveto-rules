@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:11:17.250Z",
+  "generatedAt": "2026-09-20T13:13:37.102Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -23,13 +23,15 @@
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "sha256": "2cbf4ed0d3fd6fae4ed7594af9ec1a2593040461e78f8ffd03ca93af87980d2c"
+      "sha256": "d1d3e03da0df3ed2bf456ba6080ff0245399a4bb7f5354af301e20ac5de86817"
     },
     {
       "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "sha256": "5c61b698d199d98125c2b6f232fdc7aef4b999d06f9f6d29e43eb59eb6867708"
     }
   ],
-  "networkRules": 29900,
+  "networkRules": 59800,
+  "primaryNetworkRules": 29900,
+  "extraNetworkRules": 29900,
   "cosmeticRules": 25000
 }

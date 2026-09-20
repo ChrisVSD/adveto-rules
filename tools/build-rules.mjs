@@ -5,7 +5,7 @@ import crypto from "node:crypto";
 const root = process.cwd();
 const rulesPath = path.join(root, "rules.json");
 const cosmeticPath = path.join(root, "cosmetic-rules.json");
-const maxNetworkRules = 29900;
+const maxNetworkRules = 59800;
 const maxCosmeticRules = 25000;
 const remoteSources = [
   "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
@@ -128,18 +128,23 @@ for (const source of sources) {
   for (const rule of parsed.cosmetic) cosmeticByKey.set(JSON.stringify(rule), rule);
 }
 
-const networkRules = [...networkByKey.values()]
+const allNetworkRules = [...networkByKey.values()]
   .sort((left, right) => right.priority - left.priority || ruleSpecificity(left) - ruleSpecificity(right))
   .slice(0, maxNetworkRules)
   .map((rule, index) => ({ id: index + 1, ...rule }));
+const networkRules = allNetworkRules.slice(0, 29900);
+const extraNetworkRules = allNetworkRules.slice(29900);
 const cosmeticRules = [...cosmeticByKey.values()].slice(0, maxCosmeticRules);
 if (!networkRules.length) throw new Error("No valid network rules were generated");
 await fs.writeFile(rulesPath, `${JSON.stringify(networkRules, null, 2)}\n`);
+await fs.writeFile(path.join(root, "rules-extra.json"), `${JSON.stringify(extraNetworkRules, null, 2)}\n`);
 await fs.writeFile(cosmeticPath, `${JSON.stringify(cosmeticRules, null, 2)}\n`);
 await fs.writeFile(path.join(root, "rules-meta.json"), `${JSON.stringify({
   generatedAt: new Date().toISOString(),
   sources: sources.map(source => ({ name: source.name, sha256: sha256(source.text) })),
-  networkRules: networkRules.length,
+  networkRules: allNetworkRules.length,
+  primaryNetworkRules: networkRules.length,
+  extraNetworkRules: extraNetworkRules.length,
   cosmeticRules: cosmeticRules.length
 }, null, 2)}\n`);
 console.log(`Generated ${networkRules.length} network and ${cosmeticRules.length} cosmetic rules from ${sources.length} sources.`);
