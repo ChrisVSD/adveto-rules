@@ -85,12 +85,13 @@ function parseNetworkFilter(line) {
 }
 
 function parseCosmeticFilter(line) {
-  const separator = line.includes("#?#") ? "#?#" : line.includes("##") ? "##" : null;
-  if (!separator || line.startsWith("@@") || line.includes("#@#")) return null;
+  const exception = line.includes("#@#");
+  const separator = exception ? "#@#" : line.includes("#?#") ? "#?#" : line.includes("##") ? "##" : null;
+  if (!separator || line.startsWith("@@")) return null;
   const [domainPart, selector] = line.split(separator, 2);
   if (!selector || selector.length > 1000 || selector.includes("{ ")) return null;
   const domains = domainPart ? domainPart.split(",").filter(Boolean) : [];
-  return domains.some(domain => domain.startsWith("~")) ? null : { domains, selector };
+  return domains.some(domain => domain.startsWith("~")) ? null : { domains, selector, exception };
 }
 
 function parseList(text) {
