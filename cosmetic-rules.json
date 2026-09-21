@@ -52476,11 +52476,6 @@
   },
   {
     "domains": [],
-    "selector": ".is-sponsored",
-    "exception": false
-  },
-  {
-    "domains": [],
     "selector": ".is-sticky-ad",
     "exception": false
   },
@@ -125510,6 +125505,11 @@
   {
     "domains": [],
     "selector": ".twitter-bubble",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": ".twitter-custom",
     "exception": false
   }
 ]
