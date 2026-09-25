@@ -64461,12 +64461,12 @@
   },
   {
     "domains": [],
-    "selector": "a[href*=\".adsrv.eacdn.com/\"]",
+    "selector": "a[href*=\".adglare.net/\"]",
     "exception": false
   },
   {
     "domains": [],
-    "selector": "a[href*=\".engine.adglare.net/\"]",
+    "selector": "a[href*=\".adsrv.eacdn.com/\"]",
     "exception": false
   },
   {
@@ -64477,6 +64477,11 @@
   {
     "domains": [],
     "selector": "a[href*=\".g2afse.com/\"]",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "a[href*=\".sadbaguette.com/\"]",
     "exception": false
   },
   {
@@ -118685,6 +118690,11 @@
   },
   {
     "domains": [],
+    "selector": ".sns-share-area2",
+    "exception": false
+  },
+  {
+    "domains": [],
     "selector": ".sns-share-icon",
     "exception": false
   },
@@ -125501,16 +125511,6 @@
   {
     "domains": [],
     "selector": ".twitter-btn-icon",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".twitter-bubble",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".twitter-custom",
     "exception": false
   }
 ]

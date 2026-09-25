@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T07:37:51.917Z",
+  "generatedAt": "2026-09-25T07:52:39.586Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,7 +7,7 @@
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
-      "sha256": "6777088e16a474c6c86e8d112e6db03db2c000bae15469450e3d1cd1aa752f1e"
+      "sha256": "4b88970a94674c8c77af0bda3564e8a47dc97cce73d78416ab0b73fe3ca30543"
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_general_block.txt",
@@ -15,15 +15,15 @@
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_general_hide.txt",
-      "sha256": "4959ea55e4c09ffebec96a098a99b0f27279abcc1dcdf77c6b8e4985e4685653"
+      "sha256": "0809dc07483a62a1818aa0f209b59a395dccd0b380ebe348134a8c88510024da"
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "82dd9afd7fc0444c82d4d157ef8d3252c254a0809b39cb9ef0884c8782404edd"
+      "sha256": "a3bd36c18428c5166c014e9650bceb8680eb846e593ee9539095cfd09ecb77c7"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "sha256": "70a4cdcaf057d9d636f3fe8e019b6c338291ec1c3504f489a7b69a62cc198d9c"
+      "sha256": "e0bba53596919a885bb4a8bfc7cfea2712283b81b18b9cb207538046fe12208d"
     },
     {
       "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
