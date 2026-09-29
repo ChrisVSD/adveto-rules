@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-09-20T14:15:34.918Z",
+  "generatedAt": "2026-09-29T12:17:09.128Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
-      "sha256": "bc2b0ed16e6e67b7530c88a1dd2679b838f7522df74e8154f183f66e8cb789c5"
+      "sha256": "4f4135ad426c8c61ec1f8e2ffb70a0a7c88d198a08484cc49e35b0852fed7245"
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt",
-      "sha256": "418239933944f30b20d242efea9db8f395e5693f20c8c49c6e7c7a1557d2aa9f"
+      "sha256": "94e995dc0f0af59cb1c1dfd22c04b3f0e00941257787d78aa8db546b8b0f5db3"
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_general_block.txt",
-      "sha256": "1371052568021c7eb36b46c7f2d3c1014bd14ea4a15f75a3fc959cc0827acbac"
+      "sha256": "6cd8404ae121ef9f81a1d8df25e55a394758df9d2c2d14fc4955b1fd0d448bf4"
     },
     {
       "name": "https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_general_hide.txt",
-      "sha256": "3aec09c224e2bb9e5f6d9e0488603887bb7a19ab975ad5c7338d35d13b09f70c"
+      "sha256": "8090b3df8749e8d5e333a2065b91829975e5daec1c92aaf322140cdfc56897d8"
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "c450a7477da7ccddafc75b9f9fe70263aadb3f2d3f543dce64fc76f37f2b81bc"
+      "sha256": "050f6644cc119e771b9441e160bb508a213759ae6579ca49f9e571618363a090"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "sha256": "19cfeb2c721167258464d08cfaa80943f2c254325894f0dd2c839d26376ed922"
+      "sha256": "2857263acbb1ce0165f1b707c497887125b6d6a13f8bd6d5a4e5d1c48968e1ce"
     },
     {
       "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-      "sha256": "5c61b698d199d98125c2b6f232fdc7aef4b999d06f9f6d29e43eb59eb6867708"
+      "sha256": "50c0c1b40ea81969b76487ce553adf64a61cc14d66c2e072cf0fe7a6ef277897"
     }
   ],
   "networkRules": 59800,
