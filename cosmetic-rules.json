@@ -52476,6 +52476,11 @@
   },
   {
     "domains": [],
+    "selector": ".is-sponsored",
+    "exception": false
+  },
+  {
+    "domains": [],
     "selector": ".is-sticky-ad",
     "exception": false
   },
@@ -64446,11 +64451,6 @@
   },
   {
     "domains": [],
-    "selector": "[id^=\"google_ads_iframe_\"]",
-    "exception": false
-  },
-  {
-    "domains": [],
     "selector": "[id^=\"section-ad-banner\"]",
     "exception": false
   },
@@ -64466,12 +64466,12 @@
   },
   {
     "domains": [],
-    "selector": "a[href*=\".adglare.net/\"]",
+    "selector": "a[href*=\".adsrv.eacdn.com/\"]",
     "exception": false
   },
   {
     "domains": [],
-    "selector": "a[href*=\".adsrv.eacdn.com/\"]",
+    "selector": "a[href*=\".engine.adglare.net/\"]",
     "exception": false
   },
   {
@@ -64482,11 +64482,6 @@
   {
     "domains": [],
     "selector": "a[href*=\".g2afse.com/\"]",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "a[href*=\".sadbaguette.com/\"]",
     "exception": false
   },
   {
@@ -68407,7 +68402,6 @@
       "9news.com",
       "abc10.com",
       "al.com",
-      "aol.com",
       "apnews.com",
       "artforum.com",
       "artnews.com",
@@ -68423,7 +68417,6 @@
       "dpreview.com",
       "driving.ca",
       "edmontonjournal.com",
-      "edmontonsun.com",
       "familyhandyman.com",
       "financialpost.com",
       "firstcoastnews.com",
@@ -68439,7 +68432,6 @@
       "kcentv.com",
       "kens5.com",
       "kgw.com",
-      "khou.com",
       "kiiitv.com",
       "king5.com",
       "krem.com",
@@ -68477,7 +68469,6 @@
       "wbir.com",
       "wcnc.com",
       "weareiowa.com",
-      "weather.com",
       "wfaa.com",
       "wfmynews2.com",
       "wgrz.com",
@@ -68518,6 +68509,7 @@
       "attackofthefanboy.com",
       "beavertonvalleytimes.com",
       "destructoid.com",
+      "edmontonsun.com",
       "gamepur.com",
       "gamerjournalist.com",
       "gameskinny.com",
@@ -118697,11 +118689,6 @@
   },
   {
     "domains": [],
-    "selector": ".sns-share-area2",
-    "exception": false
-  },
-  {
-    "domains": [],
     "selector": ".sns-share-icon",
     "exception": false
   },
@@ -125513,6 +125500,16 @@
   {
     "domains": [],
     "selector": ".twitter-btn",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": ".twitter-btn-icon",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": ".twitter-bubble",
     "exception": false
   }
 ]
