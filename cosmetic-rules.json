@@ -64446,6 +64446,11 @@
   },
   {
     "domains": [],
+    "selector": "[id^=\"google_ads_iframe_\"]",
+    "exception": false
+  },
+  {
+    "domains": [],
     "selector": "[id^=\"section-ad-banner\"]",
     "exception": false
   },
@@ -125508,11 +125513,6 @@
   {
     "domains": [],
     "selector": ".twitter-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".twitter-btn-icon",
     "exception": false
   }
 ]
