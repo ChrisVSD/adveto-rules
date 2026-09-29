@@ -1,4 +1,4 @@
-name: Update AdVeto rules
+name: Update Vetoly rules
 
 on:
   schedule:
@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2 # 1. Ενημέρωση στην τρέχουσα ασφαλή έκδοση
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.1.0 # 2. Ενημέρωση στην τρέχουσα έκδοση
         with:
-          node-version: 20
+          node-version: 24 # 3. Αλλαγή από 20 σε 24
 
       - name: Build rules
         run: node tools/build-rules.mjs
@@ -46,7 +46,7 @@ jobs:
       - name: Commit updated rules
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@://github.com"
           git add rules.json rules-extra.json cosmetic-rules.json rules-meta.json
           if git diff --cached --quiet; then
             echo "No rule changes"
