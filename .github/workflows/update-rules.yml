@@ -1,6 +1,13 @@
 name: Update Vetoly rules
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/update-rules.yml
+      - tools/build-rules.mjs
+      - priority-hosts.txt
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
