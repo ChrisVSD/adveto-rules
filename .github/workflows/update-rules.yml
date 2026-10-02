@@ -29,10 +29,14 @@ jobs:
             import fs from "node:fs";
             const rules = JSON.parse(fs.readFileSync("rules.json"));
             const extra = JSON.parse(fs.readFileSync("rules-extra.json"));
+            const nsfw = JSON.parse(fs.readFileSync("rules-nsfw.json"));
             const cosmetic = JSON.parse(fs.readFileSync("cosmetic-rules.json"));
             if (!rules.length || rules.length > 30000) throw new Error("Invalid network rule count");
             if (extra.length > 30000) throw new Error("Invalid extended rule count");
+            if (nsfw.length < 10000 || nsfw.length > 30000) throw new Error("Invalid NSFW rule count");
             if (!cosmetic.length || cosmetic.length > 50000) throw new Error("Invalid cosmetic rule count");
+            const mainFrameRules = [...rules, ...extra].filter(rule => rule.condition.resourceTypes?.includes("main_frame")).length;
+            if (mainFrameRules < 1000) throw new Error(`Popup/navigation rule coverage is too low: ${mainFrameRules}`);
             const ids = new Set(rules.map(rule => rule.id));
             if (ids.size !== rules.length) throw new Error("Duplicate network rule IDs");
             for (const rule of rules) {
@@ -46,8 +50,8 @@ jobs:
       - name: Commit updated rules
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@://github.com"
-          git add rules.json rules-extra.json cosmetic-rules.json rules-meta.json
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rules.json rules-extra.json rules-nsfw.json cosmetic-rules.json rules-meta.json
           if git diff --cached --quiet; then
             echo "No rule changes"
           else
