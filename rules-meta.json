@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T06:44:20.466Z",
+  "generatedAt": "2026-10-02T06:50:25.070Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,11 +7,11 @@
     },
     {
       "name": "https://easylist.to/easylist/easylist.txt",
-      "sha256": "480236b4dac9f45fc88f1893759d42a80f92df45bfcc74b6347523092973417c"
+      "sha256": "6e3f5bf567da0f0e9aeb9cadb4e1af0cb0feb42bc0017e83d3c5b14d46da7690"
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "de731f95189c3905b282327a71142b93a4c88b39a83f065e1f9792a965913415"
+      "sha256": "7f8ea659fddcc7480780de4fb09ae9780c944c60e6e20e7372f0a82c47e0ed01"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
@@ -19,7 +19,7 @@
     },
     {
       "name": "https://easylist.to/easylist/fanboy-social.txt",
-      "sha256": "da07b235c6925e6a16a76afd3cc136c3d01cc9b25f012c65076c0cdb38e335bd"
+      "sha256": "c4da2ab08b6948f4a992bf4ddf3f0e276f685f23311f40e213468963f43d029f"
     },
     {
       "name": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
