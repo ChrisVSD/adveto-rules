@@ -132127,13 +132127,6 @@
     "domains": [
       "wolt.com"
     ],
-    "selector": "[data-test-id=\"MainDiscoveryContent\"] > div:has([data-test-id=\"AdvertisingLabel\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "wolt.com"
-    ],
     "selector": "[data-test-id=\"MainDiscoveryContent\"] li[draggable]:has(a[aria-label*=\"Sponsored\"])",
     "exception": false
   },
@@ -145421,6 +145414,13 @@
   },
   {
     "domains": [
+      "watchhentai.net"
+    ],
+    "selector": ".header-sponsors-inner",
+    "exception": false
+  },
+  {
+    "domains": [
       "cutegurlz.com"
     ],
     "selector": ".header-widget",
@@ -152443,6 +152443,7 @@
   },
   {
     "domains": [
+      "oregonlive.com",
       "reuters.com"
     ],
     "selector": "+js(aost, admiral, .js?)",
