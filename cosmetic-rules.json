@@ -74761,6 +74761,13 @@
   },
   {
     "domains": [
+      "wgme.com"
+    ],
+    "selector": "#deeper-dive-container-0",
+    "exception": false
+  },
+  {
+    "domains": [
       "helpwithwindows.com"
     ],
     "selector": "#desc",
@@ -83256,6 +83263,13 @@
   },
   {
     "domains": [
+      "wgme.com"
+    ],
+    "selector": ".StoryPage_taboolaDeeperDive__WKVX7",
+    "exception": false
+  },
+  {
+    "domains": [
       "slant.co"
     ],
     "selector": ".SummaryPage-LustreEmbed",
@@ -83501,13 +83515,6 @@
       "thequint.com"
     ],
     "selector": "._4xQrn",
-    "exception": false
-  },
-  {
-    "domains": [
-      "outlook.live.com"
-    ],
-    "selector": "._BAY1XlyQSIe6kyKPlYP",
     "exception": false
   },
   {
@@ -95829,6 +95836,13 @@
       "picnob.com"
     ],
     "selector": ".desney",
+    "exception": false
+  },
+  {
+    "domains": [
+      "digitalescapetools.com"
+    ],
+    "selector": ".det-promo-float-host",
     "exception": false
   },
   {
@@ -120660,6 +120674,13 @@
   },
   {
     "domains": [
+      "wgme.com"
+    ],
+    "selector": "[data-testid=\"viewport-buffered-slot\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "duckduckgo.com"
     ],
     "selector": "[data-testid=serp-popover-promo]",
@@ -122807,6 +122828,13 @@
       "helpnetsecurity.com"
     ],
     "selector": "[style*=\"max-height: 250\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "whec.com"
+    ],
+    "selector": "[style*=\"min-height: 250px;\"]",
     "exception": false
   },
   {
@@ -130294,13 +130322,6 @@
   },
   {
     "domains": [
-      "outlook.live.com"
-    ],
-    "selector": ".VdboX[tabindex=\"0\"]:has(img[src=\"https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "facebook.com",
       "facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion"
     ],
@@ -132013,13 +132034,6 @@
   },
   {
     "domains": [
-      "outlook.live.com"
-    ],
-    "selector": "[data-app-section=\"MessageList\"] div[style^=\"position: absolute; left: 0px; top: 0px\"]:has(.ms-Shimmer-container)",
-    "exception": false
-  },
-  {
-    "domains": [
       "bjs.com"
     ],
     "selector": "[data-cnstrc-recommendations=\"true\"]:has(.sponsored-products)",
@@ -132205,6 +132219,13 @@
       "bestbuy.com"
     ],
     "selector": "[data-testid=\"story-wrapper-row\"] div:has(> [data-story-name=\"sponsored_grid\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "outlook.live.com"
+    ],
+    "selector": "[data-viewport-type=\"element\"] > div:not([style]) > div[id*=\"-\"]:has(img[src$=\"/images/ads-olk-icon.png\"])",
     "exception": false
   },
   {
@@ -132490,13 +132511,6 @@
   },
   {
     "domains": [
-      "outlook.live.com"
-    ],
-    "selector": "div.customScrollBar > div > div[id][class]:has(img[src$=\"/images/ads-olk-icon.png\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "downornot.net"
     ],
     "selector": "div.grid > div.flex.flex-col:has([href*=\"aff_c?\"])",
@@ -132629,13 +132643,6 @@
       "regex101.com"
     ],
     "selector": "div:has(> div > a > div[style*=\"/static/assets/sponsors/\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "outlook.live.com"
-    ],
-    "selector": "div:has(> div > div.fbAdLink)",
     "exception": false
   },
   {
@@ -154455,11 +154462,6 @@
   {
     "domains": [],
     "selector": "#toTopLink",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#to_top:not(body)",
     "exception": false
   }
 ]
