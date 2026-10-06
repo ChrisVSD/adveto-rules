@@ -7141,11 +7141,6 @@
   },
   {
     "domains": [],
-    "selector": "#adsbox",
-    "exception": false
-  },
-  {
-    "domains": [],
     "selector": "#adsbox-left",
     "exception": false
   },
@@ -72290,6 +72285,13 @@
   },
   {
     "domains": [
+      "bfunded.org.uk"
+    ],
+    "selector": "#adsbox",
+    "exception": false
+  },
+  {
+    "domains": [
       "lingojam.com"
     ],
     "selector": "#adsense-area-label",
@@ -94067,13 +94069,6 @@
   },
   {
     "domains": [
-      "mydramalist.com"
-    ],
-    "selector": ".col-lg-4 > .clear",
-    "exception": false
-  },
-  {
-    "domains": [
       "roseindia.net"
     ],
     "selector": ".col-md-4",
@@ -107321,6 +107316,13 @@
   },
   {
     "domains": [
+      "sportplus.watch"
+    ],
+    "selector": ".page__aside-banner",
+    "exception": false
+  },
+  {
+    "domains": [
       "military.com"
     ],
     "selector": ".page__top",
@@ -117040,6 +117042,13 @@
   },
   {
     "domains": [
+      "sportplus.watch"
+    ],
+    "selector": ".visible[ngskiphydration]:has(> a[target=\"_blank\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "visualcapitalist.com"
     ],
     "selector": ".visua-target",
@@ -122205,6 +122214,13 @@
   },
   {
     "domains": [
+      "bleepingcomputer.com"
+    ],
+    "selector": "[href^=\"https://www.wiz.io/\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "babylonbee.com"
     ],
     "selector": "[href^=\"https://www.yrxtrk.com/aff_c\"]",
@@ -123142,23 +123158,9 @@
   },
   {
     "domains": [
-      "mydramalist.com"
-    ],
-    "selector": "[style=\"min-height:327px;\"]",
-    "exception": false
-  },
-  {
-    "domains": [
       "cnbctv18.com"
     ],
     "selector": "[style=\"min-height:4000px\"]",
-    "exception": false
-  },
-  {
-    "domains": [
-      "mydramalist.com"
-    ],
-    "selector": "[style=\"min-height:600px;\"]",
     "exception": false
   },
   {
@@ -125273,6 +125275,13 @@
   },
   {
     "domains": [
+      "mydramalist.com"
+    ],
+    "selector": "div[class*=\"is-desktop-ads-\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "foodbible.com",
       "gamingbible.com",
       "ladbible.com",
@@ -126066,6 +126075,13 @@
       "yorkshirepost.co.uk"
     ],
     "selector": "div[class^=\"helper__AdContainer\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "mydramalist.com"
+    ],
+    "selector": "div[class^=\"htlad-film_box_\"]",
     "exception": false
   },
   {
@@ -132062,6 +132078,13 @@
   },
   {
     "domains": [
+      "pinterest.com"
+    ],
+    "selector": "[data-grid-item=\"true\"]:has([data-test-id=\"pinrep-footer\"] a[rel=\"nofollow\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "pixiv.net"
     ],
     "selector": "[data-gtm-recommend-zone=\"index\"] li:has(> div > iframe[name$=\"rectangle\"])",
@@ -132848,6 +132871,13 @@
     "domains": [
       "pixabay.com"
     ],
+    "selector": "div[class]:has(> div > div > a[aria-label=\"Sponsored Images\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pixabay.com"
+    ],
     "selector": "div[class]:has(> div > span + a + button[aria-label=\"About this advertiser\"])",
     "exception": false
   },
@@ -132963,13 +132993,6 @@
   },
   {
     "domains": [
-      "pinterest.com"
-    ],
-    "selector": "div[data-grid-item=\"true\"]:has([data-test-id=\"x3f8q1\"]):not(:has(a[href^=\"/pin/\"]))",
-    "exception": false
-  },
-  {
-    "domains": [
       "flipkart.com"
     ],
     "selector": "div[data-id]:has(a > [data-tkid^=\"ADVIEW\"])",
@@ -133014,14 +133037,14 @@
     "domains": [
       "wolt.com"
     ],
-    "selector": "div[data-test-id=\"MainDiscoveryContent\"] li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])",
+    "selector": "div[data-test-id=\"MainDiscoveryContent\"] li:has(> div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"]))",
     "exception": false
   },
   {
     "domains": [
       "wolt.com"
     ],
-    "selector": "div[data-test-id=\"SearchResultVenueSection\"] li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])",
+    "selector": "div[data-test-id=\"SearchResultVenueSection\"] li:has(> div.cb-elevated button[data-test-id=\"AdvertisingLabel\"])",
     "exception": false
   },
   {
@@ -133073,6 +133096,13 @@
       "x.com"
     ],
     "selector": "div[data-testid=\"eventHero\"]:has(path[d$=\"10H8.996V8h7v7z\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pexels.com"
+    ],
+    "selector": "div[data-testid=\"item\"]:has(a[href*=\"/r/\"][rel~=\"nofollow\"][target=\"_blank\"])",
     "exception": false
   },
   {
@@ -133628,7 +133658,7 @@
     "domains": [
       "wolt.com"
     ],
-    "selector": "ul[data-test-id=\"VenueVerticalListGrid\"] > li > div.cb-elevated:has(button[data-test-id=\"AdvertisingLabel\"])",
+    "selector": "ul[data-test-id=\"VenueVerticalListGrid\"] > li:has( > div.cb-elevated button[data-test-id=\"AdvertisingLabel\"])",
     "exception": false
   },
   {
@@ -154442,26 +154472,6 @@
   {
     "domains": [],
     "selector": "#to-top-container",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#to-top-link",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#toPagetop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#toTo_button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#toTopLink",
     "exception": false
   }
 ]
