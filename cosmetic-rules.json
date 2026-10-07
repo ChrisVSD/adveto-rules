@@ -97636,6 +97636,13 @@
   },
   {
     "domains": [
+      "fortune.com"
+    ],
+    "selector": ".firstInstreamAdContainer",
+    "exception": false
+  },
+  {
+    "domains": [
       "proprofs.com"
     ],
     "selector": ".firstadd",
@@ -104832,6 +104839,7 @@
       "blanktext.co",
       "cruisecritic.com",
       "finbold.com",
+      "fortune.com",
       "gizmodo.com",
       "kotaku.com",
       "op.gg",
@@ -118674,13 +118682,6 @@
   },
   {
     "domains": [
-      "fortune.com"
-    ],
-    "selector": ".z-body-popover",
-    "exception": false
-  },
-  {
-    "domains": [
       "giphy.com"
     ],
     "selector": ".z-stickyAd",
@@ -132481,6 +132482,13 @@
   },
   {
     "domains": [
+      "openalternative.co"
+    ],
+    "selector": "body > div.outline-transparent:has(a[target=\"_blank\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "creepypasta.com"
     ],
     "selector": "center:has(+ #ad-container-1)",
@@ -132565,6 +132573,20 @@
       "tvguide.co.uk"
     ],
     "selector": "div.mx-auto:has(> .flex.justify-center:empty)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "openalternative.co"
+    ],
+    "selector": "div.outline-transparent:has(> a[target=\"_blank\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "openalternative.co"
+    ],
+    "selector": "div.outline-transparent:has(> span[class*=\"group/button\"])",
     "exception": false
   },
   {
@@ -154457,21 +154479,6 @@
   {
     "domains": [],
     "selector": "#tc-footer-btt-wrapper",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#theme-go-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#to-top-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#to-top-container",
     "exception": false
   }
 ]
