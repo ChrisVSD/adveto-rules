@@ -95222,6 +95222,7 @@
   {
     "domains": [
       "addictivetips.com",
+      "celeb-stalker.com",
       "coinweek.com",
       "flashbak.com",
       "keqingmains.com",
@@ -100514,6 +100515,13 @@
       "rvtrader.com"
     ],
     "selector": ".home-ad-featured-dealer",
+    "exception": false
+  },
+  {
+    "domains": [
+      "lycos.com"
+    ],
+    "selector": ".home-advertiser-tiles",
     "exception": false
   },
   {
@@ -111608,6 +111616,13 @@
       "searchnowexpert.com"
     ],
     "selector": ".serp-head",
+    "exception": false
+  },
+  {
+    "domains": [
+      "lycos.com"
+    ],
+    "selector": ".serp-section-ads",
     "exception": false
   },
   {
@@ -149843,6 +149858,13 @@
   },
   {
     "domains": [
+      "celebjihad.com"
+    ],
+    "selector": "[href^=\"https://go.celebjihad.live\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "lewdgames.to",
       "otomi-games.com",
       "ryuugames.com"
@@ -152447,6 +152469,7 @@
       "myfoxzone.com",
       "nationalpost.com",
       "nbcsports.com",
+      "news.com.au",
       "newscentermaine.com",
       "newswest9.com",
       "nj.com",
@@ -154464,21 +154487,6 @@
   {
     "domains": [],
     "selector": "#sttotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#tab-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#tbScrollToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#tc-footer-btt-wrapper",
     "exception": false
   }
 ]
