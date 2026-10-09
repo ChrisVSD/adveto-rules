@@ -79883,6 +79883,13 @@
   },
   {
     "domains": [
+      "staples.com"
+    ],
+    "selector": "#sponsored-sku",
+    "exception": false
+  },
+  {
+    "domains": [
       "philstar.com"
     ],
     "selector": "#sponsored_posts",
@@ -86603,6 +86610,13 @@
       "bettycrocker.com"
     ],
     "selector": ".adhesiveAdSpacing",
+    "exception": false
+  },
+  {
+    "domains": [
+      "netweather.tv"
+    ],
+    "selector": ".adholder-1",
     "exception": false
   },
   {
@@ -108329,7 +108343,12 @@
   },
   {
     "domains": [
-      "montrealgazette.com"
+      "brantfordexpositor.ca",
+      "intelligencer.ca",
+      "montrealgazette.com",
+      "recorder.ca",
+      "saultstar.com",
+      "thesudburystar.com"
     ],
     "selector": ".pmd-ad-content",
     "exception": false
@@ -126655,6 +126674,13 @@
   },
   {
     "domains": [
+      "stockx.com"
+    ],
+    "selector": "div[data-sponsored-listing=\"true\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "ecosia.org"
     ],
     "selector": "div[data-test-id=\"mainline-result-ad\"]",
@@ -132262,13 +132288,6 @@
   },
   {
     "domains": [
-      "outlook.live.com"
-    ],
-    "selector": "[data-viewport-type=\"element\"] > div:not([style]) > div[id*=\"-\"]:has(img[src$=\"/images/ads-olk-icon.png\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "linuxcommandlibrary.com"
     ],
     "selector": "[href^=\"/\"]:has([src*=\".webp\"])",
@@ -132717,6 +132736,13 @@
       "openalternative.co"
     ],
     "selector": "div:has(> div > h2 > a[href=\"/advertise\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "staples.com"
+    ],
+    "selector": "div:has(> div[class*=\"configurator-container__\"] .topsort-video-configurator__monetizationContainer)",
     "exception": false
   },
   {
@@ -133317,6 +133343,13 @@
       "truthsocial.com"
     ],
     "selector": "div[item=\"[object Object]\"]:has(path[d=\"M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "outlook.live.com"
+    ],
+    "selector": "div[role=\"complementary\"][data-skip-link-name][id] div[id*=\"-\"]:has(> div:not([class]) > div[class] img[src$=\"/images/ads-olk-icon.png\"])",
     "exception": false
   },
   {
@@ -154467,26 +154500,6 @@
   {
     "domains": [],
     "selector": "#site-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#siteBackToTop_small_box",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#spnGoTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#sticky-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#sttotop",
     "exception": false
   }
 ]
