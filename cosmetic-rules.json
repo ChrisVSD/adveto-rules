@@ -92497,6 +92497,13 @@
   },
   {
     "domains": [
+      "boxlifemagazine.com"
+    ],
+    "selector": ".boxli-entity-placement",
+    "exception": false
+  },
+  {
+    "domains": [
       "retailgazette.co.uk"
     ],
     "selector": ".boxzilla-overlay",
@@ -93982,6 +93989,7 @@
       "talkers.com",
       "tech-latest.com",
       "techaeris.com",
+      "technobaboy.com",
       "techpp.com",
       "techrounder.com",
       "techviral.net",
@@ -107789,6 +107797,13 @@
   },
   {
     "domains": [
+      "tld-list.com"
+    ],
+    "selector": ".pb-2.section:has(img[src^=\"/images/ads/\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "dermatologytimes.com"
     ],
     "selector": ".pb-24",
@@ -108339,6 +108354,13 @@
       "advfn.com"
     ],
     "selector": ".plus500",
+    "exception": false
+  },
+  {
+    "domains": [
+      "270towin.com"
+    ],
+    "selector": ".pm-banner",
     "exception": false
   },
   {
@@ -120355,6 +120377,13 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "[data-test^=\"homepage-section-\"] > section:not([class])",
+    "exception": false
+  },
+  {
+    "domains": [
       "costco.com"
     ],
     "selector": "[data-testid=\"AdSet-all-pdp_criteo_-_sponsored_products\"]",
@@ -125025,6 +125054,13 @@
   },
   {
     "domains": [
+      "openalternative.co"
+    ],
+    "selector": "body > div:has(> img):has(a[target=\"_blank\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "nbcsports.com"
     ],
     "selector": "bsp-reverse-scroll-ad",
@@ -125204,6 +125240,34 @@
       "inverse.com"
     ],
     "selector": "div.zz",
+    "exception": false
+  },
+  {
+    "domains": [
+      "openalternative.co"
+    ],
+    "selector": "div:has(> a[target=\"_blank\"][rel=\"noopener\"]):has(button):not(:has(h1, h2, h3))",
+    "exception": false
+  },
+  {
+    "domains": [
+      "openalternative.co"
+    ],
+    "selector": "div:has(> div > h2 > a[href=\"/advertise\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "openalternative.co"
+    ],
+    "selector": "div:has(> p + a[target=\"_blank\"]:last-child)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "openalternative.co"
+    ],
+    "selector": "div:has(> span[class*=\"group/button\"]):has(button)",
     "exception": false
   },
   {
@@ -132576,6 +132640,13 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "div.cursor-pointer.overflow-hidden:has(> img.object-contain)",
+    "exception": false
+  },
+  {
+    "domains": [
       "downornot.net"
     ],
     "selector": "div.grid > div.flex.flex-col:has([href*=\"aff_c?\"])",
@@ -132729,13 +132800,6 @@
       "tripadvisor.*"
     ],
     "selector": "div:has(> div > div[class=\"ui_column ovNFo is-3\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div:has(> div > h2 > a[href=\"/advertise\"])",
     "exception": false
   },
   {
@@ -136513,6 +136577,13 @@
   },
   {
     "domains": [
+      "mail.yahoo.com"
+    ],
+    "selector": "#right-rail-container > div:has(> div > div > iframe[id^=\"Z3B0LWlmcmFtZS\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "yahoo.com"
     ],
     "selector": "#sda-Horizon",
@@ -137076,6 +137147,13 @@
       "yahoo.com"
     ],
     "selector": "div[data-beacon] > div[class*=\"streamBoxShadow\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "yahoo.com"
+    ],
+    "selector": "div[data-test-id=\"leaderboard-ad\"]",
     "exception": false
   },
   {
@@ -154445,61 +154523,6 @@
   {
     "domains": [],
     "selector": "#scroll-up-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scrollToTopButton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_back_to_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_to_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_top_div",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_top_wrap",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_totop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scrolltoptop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scrolltotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scrolltotop_button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scrollup_button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#site-scroll-top",
     "exception": false
   }
 ]
