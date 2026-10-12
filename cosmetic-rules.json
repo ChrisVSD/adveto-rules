@@ -125054,13 +125054,6 @@
   },
   {
     "domains": [
-      "openalternative.co"
-    ],
-    "selector": "body > div:has(> img):has(a[target=\"_blank\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "nbcsports.com"
     ],
     "selector": "bsp-reverse-scroll-ad",
@@ -125166,13 +125159,6 @@
   },
   {
     "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div.fixed.z-49.bottom-4",
-    "exception": false
-  },
-  {
-    "domains": [
       "easypet.com"
     ],
     "selector": "div.kt-inside-inner-col > div.wp-block-kadence-rowlayout",
@@ -125246,28 +125232,7 @@
     "domains": [
       "openalternative.co"
     ],
-    "selector": "div:has(> a[target=\"_blank\"][rel=\"noopener\"]):has(button):not(:has(h1, h2, h3))",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
     "selector": "div:has(> div > h2 > a[href=\"/advertise\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div:has(> p + a[target=\"_blank\"]:last-child)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div:has(> span[class*=\"group/button\"]):has(button)",
     "exception": false
   },
   {
@@ -127507,6 +127472,13 @@
   },
   {
     "domains": [
+      "dhgate.com"
+    ],
+    "selector": "div[spm-c=\"sponsored\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "medscape.com"
     ],
     "selector": "div[ssr-ads]",
@@ -127517,13 +127489,6 @@
       "geo.tv"
     ],
     "selector": "div[style$=\"min-height: 280px;\"]",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div[style*=\"--brand-tint\"]",
     "exception": false
   },
   {
@@ -130585,6 +130550,13 @@
   },
   {
     "domains": [
+      "temu.com"
+    ],
+    "selector": ".autoFitGoodsList > div:has([role=\"text\"][aria-label=\"AD\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "bjs.com"
     ],
     "selector": ".banner-cta-wrap:has([src=\"//retailmedia-static.criteo.com/\"])",
@@ -130940,6 +130912,13 @@
       "alibaba.com"
     ],
     "selector": ".gallery-card:has(.searchx-card-e-ad)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "dhgate.com"
+    ],
+    "selector": ".gallery-content > ul > li:has(> .gallery-main > .gallery-ad-wrap > i.icon-ad)",
     "exception": false
   },
   {
@@ -132275,6 +132254,13 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "[data-test=\"launch\"] > section:has(span.rounded-b-xl.bg-brand-500)",
+    "exception": false
+  },
+  {
+    "domains": [
       "stockx.com"
     ],
     "selector": "[data-testid=\"banner-collage\"] .chakra-aspect-ratio:has(a[title*=\"Promo\"])",
@@ -132575,14 +132561,7 @@
     "domains": [
       "openalternative.co"
     ],
-    "selector": "body > div.group:has(a[target=\"_blank\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
-    "selector": "body > div.outline-transparent:has(a[target=\"_blank\"])",
+    "selector": "body > div:has(> div > a[href^=\"/advertise\"])",
     "exception": false
   },
   {
@@ -132654,13 +132633,6 @@
   },
   {
     "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div.group:has(> a[target=\"_blank\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "golfgalaxy.com"
     ],
     "selector": "div.hmf-position-relative:has(.sponsored)",
@@ -132678,20 +132650,6 @@
       "tvguide.co.uk"
     ],
     "selector": "div.mx-auto:has(> .flex.justify-center:empty)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div.outline-transparent:has(> a[target=\"_blank\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "openalternative.co"
-    ],
-    "selector": "div.outline-transparent:has(> span[class*=\"group/button\"])",
     "exception": false
   },
   {
@@ -132793,6 +132751,13 @@
       "regex101.com"
     ],
     "selector": "div:has(> div > a > div[style*=\"/static/assets/sponsors/\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "openalternative.co"
+    ],
+    "selector": "div:has(> div > a[href^=\"/advertise\"]):has(> a[target=\"_blank\"])",
     "exception": false
   },
   {
@@ -133555,6 +133520,13 @@
       "streeteasy.com"
     ],
     "selector": "li.searchCardList--listItem:has(.jsSponsoredListingCard)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "temu.com"
+    ],
+    "selector": "li.splide__slide:has([role=\"text\"][aria-label=\"AD\"])",
     "exception": false
   },
   {
@@ -140530,27 +140502,6 @@
       "telugupeople.com"
     ],
     "selector": "table:has(> tbody > tr > td > a:has-text(Advertisements))",
-    "exception": false
-  },
-  {
-    "domains": [
-      "temu.com"
-    ],
-    "selector": ".EKDT7a3v:has-text(AD)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "temu.com"
-    ],
-    "selector": ".goods-container:has-text(AD)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "temu.com"
-    ],
-    "selector": ".splide__slide:has-text(AD)",
     "exception": false
   },
   {
@@ -152964,6 +152915,13 @@
     "exception": false
   },
   {
+    "domains": [
+      "search.rakuten.co.jp"
+    ],
+    "selector": "+js(aeld, mouseup, sendClickEvent)",
+    "exception": false
+  },
+  {
     "domains": [],
     "selector": "#FooterboardMobile",
     "exception": false
@@ -154523,6 +154481,36 @@
   {
     "domains": [],
     "selector": "#scroll-up-button",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#scrollToTopButton",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#scroll_back_to_top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#scroll_to_top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#scroll_top_div",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#scroll_top_wrap",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#scroll_totop",
     "exception": false
   }
 ]
