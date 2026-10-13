@@ -122595,6 +122595,13 @@
   },
   {
     "domains": [
+      "filecrypt.cc"
+    ],
+    "selector": "[onclick*=\"/linkonclick.com/\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "buzzheavier.com"
     ],
     "selector": "[onclick=\"downloadAd()\"]",
@@ -148362,6 +148369,47 @@
   },
   {
     "domains": [
+      "galleryxh.site",
+      "megaxh.com",
+      "openxh.com",
+      "stripchat.com",
+      "valuexh.life",
+      "xhaccess.com",
+      "xhamster.com",
+      "xhamster.desi",
+      "xhamster.one",
+      "xhamster1.desi",
+      "xhamster13.*",
+      "xhamster14.com",
+      "xhamster16.*",
+      "xhamster17.*",
+      "xhamster18.*",
+      "xhamster19.com",
+      "xhamster2.com",
+      "xhamster20.desi",
+      "xhamster3.*",
+      "xhamster37.com",
+      "xhamster40.com",
+      "xhamster42.desi",
+      "xhamster9.com",
+      "xhbig.com",
+      "xhbranch5.com",
+      "xhchannel.com",
+      "xhdate.world",
+      "xhmoon5.com",
+      "xhofficial.com",
+      "xhopen.com",
+      "xhspot.com",
+      "xhtotal.com",
+      "xhvid.com",
+      "xhwide1.com",
+      "xhwide2.com"
+    ],
+    "selector": ".thumb-list__item[role=\"button\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "pornpictureshq.com"
     ],
     "selector": ".thumb__iframe",
@@ -154501,16 +154549,6 @@
   {
     "domains": [],
     "selector": "#scroll_top_div",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_top_wrap",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_totop",
     "exception": false
   }
 ]
