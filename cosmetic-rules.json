@@ -69806,7 +69806,8 @@
     "domains": [
       "deep-edge.net",
       "forums.digitalspy.com",
-      "marketwatch.com"
+      "marketwatch.com",
+      "ullu-egg.com"
     ],
     "selector": ".has-ad",
     "exception": true
@@ -77369,6 +77370,20 @@
       "ymcinema.com"
     ],
     "selector": "#media_image-2",
+    "exception": false
+  },
+  {
+    "domains": [
+      "primeaudio.org"
+    ],
+    "selector": "#media_image-23",
+    "exception": false
+  },
+  {
+    "domains": [
+      "primeaudio.org"
+    ],
+    "selector": "#media_image-25",
     "exception": false
   },
   {
@@ -93962,6 +93977,7 @@
       "pcoptimizedsettings.com",
       "politizoom.com",
       "premiumtimesng.com",
+      "primeaudio.org",
       "protrumpnews.com",
       "psu.com",
       "pureinfotech.com",
@@ -97590,6 +97606,20 @@
       "gq.com.au"
     ],
     "selector": ".ffNDsR",
+    "exception": false
+  },
+  {
+    "domains": [
+      "thefilmhq.com"
+    ],
+    "selector": ".fhq-home-ad",
+    "exception": false
+  },
+  {
+    "domains": [
+      "thefilmhq.com"
+    ],
+    "selector": ".fhq-news-sidebar-ad",
     "exception": false
   },
   {
@@ -118761,6 +118791,13 @@
   },
   {
     "domains": [
+      "primeaudio.org"
+    ],
+    "selector": ".zeen-da-wrap",
+    "exception": false
+  },
+  {
+    "domains": [
       "techspot.com"
     ],
     "selector": ".zenerr",
@@ -133237,6 +133274,13 @@
     "domains": [
       "booking.com"
     ],
+    "selector": "div[data-testid=\"property-card\"]:has(a[href*=\"nad_id=\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "booking.com"
+    ],
     "selector": "div[data-testid=\"property-card\"]:has(div[data-testid=\"new-ad-design-badge\"])",
     "exception": false
   },
@@ -133706,6 +133750,13 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "section:has(> div > div > span.rounded-b-xl.bg-brand-500)",
+    "exception": false
+  },
+  {
+    "domains": [
       "tripadvisor.*"
     ],
     "selector": "section[data-automation$=\"_AdPlaceholder\"]:has(.txxUo)",
@@ -134048,20 +134099,6 @@
     "domains": [
       "amazon.*"
     ],
-    "selector": "#sponsoredProducts2_feature_div",
-    "exception": false
-  },
-  {
-    "domains": [
-      "amazon.*"
-    ],
-    "selector": "#sponsoredProducts_feature_div",
-    "exception": false
-  },
-  {
-    "domains": [
-      "amazon.*"
-    ],
     "selector": ".AdHolder",
     "exception": false
   },
@@ -134161,6 +134198,13 @@
       "amazon.*"
     ],
     "selector": "[cel_widget_id*=\"-creative-desktop_loom-desktop-\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amazon.*"
+    ],
+    "selector": "[id^=\"sponsoredProducts\"][id$=\"_feature_div\"]",
     "exception": false
   },
   {
@@ -144500,6 +144544,20 @@
   },
   {
     "domains": [
+      "gays-cruising.com"
+    ],
+    "selector": ".cnt_dccxxviii_cclxv",
+    "exception": false
+  },
+  {
+    "domains": [
+      "gays-cruising.com"
+    ],
+    "selector": ".cnt_dccxxviii_xc",
+    "exception": false
+  },
+  {
+    "domains": [
       "fap-nation.com",
       "fyptt.to",
       "gamegill.com",
@@ -154509,46 +154567,6 @@
   {
     "domains": [],
     "selector": "#scroll-top-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll-top-link",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll-top-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll-toplink",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll-up-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scrollToTopButton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_back_to_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_to_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll_top_div",
     "exception": false
   }
 ]

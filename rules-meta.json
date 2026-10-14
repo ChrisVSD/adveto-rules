@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:28:03.286Z",
+  "generatedAt": "2026-10-14T07:40:54.299Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,23 +7,23 @@
     },
     {
       "name": "https://easylist.to/easylist/easylist.txt",
-      "sha256": "2190698310a6bc6ed0ca6c4061230f6fed16d1e798716c9959ba28bced6abdbe"
+      "sha256": "5e7fea7b43698d9ea35d4e8c7a37b4091f034c697c31e24ede87e7df00909bbf"
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "463120d024f4252c91991ca821ef43cc3c69c0c31bd2f68958f2496d4a431891"
+      "sha256": "0bbd761151643e5f22bb52c9ce7c753eec05de376b69121689e7cd44ea3db276"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "sha256": "4973321c0b43bba1b8608a625f481871be3495bde986de7322a806822c89726b"
+      "sha256": "0be265cb7a197c362fa5adcaa85b1a001f09e94281e0f99a4b8a7f6687dbbb2b"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-social.txt",
-      "sha256": "3dd3cd02a376ce9c3bc6ba0876d067ddbd7de6ce028372328eeeded22a582009"
+      "sha256": "5fd9728ea8287e0b59a21a1ca8259c8e20b3f289fec9ab9412097546234e4ba6"
     },
     {
       "name": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
-      "sha256": "a059200280cf2311b124c8e0b26d556692f1fbb34c9ad0be0e06aba7510ecf3f"
+      "sha256": "0f58d6436306c7b0cadda118667e7ba9452fbfc18d9e183a4c4033af3c14f5db"
     },
     {
       "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
