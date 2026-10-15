@@ -85897,6 +85897,13 @@
     "domains": [
       "drive.com.au"
     ],
+    "selector": ".adSpacing_drive-ad-spacing__ABpTJ",
+    "exception": false
+  },
+  {
+    "domains": [
+      "drive.com.au"
+    ],
     "selector": ".adSpacing_drive-ad-spacing__HdaBg",
     "exception": false
   },
@@ -89690,6 +89697,13 @@
   },
   {
     "domains": [
+      "astrologyanswers.com"
+    ],
+    "selector": ".astro-entity-placement",
+    "exception": false
+  },
+  {
+    "domains": [
       "attitude.co.uk"
     ],
     "selector": ".at-advert",
@@ -90168,6 +90182,7 @@
       "808fubo808.com",
       "alistapart.com",
       "anguscountyworld.co.uk",
+      "antrimnow.co.uk",
       "arcadebomb.com",
       "armageddonexpo.com",
       "banburyguardian.co.uk",
@@ -91875,6 +91890,13 @@
       "mail.com"
     ],
     "selector": ".blocks-3",
+    "exception": false
+  },
+  {
+    "domains": [
+      "drive.com.au"
+    ],
+    "selector": ".blocks_drive-block__ad__wrapper__er_24",
     "exception": false
   },
   {
@@ -99038,6 +99060,13 @@
   },
   {
     "domains": [
+      "gearjunkie.com"
+    ],
+    "selector": ".gj-incontent-dt",
+    "exception": false
+  },
+  {
+    "domains": [
       "getcomics.org"
     ],
     "selector": ".gjqry",
@@ -100376,6 +100405,7 @@
   },
   {
     "domains": [
+      "antrimnow.co.uk",
       "farminglife.com",
       "newcastleworld.com"
     ],
@@ -110993,6 +111023,13 @@
       "boxrox.com"
     ],
     "selector": ".rolling-mrt",
+    "exception": false
+  },
+  {
+    "domains": [
+      "drive.com.au"
+    ],
+    "selector": ".roofrack-wrapper",
     "exception": false
   },
   {
@@ -129509,6 +129546,13 @@
   },
   {
     "domains": [
+      "makemytrip.*"
+    ],
+    "selector": ".flights-adtech-desktop",
+    "exception": false
+  },
+  {
+    "domains": [
       "yts.*"
     ],
     "selector": ".home-content > div:has(.blue ~ a img[src*=\"/images/download\"])",
@@ -129864,6 +129908,13 @@
       "douglas.*"
     ],
     "selector": "div.product-grid-column:has(button[data-testid=\"sponsored-button\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "makemytrip.*"
+    ],
+    "selector": "div:has(> .adBanner__img)",
     "exception": false
   },
   {
@@ -135769,6 +135820,13 @@
   },
   {
     "domains": [
+      "edmunds.com"
+    ],
+    "selector": ".justify-content-center:has(.exco-player)",
+    "exception": false
+  },
+  {
+    "domains": [
       "evoke.ie",
       "extra.ie"
     ],
@@ -138714,6 +138772,15 @@
       "kayak.*",
       "swoodoo.com"
     ],
+    "selector": ".CarResultsList .VbVE:has(.VbVE-ProviderContentBanner)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "checkfelix.com",
+      "kayak.*",
+      "swoodoo.com"
+    ],
     "selector": ".Dp1L",
     "exception": false
   },
@@ -138751,6 +138818,15 @@
       "swoodoo.com"
     ],
     "selector": ".YnaR",
+    "exception": false
+  },
+  {
+    "domains": [
+      "checkfelix.com",
+      "kayak.*",
+      "swoodoo.com"
+    ],
+    "selector": ".c71z4 > div:has(> .Tl2M-contentInner)",
     "exception": false
   },
   {
@@ -140557,6 +140633,27 @@
   },
   {
     "domains": [
+      "temu.com"
+    ],
+    "selector": ".autoFitGoodsList > div:has(._2QlTgZaA:has-text(/^AD$/))",
+    "exception": false
+  },
+  {
+    "domains": [
+      "temu.com"
+    ],
+    "selector": ".mainContent div:has(> .goods-container ._2QlTgZaA:has-text(/^AD$/))",
+    "exception": false
+  },
+  {
+    "domains": [
+      "temu.com"
+    ],
+    "selector": "li.splide__slide:has(._2QlTgZaA:has-text(/^AD$/))",
+    "exception": false
+  },
+  {
+    "domains": [
       "theblock.co"
     ],
     "selector": ".py-4.my-6:has-text(Advertisement)",
@@ -140673,6 +140770,13 @@
       "wltreport.com"
     ],
     "selector": ".code-block:has-text(ADVERTISEMENT)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "wolt.com"
+    ],
+    "selector": "div[data-test-id=\"MainDiscoveryContent\"] div > div:has-text(/Polecane na Wolt|Sponsored|Gesponsert/)",
     "exception": false
   },
   {
@@ -152503,6 +152607,13 @@
   },
   {
     "domains": [
+      "iphoneincanada.ca"
+    ],
+    "selector": "+js(acs, document.createElement, __apNoHold)",
+    "exception": false
+  },
+  {
+    "domains": [
       "247sports.com",
       "al.com",
       "arstechnica.com",
@@ -154492,81 +154603,6 @@
   {
     "domains": [],
     "selector": "#onTop3",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#page-go-up",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#pageStick-Backtop-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#pagescrolltop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#picto-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#pix--totop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#pl_common_scrollToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#pojo-scroll-up",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#pro-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#qodef-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#return-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#returnOnTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#return_to_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#sbttBacktotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scrl-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#scroll-top-button",
     "exception": false
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T07:40:54.299Z",
+  "generatedAt": "2026-10-15T07:29:18.287Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,31 +7,31 @@
     },
     {
       "name": "https://easylist.to/easylist/easylist.txt",
-      "sha256": "5e7fea7b43698d9ea35d4e8c7a37b4091f034c697c31e24ede87e7df00909bbf"
+      "sha256": "6a71e7dbe677cd64dfaa8378e3b0a00c762c140d3da7e47a8935366fc8166577"
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "0bbd761151643e5f22bb52c9ce7c753eec05de376b69121689e7cd44ea3db276"
+      "sha256": "225acb70917eddfd5ddeaf2b6f092c6e393a5060b02efb434c1e00116759b7b8"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "sha256": "0be265cb7a197c362fa5adcaa85b1a001f09e94281e0f99a4b8a7f6687dbbb2b"
+      "sha256": "6201ac98a766356640c038c913b35ba79550cdad131be0682904468940248ff7"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-social.txt",
-      "sha256": "5fd9728ea8287e0b59a21a1ca8259c8e20b3f289fec9ab9412097546234e4ba6"
+      "sha256": "ca54b6fefe28ed0c8f722c57a79200bd0bf51619c17d01ae1d870fcb7f90c90e"
     },
     {
       "name": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
-      "sha256": "0f58d6436306c7b0cadda118667e7ba9452fbfc18d9e183a4c4033af3c14f5db"
+      "sha256": "d8dbca30792480cc1d0aeef65030766b9845378747da56ad048756bab7344119"
     },
     {
       "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-      "sha256": "b83fc7acc934248ea4995dac213aa0ebb92d6824fd8469c1c20327b445db9051"
+      "sha256": "2ecaae284a96b89f9aae863673f3741c8661ecd1f5eb09aaf5c29b5fa3eabdd3"
     },
     {
       "name": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt",
-      "sha256": "eed756619896222e3aa189645b35ec2429a75f29256671f086714c3b672d3b7a"
+      "sha256": "b0c7ca927bc84f3be534c7f503d88336b92bb95909a73df6f7c1f576af1150e0"
     }
   ],
   "networkRules": 59800,
@@ -40,7 +40,7 @@
   "cosmeticRules": 25000,
   "nsfwSource": {
     "name": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nsfw.txt",
-    "sha256": "81dcd4458f40e82d3a9036f021295e1a3727070e88d847a197bc5d8992b20815"
+    "sha256": "5dc7d42b6d1e156e1c2595181923c5b8baaedf86372365cc6c609daa46b843fd"
   },
   "nsfwRules": 29900
 }
