@@ -114157,6 +114157,13 @@
   },
   {
     "domains": [
+      "csrep.gg"
+    ],
+    "selector": ".sticky:has(> div.w-full > a[target=\"_blank\"] img)",
+    "exception": false
+  },
+  {
+    "domains": [
       "economictimes.indiatimes.com"
     ],
     "selector": ".stickyAd",
@@ -134108,6 +134115,13 @@
     "domains": [
       "amazon.*"
     ],
+    "selector": "#cm_cr-rvw_summary-ads",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amazon.*"
+    ],
     "selector": "#desktop-ad-btf",
     "exception": false
   },
@@ -134116,6 +134130,27 @@
       "amazon.*"
     ],
     "selector": "#faceoutContainer:has(> [class$=\"sponsored-label\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amazon.*"
+    ],
+    "selector": "#hero-quick-promo_feature_div",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amazon.*"
+    ],
+    "selector": "#mobile-ads-bottom-dramabot_feature_div",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amazon.*"
+    ],
+    "selector": "#mobile-ads-middle-dramabot_feature_div",
     "exception": false
   },
   {
@@ -134207,6 +134242,13 @@
       "amazon.*"
     ],
     "selector": ".gwm-window-wrapper:has(> [data-ref_$=\"_displayAds\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amazon.*"
+    ],
+    "selector": ".p13n-uf:has(> #faceoutContainer > [class$=\"sponsored-label\"])",
     "exception": false
   },
   {
@@ -154573,36 +154615,6 @@
   {
     "domains": [],
     "selector": "#mt-scrollup",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#navBackToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#neklo_scrolltotop_arrow",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#nino-scrollToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#np-scrollup",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#nv-scrollup",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#onTop3",
     "exception": false
   }
 ]
