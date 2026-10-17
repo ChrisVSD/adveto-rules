@@ -78043,6 +78043,13 @@
   },
   {
     "domains": [
+      "gsmarena.com"
+    ],
+    "selector": "#opt300x250",
+    "exception": false
+  },
+  {
+    "domains": [
       "livestreamfails.com"
     ],
     "selector": "#oranum_livefeed_container_0",
@@ -84559,6 +84566,13 @@
   },
   {
     "domains": [
+      "tmpmailer.com"
+    ],
+    "selector": ".ad-anchor",
+    "exception": false
+  },
+  {
+    "domains": [
       "computer.org"
     ],
     "selector": ".ad-area",
@@ -87653,6 +87667,7 @@
   {
     "domains": [
       "4cc.com.au",
+      "arenaev.com",
       "baltic-course.com",
       "domusweb.it",
       "futbol24.com",
@@ -102976,6 +102991,13 @@
   },
   {
     "domains": [
+      "arealme.com"
+    ],
+    "selector": ".leader_ad_banner",
+    "exception": false
+  },
+  {
+    "domains": [
       "coveteur.com"
     ],
     "selector": ".leaderboar_promo",
@@ -103796,6 +103818,13 @@
       "core77.com"
     ],
     "selector": ".lower_ad_wrap",
+    "exception": false
+  },
+  {
+    "domains": [
+      "arealme.com"
+    ],
+    "selector": ".lowerad",
     "exception": false
   },
   {
@@ -127837,6 +127866,13 @@
   },
   {
     "domains": [
+      "arealme.com"
+    ],
+    "selector": "div[style=\"margin:auto;width:100%;min-height:250px;\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "vr-compare.com"
     ],
     "selector": "div[style=\"min-height: 250px; background-color: rgba(0, 0, 0, 0.133); display: flex; justify-content: center; align-items: center;\"]",
@@ -131745,6 +131781,20 @@
       "complex.com"
     ],
     "selector": ".sm\\:min-h-\\[100px\\]:has(#catalyst_ad_top)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "codex-resets.com"
+    ],
+    "selector": ".sponsor-mobile",
+    "exception": false
+  },
+  {
+    "domains": [
+      "codex-resets.com"
+    ],
+    "selector": ".sponsor-rail",
     "exception": false
   },
   {
@@ -154580,41 +154630,6 @@
   {
     "domains": [],
     "selector": "#main_scroll_icon",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#menu-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#mgs-scrollup",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#mkd-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#mkdf-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#move-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#move_to_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#mt-scrollup",
     "exception": false
   }
 ]
