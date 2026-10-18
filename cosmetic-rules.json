@@ -82816,6 +82816,13 @@
   },
   {
     "domains": [
+      "forum.ragezone.com"
+    ],
+    "selector": ".MentaLBannerUnit",
+    "exception": false
+  },
+  {
+    "domains": [
       "medievalists.net"
     ],
     "selector": ".Mnet_TopLeft_970x250",
@@ -90899,6 +90906,7 @@
   },
   {
     "domains": [
+      "libertycity.net",
       "vgtimes.com"
     ],
     "selector": ".banner_in_news",
@@ -102910,6 +102918,13 @@
       "leetcode.com"
     ],
     "selector": ".lc-ads__241X",
+    "exception": false
+  },
+  {
+    "domains": [
+      "libertycity.net"
+    ],
+    "selector": ".lcnet.backgr42",
     "exception": false
   },
   {
@@ -121004,6 +121019,13 @@
   },
   {
     "domains": [
+      "libertycity.net"
+    ],
+    "selector": "[data-umami-event=\"Difmark Brand Click\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "autoblog.com"
     ],
     "selector": "[data-widget-id=\"AR_1\"]",
@@ -127883,6 +127905,13 @@
       "autoblog.com"
     ],
     "selector": "div[style=\"min-height: 250px;\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "mydramalist.com"
+    ],
+    "selector": "div[style=\"min-height: 250px;\"]:has(> .ad-removal-info)",
     "exception": false
   },
   {
@@ -140862,13 +140891,6 @@
       "wltreport.com"
     ],
     "selector": ".code-block:has-text(ADVERTISEMENT)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "wolt.com"
-    ],
-    "selector": "div[data-test-id=\"MainDiscoveryContent\"] div > div:has-text(/Polecane na Wolt|Sponsored|Gesponsert/)",
     "exception": false
   },
   {
@@ -154615,21 +154637,6 @@
   {
     "domains": [],
     "selector": "#layoutscrolltop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#linkbacktop_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#mainToTopAnchor",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#main_scroll_icon",
     "exception": false
   }
 ]
