@@ -78857,6 +78857,13 @@
   },
   {
     "domains": [
+      "wikily.gg"
+    ],
+    "selector": "#right-rail",
+    "exception": false
+  },
+  {
+    "domains": [
       "comicbookrealm.com"
     ],
     "selector": "#right-rail > .module",
@@ -88786,7 +88793,7 @@
     "domains": [
       "rapidsave.com"
     ],
-    "selector": ".alert.col-md-offset-2",
+    "selector": ".alert.col-md-offset-2:has(a[href^=\"https://docmost.com/\"])",
     "exception": false
   },
   {
@@ -135161,6 +135168,13 @@
   },
   {
     "domains": [
+      "gadgetreview.com"
+    ],
+    "selector": "#cls-video-container-RbX8WupV",
+    "exception": false
+  },
+  {
+    "domains": [
       "crash.net"
     ],
     "selector": "#cmg-vsly",
@@ -154627,16 +154641,6 @@
   {
     "domains": [],
     "selector": "#jwDisqusBackToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ktz-backtotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#layoutscrolltop",
     "exception": false
   }
 ]
