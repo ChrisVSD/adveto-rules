@@ -76959,6 +76959,13 @@
   },
   {
     "domains": [
+      "independent.ie"
+    ],
+    "selector": "#leaderboard-observe-target",
+    "exception": false
+  },
+  {
+    "domains": [
       "alternet.org"
     ],
     "selector": "#leaderboard-placeholder",
@@ -84541,6 +84548,13 @@
       "ip-address.org"
     ],
     "selector": ".ad-2-336",
+    "exception": false
+  },
+  {
+    "domains": [
+      "emailme.at"
+    ],
+    "selector": ".ad-250x250",
     "exception": false
   },
   {
@@ -104772,6 +104786,13 @@
   },
   {
     "domains": [
+      "independent.ie"
+    ],
+    "selector": ".mh-ad-label",
+    "exception": false
+  },
+  {
+    "domains": [
       "cryptoreporter.info",
       "palestinechronicle.com"
     ],
@@ -119821,6 +119842,17 @@
   },
   {
     "domains": [
+      "androidcentral.com",
+      "pcgamer.com",
+      "tomsguide.com",
+      "tomshardware.com",
+      "whathifi.com"
+    ],
+    "selector": "[data-bordeaux-hook-loaded]",
+    "exception": false
+  },
+  {
+    "domains": [
       "chewy.com"
     ],
     "selector": "[data-carousel-id=\"plp_sponsored_brand\"]",
@@ -120903,6 +120935,13 @@
       "nexusmods.com"
     ],
     "selector": "[data-testid^=\"ad-\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "irishmirror.ie"
+    ],
+    "selector": "[data-tmdatatrack-id]",
     "exception": false
   },
   {
@@ -123150,13 +123189,6 @@
     "domains": [
       "pixiv.net"
     ],
-    "selector": "[style=\"display: block; width: 100%; height: 520px;\"]",
-    "exception": false
-  },
-  {
-    "domains": [
-      "pixiv.net"
-    ],
     "selector": "[style=\"display: block; width: 300px; height: 250px;\"]",
     "exception": false
   },
@@ -123483,6 +123515,13 @@
       "freetetris.org"
     ],
     "selector": "[style^=\"display\"]:has([onclick][href])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pixiv.net"
+    ],
+    "selector": "[style^=\"display: block\"][style$=\"width: 100%; height: 520px;\"]",
     "exception": false
   },
   {
@@ -131113,7 +131152,7 @@
     "domains": [
       "pixiv.net"
     ],
-    "selector": ".grid-flow-dense > div:has(> [style=\"display: block; width: 184px; height: 232px;\"] > iframe)",
+    "selector": ".grid-flow-dense > div:has(> [style$=\"width: 184px; height: 232px;\"] > iframe)",
     "exception": false
   },
   {
@@ -131134,14 +131173,14 @@
     "domains": [
       "pixiv.net"
     ],
-    "selector": ".gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [style=\"display: block; width: 300px; height: 250px;\"])",
+    "selector": ".gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [style$=\"width: 300px; height: 250px;\"])",
     "exception": false
   },
   {
     "domains": [
       "pixiv.net"
     ],
-    "selector": ".gtm-toppage-thumbnail-manga-recommend-works-zone li:has(> [style=\"display: block; width: 184px; height: 232px;\"])",
+    "selector": ".gtm-toppage-thumbnail-manga-recommend-works-zone li:has(> [style$=\"width: 184px; height: 232px;\"])",
     "exception": false
   },
   {
@@ -133686,7 +133725,7 @@
     "domains": [
       "pixiv.net"
     ],
-    "selector": "li.overflow-hidden:has(> .pt-0 > [style=\"display: block; width: 300px; height: 250px;\"])",
+    "selector": "li.overflow-hidden:has(> .pt-0 > [style$=\"width: 300px; height: 250px;\"])",
     "exception": false
   },
   {
@@ -154616,31 +154655,6 @@
   {
     "domains": [],
     "selector": "#js-btnGoTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#js-pagetop-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jsn-gotoplink",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jump-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jump-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jwDisqusBackToTop",
     "exception": false
   }
 ]
