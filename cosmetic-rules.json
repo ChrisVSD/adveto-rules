@@ -118942,6 +118942,7 @@
       "charlotteobserver.com",
       "cleaner.com",
       "cults3d.com",
+      "dailynewshungary.com",
       "elnuevoherald.com",
       "fresnobee.com",
       "heraldonline.com",
@@ -119162,6 +119163,13 @@
       "wsj.com"
     ],
     "selector": "[aria-label=\"Sponsored Offers\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "omegascans.org"
+    ],
+    "selector": "[aria-label=\"Sponsored Video\"]",
     "exception": false
   },
   {
@@ -130323,6 +130331,13 @@
       "yandex.*"
     ],
     "selector": "li[class*=\"_card\"]:has(a[href^=\"https://yandex.com/search/_crpd/\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "deliveroo.*"
+    ],
+    "selector": "li[class^=\"HomeFeedGrid\"]:has([data-testid=\"sponsored-tag\"])",
     "exception": false
   },
   {
@@ -152919,6 +152934,7 @@
       "newscentermaine.com",
       "newswest9.com",
       "nj.com",
+      "nydailynews.com",
       "oregonlive.com",
       "ottawacitizen.com",
       "ottawasun.com",
@@ -154645,16 +154661,6 @@
   {
     "domains": [],
     "selector": "#js-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#js-backtoTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#js-btnGoTop",
     "exception": false
   }
 ]
