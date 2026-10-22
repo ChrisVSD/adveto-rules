@@ -129509,6 +129509,20 @@
   },
   {
     "domains": [
+      "deliveroo.*"
+    ],
+    "selector": "#layout-next_category_layout_id_showcase_ads",
+    "exception": false
+  },
+  {
+    "domains": [
+      "deliveroo.*"
+    ],
+    "selector": "#layout-next_category_layout_id_showcase_ads + div[class^=\"MenuUILayout\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "nextpit.*"
     ],
     "selector": "#nex-footer",
@@ -130310,6 +130324,13 @@
       "autoscout24.*"
     ],
     "selector": "img[referrerpolicy=\"unsafe-url\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "deliveroo.*"
+    ],
+    "selector": "li:has(> [class^=\"MenuItemCard\"] [data-testid=\"sponsored-ad-tag\"])",
     "exception": false
   },
   {
@@ -154646,21 +154667,6 @@
   {
     "domains": [],
     "selector": "#jas-backtop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jiordano-totop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jm-back-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#js-back-to-top",
     "exception": false
   }
 ]
