@@ -133088,6 +133088,20 @@
   },
   {
     "domains": [
+      "pixabay.com"
+    ],
+    "selector": "div[class*=\"SectionGroup\"] > div:has(a[href*=\"sponsored_\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pixabay.com"
+    ],
+    "selector": "div[class*=\"container--\"] > div:not([class*=\"--\"]):has(a[href*=\"sponsored_\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "qz.com"
     ],
     "selector": "div[class*=\"my-\"]:has(> .ay-ad-slot)",
@@ -133479,6 +133493,13 @@
       "pexels.com"
     ],
     "selector": "div[data-testid=\"item\"]:has(h4[data-heading^=\"S\\00200cp\\00200co\\00200cn\\00200cs\\00200co\\00200cr\\00200ce\\00200cd\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pexels.com"
+    ],
+    "selector": "div[data-testid=\"item\"]:has(img[src*=\"media.istockphoto.com\"])",
     "exception": false
   },
   {
@@ -154652,21 +154673,6 @@
   {
     "domains": [],
     "selector": "#int-btn-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#iron-back-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jGoTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#jas-backtop",
     "exception": false
   }
 ]
