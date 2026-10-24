@@ -79461,6 +79461,13 @@
   },
   {
     "domains": [
+      "gg.deals"
+    ],
+    "selector": "#site-page-feature",
+    "exception": false
+  },
+  {
+    "domains": [
       "animeschedule.net"
     ],
     "selector": "#site-theme",
@@ -79471,6 +79478,13 @@
       "animeschedule.net"
     ],
     "selector": "#site-theme-foot",
+    "exception": false
+  },
+  {
+    "domains": [
+      "gg.deals"
+    ],
+    "selector": "#site-top-feature",
     "exception": false
   },
   {
@@ -99032,23 +99046,9 @@
   },
   {
     "domains": [
-      "gg.deals"
-    ],
-    "selector": ".gg-banner-full-link",
-    "exception": false
-  },
-  {
-    "domains": [
       "808fubo808.com"
     ],
     "selector": ".gg-cat-bnner",
-    "exception": false
-  },
-  {
-    "domains": [
-      "gg.deals"
-    ],
-    "selector": ".gg-full-content-widget",
     "exception": false
   },
   {
@@ -112668,13 +112668,6 @@
       "arcadeheroes.com"
     ],
     "selector": ".site-advertisement",
-    "exception": false
-  },
-  {
-    "domains": [
-      "gg.deals"
-    ],
-    "selector": ".site-banner-top-widget",
     "exception": false
   },
   {
@@ -153029,6 +153022,7 @@
   },
   {
     "domains": [
+      "cleveland.com",
       "oregonlive.com",
       "reuters.com"
     ],
@@ -154673,6 +154667,11 @@
   {
     "domains": [],
     "selector": "#int-btn-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#iron-back-top",
     "exception": false
   }
 ]
