@@ -77535,6 +77535,13 @@
   },
   {
     "domains": [
+      "gridinsoft.com"
+    ],
+    "selector": "#modal-leave",
+    "exception": false
+  },
+  {
+    "domains": [
       "coinarbitragebot.com"
     ],
     "selector": "#modal1",
@@ -86895,6 +86902,7 @@
       "mehrnews.com",
       "meta-calculator.com",
       "mini-ielts.com",
+      "motionbgs.com",
       "motogp.com",
       "mugshots.com",
       "nbc.na",
@@ -90285,6 +90293,7 @@
       "gizmodo.com",
       "glasgowworld.com",
       "gr8.cc",
+      "gridinsoft.com",
       "gsprating.com",
       "halifaxcourier.co.uk",
       "harboroughmail.co.uk",
@@ -120346,6 +120355,13 @@
   },
   {
     "domains": [
+      "gridinsoft.com"
+    ],
+    "selector": "[data-report-ad]",
+    "exception": false
+  },
+  {
+    "domains": [
       "euroweeklynews.com"
     ],
     "selector": "[data-revive-zoneid]",
@@ -125532,17 +125548,6 @@
   },
   {
     "domains": [
-      "foodbible.com",
-      "gamingbible.com",
-      "ladbible.com",
-      "sportbible.com",
-      "unilad.com"
-    ],
-    "selector": "div[class*=\"margin-Advert\"]",
-    "exception": false
-  },
-  {
-    "domains": [
       "thefiscaltimes.com"
     ],
     "selector": "div[class*=\"pane-dfp-\"]",
@@ -126115,18 +126120,6 @@
       "giphy.com"
     ],
     "selector": "div[class^=\"ads_\"]",
-    "exception": false
-  },
-  {
-    "domains": [
-      "foodbible.com",
-      "gamingbible.com",
-      "ladbible.com",
-      "sportbible.com",
-      "tyla.com",
-      "unilad.com"
-    ],
-    "selector": "div[class^=\"advert-placeholder_\"]",
     "exception": false
   },
   {
@@ -135063,6 +135056,40 @@
       "topspeed.com",
       "xda-developers.com"
     ],
+    "selector": ".no-badge.video.display-card",
+    "exception": false
+  },
+  {
+    "domains": [
+      "androidpolice.com",
+      "babygaga.com",
+      "backyardboss.net",
+      "carbuzz.com",
+      "cbr.com",
+      "collider.com",
+      "dualshockers.com",
+      "footballfancast.com",
+      "footballleagueworld.co.uk",
+      "gamerant.com",
+      "givemesport.com",
+      "hardcoregamer.com",
+      "hotcars.com",
+      "howtogeek.com",
+      "makeuseof.com",
+      "moms.com",
+      "movieweb.com",
+      "pocket-lint.com",
+      "pocketnow.com",
+      "screenrant.com",
+      "simpleflying.com",
+      "thegamer.com",
+      "therichest.com",
+      "thesportster.com",
+      "thethings.com",
+      "thetravel.com",
+      "topspeed.com",
+      "xda-developers.com"
+    ],
     "selector": "[class*=\"ad-zone-container-content-character-count-repeatable\"]",
     "exception": false
   },
@@ -136108,6 +136135,13 @@
   },
   {
     "domains": [
+      "reuters.com"
+    ],
+    "selector": ".leaderboard-space-module__leaderboard-space__VFflk",
+    "exception": false
+  },
+  {
+    "domains": [
       "thestreet.com"
     ],
     "selector": ".m-detail--feature-spacer",
@@ -136761,6 +136795,19 @@
       "balls.ie"
     ],
     "selector": "div[style=\"min-height: 170px;\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "foodbible.com",
+      "gamingbible.com",
+      "ladbible.com",
+      "sportbible.com",
+      "tyla.com",
+      "unilad.com",
+      "uniladtech.com"
+    ],
+    "selector": ".content-template_rightColumn__ika9G:has-text(Advert)",
     "exception": false
   },
   {
@@ -154591,11 +154638,6 @@
   },
   {
     "domains": [],
-    "selector": "#go-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
     "selector": "#goDownFooter",
     "exception": false
   },
@@ -154662,16 +154704,6 @@
   {
     "domains": [],
     "selector": "#inline-related-post",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#int-btn-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#iron-back-top",
     "exception": false
   }
 ]
