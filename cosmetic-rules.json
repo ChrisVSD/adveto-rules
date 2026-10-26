@@ -92162,9 +92162,28 @@
   },
   {
     "domains": [
-      "tomsguide.com"
+      "androidcentral.com",
+      "guitarworld.com",
+      "pcgamer.com",
+      "techradar.com",
+      "tomsguide.com",
+      "tomshardware.com",
+      "windowscentral.com"
     ],
     "selector": ".bordeaux-anchored-container",
+    "exception": false
+  },
+  {
+    "domains": [
+      "androidcentral.com",
+      "guitarworld.com",
+      "pcgamer.com",
+      "techradar.com",
+      "tomsguide.com",
+      "tomshardware.com",
+      "windowscentral.com"
+    ],
+    "selector": ".bordeaux-filled-slot",
     "exception": false
   },
   {
@@ -94070,6 +94089,7 @@
       "protrumpnews.com",
       "psu.com",
       "pureinfotech.com",
+      "pwmania.com",
       "redrightvideos.com",
       "reneweconomy.com.au",
       "reptilesmagazine.com",
@@ -99414,6 +99434,13 @@
       "topminecraftservers.org"
     ],
     "selector": ".grey-section",
+    "exception": false
+  },
+  {
+    "domains": [
+      "sltrib.com"
+    ],
+    "selector": ".grid-ad-container-1",
     "exception": false
   },
   {
@@ -111343,6 +111370,20 @@
       "japantoday.com"
     ],
     "selector": ".s10r",
+    "exception": false
+  },
+  {
+    "domains": [
+      "videocardz.com"
+    ],
+    "selector": ".s7k2m9qx",
+    "exception": false
+  },
+  {
+    "domains": [
+      "videocardz.com"
+    ],
+    "selector": ".s7k2m9qx-adhesive",
     "exception": false
   },
   {
@@ -154684,26 +154725,6 @@
   {
     "domains": [],
     "selector": "#gototop:not(body)",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#gp-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#imPageToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#img_goTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#inline-related-post",
     "exception": false
   }
 ]
