@@ -77472,6 +77472,13 @@
   },
   {
     "domains": [
+      "moviesmod.meme"
+    ],
+    "selector": "#mm-sticky-ad",
+    "exception": false
+  },
+  {
+    "domains": [
       "mmorpg.com"
     ],
     "selector": "#mmorpg_desktop_list_1",
@@ -153111,8 +153118,10 @@
   {
     "domains": [
       "cleveland.com",
+      "fox11online.com",
       "oregonlive.com",
-      "reuters.com"
+      "reuters.com",
+      "weartv.com"
     ],
     "selector": "+js(aost, admiral, .js?)",
     "exception": false
@@ -154720,11 +154729,6 @@
   {
     "domains": [],
     "selector": "#gotoTopWrapper",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#gototop:not(body)",
     "exception": false
   }
 ]
