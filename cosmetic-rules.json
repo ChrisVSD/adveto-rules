@@ -125999,6 +125999,14 @@
   },
   {
     "domains": [
+      "fox11online.com",
+      "weartv.com"
+    ],
+    "selector": "div[class^=\"StoryPage_taboolaDeeperDive\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "scotsman.com"
     ],
     "selector": "div[class^=\"TopBanner\"]",
@@ -126009,6 +126017,14 @@
       "cnbc.com"
     ],
     "selector": "div[class^=\"TopBanner-\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "fox11online.com",
+      "weartv.com"
+    ],
+    "selector": "div[class^=\"UserCommenting_commentingAd\"]",
     "exception": false
   },
   {
@@ -153017,6 +153033,7 @@
       "apnews.com",
       "artforum.com",
       "artnews.com",
+      "bellinghamherald.com",
       "billboard.com",
       "birdsandblooms.com",
       "calgaryherald.com",
@@ -153068,11 +153085,13 @@
       "oregonlive.com",
       "ottawacitizen.com",
       "ottawasun.com",
+      "pennlive.com",
       "rd.com",
       "robbreport.com",
       "rollingstone.com",
       "sherdog.com",
       "sidereel.com",
+      "sportico.com",
       "superherohype.com",
       "syracuse.com",
       "tasteofhome.com",
@@ -154719,16 +154738,6 @@
   {
     "domains": [],
     "selector": "#goto-top-page",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#gotoTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#gotoTopWrapper",
     "exception": false
   }
 ]
