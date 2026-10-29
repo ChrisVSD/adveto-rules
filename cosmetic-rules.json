@@ -69368,6 +69368,7 @@
   },
   {
     "domains": [
+      "extractpics.com",
       "ifate.com",
       "ycp.synk-casualgames.com"
     ],
@@ -78136,6 +78137,13 @@
   },
   {
     "domains": [
+      "animeschedule.net"
+    ],
+    "selector": "#page-partner",
+    "exception": false
+  },
+  {
+    "domains": [
       "accuradio.com"
     ],
     "selector": "#pageSidebarWrapper",
@@ -78694,7 +78702,8 @@
   },
   {
     "domains": [
-      "d4builds.gg"
+      "d4builds.gg",
+      "tftactics.gg"
     ],
     "selector": "#pwParentContainer",
     "exception": false
@@ -94100,6 +94109,7 @@
       "redrightvideos.com",
       "reneweconomy.com.au",
       "reptilesmagazine.com",
+      "retrohandhelds.gg",
       "rightwingnews.com",
       "roadaheadonline.co.za",
       "rok.guide",
@@ -99684,6 +99694,13 @@
   },
   {
     "domains": [
+      "u.gg"
+    ],
+    "selector": ".h-\\[48px\\]",
+    "exception": false
+  },
+  {
+    "domains": [
       "canberratimes.com.au"
     ],
     "selector": ".h-\\[50px\\]",
@@ -104089,6 +104106,13 @@
       "avforums.com"
     ],
     "selector": ".m2n-ads-slot",
+    "exception": false
+  },
+  {
+    "domains": [
+      "avforums.com"
+    ],
+    "selector": ".m2n-unit",
     "exception": false
   },
   {
@@ -110758,6 +110782,13 @@
       "websitedown.info"
     ],
     "selector": ".rgtad",
+    "exception": false
+  },
+  {
+    "domains": [
+      "retrohandhelds.gg"
+    ],
+    "selector": ".rh-supabase-deals",
     "exception": false
   },
   {
@@ -117611,6 +117642,20 @@
       "wccftech.com"
     ],
     "selector": ".wccf_video_tag",
+    "exception": false
+  },
+  {
+    "domains": [
+      "warez-db.org"
+    ],
+    "selector": ".wd-promo",
+    "exception": false
+  },
+  {
+    "domains": [
+      "warez-db.org"
+    ],
+    "selector": ".wd-vpn",
     "exception": false
   },
   {
@@ -125525,6 +125570,13 @@
       "lifehacker.com"
     ],
     "selector": "div[aria-label=\"Products List\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "videocardz.com"
+    ],
+    "selector": "div[aria-label=\"Shop\"]",
     "exception": false
   },
   {
@@ -134529,6 +134581,13 @@
     "domains": [
       "amazon.*"
     ],
+    "selector": "[data-card-metrics-id^=\"universal-detail-ilm-card_\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amazon.*"
+    ],
     "selector": "[id^=\"sponsoredProducts\"][id$=\"_feature_div\"]",
     "exception": false
   },
@@ -135669,6 +135728,13 @@
       "nautil.us"
     ],
     "selector": ".PrimisVideoAdBlock_wrapper__vYQNI",
+    "exception": false
+  },
+  {
+    "domains": [
+      "metatft.com"
+    ],
+    "selector": ".VideoAdContainer",
     "exception": false
   },
   {
@@ -145403,6 +145469,7 @@
   },
   {
     "domains": [
+      "8boobs.com",
       "fapachi.com"
     ],
     "selector": ".exc-pp",
@@ -145828,6 +145895,13 @@
       "teenextrem.com"
     ],
     "selector": ".g-link",
+    "exception": false
+  },
+  {
+    "domains": [
+      "nightdreambabe.com"
+    ],
+    "selector": ".g-owner-banner",
     "exception": false
   },
   {
@@ -153074,6 +153148,7 @@
       "localmemphis.com",
       "masslive.com",
       "mlive.com",
+      "motor1.com",
       "myfoxzone.com",
       "nationalpost.com",
       "nbcsports.com",
@@ -153085,6 +153160,7 @@
       "oregonlive.com",
       "ottawacitizen.com",
       "ottawasun.com",
+      "pcworld.com",
       "pennlive.com",
       "rd.com",
       "robbreport.com",
@@ -153161,7 +153237,6 @@
       "masslive.com",
       "mlive.com",
       "news8000.com",
-      "nj.com",
       "oregonlive.com",
       "pcwelt.de",
       "pennlive.com",
@@ -153335,6 +153410,7 @@
   {
     "domains": [
       "cbssports.com",
+      "foxnews.com",
       "gbatemp.net",
       "usatoday.com"
     ],
@@ -154688,56 +154764,6 @@
   {
     "domains": [],
     "selector": "#gh-bt",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#gkBackToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#gkTopLink",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#go-to-bottom",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goDownFooter",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goToTopButton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goToUp",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goTopFooter",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goto-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goto-top-page",
     "exception": false
   }
 ]
