@@ -78738,6 +78738,13 @@
   },
   {
     "domains": [
+      "sweepstakesfanatics.com"
+    ],
+    "selector": "#railad1",
+    "exception": false
+  },
+  {
+    "domains": [
       "coincarp.com"
     ],
     "selector": "#random_sponsored",
@@ -83728,6 +83735,13 @@
   },
   {
     "domains": [
+      "instructables.com"
+    ],
+    "selector": "._promoStickyContainer_19m79_13",
+    "exception": false
+  },
+  {
+    "domains": [
       "filext.com"
     ],
     "selector": ".a",
@@ -86139,8 +86153,7 @@
       "uglifycss.com",
       "uglifyjs.net",
       "urldecoder.org",
-      "urlencoder.org",
-      "urlencoder.org.prettifycss.com"
+      "urlencoder.org"
     ],
     "selector": ".ad_header_box",
     "exception": false
@@ -86177,8 +86190,7 @@
       "uglifycss.com",
       "uglifyjs.net",
       "urldecoder.org",
-      "urlencoder.org",
-      "urlencoder.org.prettifycss.com"
+      "urlencoder.org"
     ],
     "selector": ".ad_left_box",
     "exception": false
@@ -86263,8 +86275,7 @@
       "prettifyjs.net",
       "uglifycss.com",
       "uglifyjs.net",
-      "urlencoder.org",
-      "urlencoder.org.prettifycss.com"
+      "urlencoder.org"
     ],
     "selector": ".ad_right_box",
     "exception": false
@@ -87557,6 +87568,20 @@
       "healthing.ca"
     ],
     "selector": ".adslot",
+    "exception": false
+  },
+  {
+    "domains": [
+      "designboom.com"
+    ],
+    "selector": ".adslot--box",
+    "exception": false
+  },
+  {
+    "domains": [
+      "designboom.com"
+    ],
+    "selector": ".adslot--upper",
     "exception": false
   },
   {
@@ -99715,6 +99740,20 @@
   },
   {
     "domains": [
+      "dpm.lol"
+    ],
+    "selector": ".h-\\[634px\\]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "dpm.lol"
+    ],
+    "selector": ".h-\\[640px\\]",
+    "exception": false
+  },
+  {
+    "domains": [
       "supercarblondie.com"
     ],
     "selector": ".h-\\[660px\\]",
@@ -105202,6 +105241,13 @@
   },
   {
     "domains": [
+      "dpm.lol"
+    ],
+    "selector": ".min-h-\\[88px\\]",
+    "exception": false
+  },
+  {
+    "domains": [
       "motortrend.com",
       "officialcharts.com",
       "republicworld.com",
@@ -106905,6 +106951,27 @@
       "ntv.cx"
     ],
     "selector": ".ntvx-sheet",
+    "exception": false
+  },
+  {
+    "domains": [
+      "adfoc.us"
+    ],
+    "selector": ".nv-foot-ref",
+    "exception": false
+  },
+  {
+    "domains": [
+      "adfoc.us"
+    ],
+    "selector": ".nv-phdr-mark",
+    "exception": false
+  },
+  {
+    "domains": [
+      "adfoc.us"
+    ],
+    "selector": ".nv-root",
     "exception": false
   },
   {
@@ -115880,6 +115947,13 @@
   },
   {
     "domains": [
+      "sweepstakesfanatics.com"
+    ],
+    "selector": ".top-ad-container-parent",
+    "exception": false
+  },
+  {
+    "domains": [
       "firstpost.com"
     ],
     "selector": ".top-addd",
@@ -121007,7 +121081,8 @@
   },
   {
     "domains": [
-      "bonappetit.com"
+      "bonappetit.com",
+      "vanityfair.com"
     ],
     "selector": "[data-testid=\"sticky-hero-ad\"]",
     "exception": false
@@ -153174,6 +153249,7 @@
       "techcrunch.com",
       "thehealthy.com",
       "thv11.com",
+      "tj.news",
       "torontosun.com",
       "twinfinite.net",
       "vancouversun.com",
@@ -153412,6 +153488,7 @@
       "cbssports.com",
       "foxnews.com",
       "gbatemp.net",
+      "pcworld.com",
       "usatoday.com"
     ],
     "selector": "+js(set, admiral, noopFunc)",
@@ -154709,61 +154786,6 @@
   {
     "domains": [],
     "selector": "#dynamic-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#edgtf-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#eltdf-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#fav-backtotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#fl-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#float-btn-backtotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#footer-0-BackToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#footer-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#footer-to_top_button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#footer_scroll_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#g1-back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#gh-bt",
     "exception": false
   }
 ]
