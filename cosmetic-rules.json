@@ -62756,6 +62756,11 @@
   },
   {
     "domains": [],
+    "selector": ".vf-trending-articles__flex-wrapper",
+    "exception": false
+  },
+  {
+    "domains": [],
     "selector": ".vf3-conversations-list__promo",
     "exception": false
   },
@@ -86367,6 +86372,13 @@
   },
   {
     "domains": [
+      "lgbtqnation.com"
+    ],
+    "selector": ".adb-ln-lb-incontent",
+    "exception": false
+  },
+  {
+    "domains": [
       "outsports.com"
     ],
     "selector": ".adb-os-lb-top",
@@ -92206,6 +92218,7 @@
       "androidcentral.com",
       "guitarworld.com",
       "pcgamer.com",
+      "space.com",
       "techradar.com",
       "tomsguide.com",
       "tomshardware.com",
@@ -92219,6 +92232,7 @@
       "androidcentral.com",
       "guitarworld.com",
       "pcgamer.com",
+      "space.com",
       "techradar.com",
       "tomsguide.com",
       "tomshardware.com",
@@ -92967,13 +92981,6 @@
       "business2community.com"
     ],
     "selector": ".busin-news-placement-2nd-paragraph",
-    "exception": false
-  },
-  {
-    "domains": [
-      "filecrypt.cc"
-    ],
-    "selector": ".butt1ns button[onclick*=\"loc.href='/Link/\"]",
     "exception": false
   },
   {
@@ -94132,6 +94139,7 @@
       "pureinfotech.com",
       "pwmania.com",
       "redrightvideos.com",
+      "religionnews.com",
       "reneweconomy.com.au",
       "reptilesmagazine.com",
       "retrohandhelds.gg",
@@ -97029,6 +97037,13 @@
   },
   {
     "domains": [
+      "mobilesyrup.com"
+    ],
+    "selector": ".engagement-starter-inline",
+    "exception": false
+  },
+  {
+    "domains": [
       "floridianpress.com"
     ],
     "selector": ".enhanced-text-widget",
@@ -97775,13 +97790,6 @@
   },
   {
     "domains": [
-      "filecrypt.cc"
-    ],
-    "selector": ".fiIItheadblockqueue4",
-    "exception": false
-  },
-  {
-    "domains": [
       "newser.com"
     ],
     "selector": ".fiavur2",
@@ -97799,21 +97807,6 @@
       "webmd.com"
     ],
     "selector": ".fifth-para-ad",
-    "exception": false
-  },
-  {
-    "domains": [
-      "filecrypt.cc"
-    ],
-    "selector": ".filItheadbIockgueue3",
-    "exception": false
-  },
-  {
-    "domains": [
-      "filecrypt.cc",
-      "filecrypt.co"
-    ],
-    "selector": ".filItheadbIockqueue3",
     "exception": false
   },
   {
@@ -100595,22 +100588,6 @@
       "hwcooling.net"
     ],
     "selector": ".heureka-affiliate-category",
-    "exception": false
-  },
-  {
-    "domains": [
-      "filecrypt.cc",
-      "filecrypt.co"
-    ],
-    "selector": ".hghspd",
-    "exception": false
-  },
-  {
-    "domains": [
-      "filecrypt.cc",
-      "filecrypt.co"
-    ],
-    "selector": ".hghspd + *",
     "exception": false
   },
   {
@@ -109811,9 +109788,23 @@
   },
   {
     "domains": [
+      "mobilesyrup.com"
+    ],
+    "selector": ".publift-ad-slot",
+    "exception": false
+  },
+  {
+    "domains": [
       "weatherzone.com.au"
     ],
     "selector": ".publift-ad-wrapper",
+    "exception": false
+  },
+  {
+    "domains": [
+      "mobilesyrup.com"
+    ],
+    "selector": ".publift-ad-zone",
     "exception": false
   },
   {
@@ -112963,7 +112954,8 @@
   },
   {
     "domains": [
-      "plos.org"
+      "plos.org",
+      "space.com"
     ],
     "selector": ".skyscraper-container",
     "exception": false
@@ -117575,6 +117567,13 @@
       "notateslaapp.com"
     ],
     "selector": ".vtwjhpktrbfmw",
+    "exception": false
+  },
+  {
+    "domains": [
+      "vaultwarden.com"
+    ],
+    "selector": ".vw-inline-ad",
     "exception": false
   },
   {
@@ -122958,13 +122957,6 @@
   },
   {
     "domains": [
-      "filecrypt.cc"
-    ],
-    "selector": "[onclick*=\"/linkonclick.com/\"]",
-    "exception": false
-  },
-  {
-    "domains": [
       "buzzheavier.com"
     ],
     "selector": "[onclick=\"downloadAd()\"]",
@@ -122989,14 +122981,6 @@
       "qvc.com"
     ],
     "selector": "[onclick^=\"cmCreateManualLinkClickTag\"]",
-    "exception": false
-  },
-  {
-    "domains": [
-      "filecrypt.cc",
-      "filecrypt.co"
-    ],
-    "selector": "[onclick^=\"var lj\"]",
     "exception": false
   },
   {
@@ -135947,6 +135931,13 @@
       "space.com"
     ],
     "selector": ".aspect-video",
+    "exception": false
+  },
+  {
+    "domains": [
+      "kotaku.com"
+    ],
+    "selector": ".aspect-video:has(#cnx-player-main)",
     "exception": false
   },
   {
@@ -154786,6 +154777,11 @@
   {
     "domains": [],
     "selector": "#dynamic-to-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#edgtf-back-to-top",
     "exception": false
   }
 ]
