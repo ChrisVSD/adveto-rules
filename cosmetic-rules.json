@@ -91608,6 +91608,13 @@
   },
   {
     "domains": [
+      "smartshanghai.com"
+    ],
+    "selector": ".bigboxes:has(> a[href^=\"https://www.smartshanghai.com/ads/\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "snokido.com"
     ],
     "selector": ".bigsquare",
@@ -94290,13 +94297,6 @@
       "alternativeto.net"
     ],
     "selector": ".col-start-1:has([data-testid])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "turtlecute.org"
-    ],
-    "selector": ".collab_wrap",
     "exception": false
   },
   {
@@ -99357,6 +99357,13 @@
       "titantv.com"
     ],
     "selector": ".gpAdBox",
+    "exception": false
+  },
+  {
+    "domains": [
+      "gamepadla.com"
+    ],
+    "selector": ".gpPartnerCard",
     "exception": false
   },
   {
@@ -106824,6 +106831,13 @@
   },
   {
     "domains": [
+      "turtlecute.org"
+    ],
+    "selector": ".notice_stack > button[role=\"link\"][aria-label]",
+    "exception": false
+  },
+  {
+    "domains": [
       "all3dp.com"
     ],
     "selector": ".notification",
@@ -111105,6 +111119,13 @@
   },
   {
     "domains": [
+      "ringsidenews.com"
+    ],
+    "selector": ".ringside-ad-wrapper",
+    "exception": false
+  },
+  {
+    "domains": [
       "ip.sb"
     ],
     "selector": ".rivencloud_ads",
@@ -113540,13 +113561,6 @@
       "blbclassic.org"
     ],
     "selector": ".sponsorZone",
-    "exception": false
-  },
-  {
-    "domains": [
-      "turtlecute.org"
-    ],
-    "selector": ".sponsor_banner_wrap",
     "exception": false
   },
   {
@@ -117672,6 +117686,13 @@
       "wetransfer.com"
     ],
     "selector": ".wallpaper",
+    "exception": false
+  },
+  {
+    "domains": [
+      "smartshanghai.com"
+    ],
+    "selector": ".wallpaper-ad-link",
     "exception": false
   },
   {
@@ -122957,6 +122978,15 @@
   },
   {
     "domains": [
+      "filecrypt.cc",
+      "filecrypt.co",
+      "filecrypt.to"
+    ],
+    "selector": "[onclick*=\"/linkonclick.com/\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "buzzheavier.com"
     ],
     "selector": "[onclick=\"downloadAd()\"]",
@@ -124839,13 +124869,6 @@
   },
   {
     "domains": [
-      "turtlecute.org"
-    ],
-    "selector": "a[href^=\"https://shockvpn.com/?\"]",
-    "exception": false
-  },
-  {
-    "domains": [
       "nzbstars.com"
     ],
     "selector": "a[href^=\"https://signup.usenetbucket.com/\"]",
@@ -124996,6 +125019,13 @@
       "isitiptv.com"
     ],
     "selector": "a[href^=\"https://www.isitiptv.com/recommends/\"] > img",
+    "exception": false
+  },
+  {
+    "domains": [
+      "bleepingcomputer.com"
+    ],
+    "selector": "a[href^=\"https://www.kaseya.com/lp/\"]",
     "exception": false
   },
   {
@@ -131717,6 +131747,13 @@
   },
   {
     "domains": [
+      "gamepadla.com"
+    ],
+    "selector": ".panel-container:has(.media-header-row-item)",
+    "exception": false
+  },
+  {
+    "domains": [
       "thefederal.com"
     ],
     "selector": ".pb-3 > .col-xl-3.col-lg-6.col-md-6:has(> [id^=\"ad_slot\"])",
@@ -132667,13 +132704,6 @@
       "noon.com"
     ],
     "selector": "[data-qa=\"widget_recommendedProducts\"]:has(svg[width=\"20\"] > path[d])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "wolt.com"
-    ],
-    "selector": "[data-test-id=\"MainDiscoveryContent\"] li[draggable]:has(a[aria-label*=\"Sponsored\"])",
     "exception": false
   },
   {
@@ -145125,6 +145155,7 @@
       "fap-nation.com",
       "fyptt.to",
       "gamegill.com",
+      "instavipclub.com",
       "isekaitube.com",
       "japaneseasmr.com"
     ],
@@ -146028,6 +146059,13 @@
       "bravotube.net"
     ],
     "selector": ".good_list_wrap",
+    "exception": false
+  },
+  {
+    "domains": [
+      "boyfriendtv.com"
+    ],
+    "selector": ".grid:has(a[href*=\"faphouse.com\"])",
     "exception": false
   },
   {
@@ -148038,6 +148076,13 @@
       "infospiral.com"
     ],
     "selector": ".right-content",
+    "exception": false
+  },
+  {
+    "domains": [
+      "boyfriendtv.com"
+    ],
+    "selector": ".right-rail-block",
     "exception": false
   },
   {
@@ -151147,6 +151192,13 @@
       "adultdvdempire.com"
     ],
     "selector": "a[href*=\"?partner_id=\"][href*=\"&utm_\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "boyfriendtv.com"
+    ],
+    "selector": "a[href*=\"faphouse.com\"]",
     "exception": false
   },
   {
@@ -154747,41 +154799,6 @@
   {
     "domains": [],
     "selector": "#bw-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#c-backtotop-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#cb-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#cw_to_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#divGoTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#div_gotop_outer",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#dynamic-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#edgtf-back-to-top",
     "exception": false
   }
 ]
