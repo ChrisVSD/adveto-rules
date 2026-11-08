@@ -10,6 +10,8 @@ const nsfwRulesPath = path.join(root, "rules-nsfw.json");
 const maxNetworkRules = 59800;
 const maxCosmeticRules = 25000;
 const maxNsfwRules = 29900;
+// Slots reserved for popup/navigation (main_frame) rules; the workflow requires at least 1000.
+const reservedMainFrameRules = 4000;
 
 // Kept separate from remoteSources/highPrioritySources: this list alone has 100k+
 // domains, far more than the ad/tracker rule budget. Mixing it in would push out
@@ -204,12 +206,20 @@ async function main() {
     }
   }
 
-  const allNetworkRules = [...networkByKey.values()]
+  const hasMainFrame = rule => Boolean(rule.condition.resourceTypes?.includes("main_frame"));
+  const sortedNetworkRules = [...networkByKey.values()]
     .sort((left, right) => right.priority - left.priority ||
-      Number(Boolean(right.condition.resourceTypes?.includes("main_frame"))) -
-      Number(Boolean(left.condition.resourceTypes?.includes("main_frame"))) ||
-      ruleSpecificity(left) - ruleSpecificity(right))
-    .slice(0, maxNetworkRules)
+      Number(hasMainFrame(right)) - Number(hasMainFrame(left)) ||
+      ruleSpecificity(left) - ruleSpecificity(right));
+  // Popup/navigation (main_frame) rules get a reserved budget and are placed first, so they land
+  // in the always-enabled primary ruleset. Without this, growth of the high-priority host lists
+  // (priority 3) pushes every priority-1 popup rule past the cutoff.
+  const mainFrameRules = sortedNetworkRules.filter(hasMainFrame).slice(0, reservedMainFrameRules);
+  const mainFrameSet = new Set(mainFrameRules);
+  const otherRules = sortedNetworkRules
+    .filter(rule => !mainFrameSet.has(rule))
+    .slice(0, maxNetworkRules - mainFrameRules.length);
+  const allNetworkRules = [...mainFrameRules, ...otherRules]
     .map((rule, index) => ({ id: index + 1, ...rule }));
   const networkRules = allNetworkRules.slice(0, 29900);
   const extraNetworkRules = allNetworkRules.slice(29900);
