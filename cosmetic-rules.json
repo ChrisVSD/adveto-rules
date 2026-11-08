@@ -68398,6 +68398,15 @@
   },
   {
     "domains": [
+      "doumori.com",
+      "mario2-3ds.net",
+      "mario3d-wiiu.net"
+    ],
+    "selector": "#footer-ad",
+    "exception": true
+  },
+  {
+    "domains": [
       "wsj.com"
     ],
     "selector": "#footer-ads",
@@ -71227,6 +71236,13 @@
       "fortune.com"
     ],
     "selector": "#Leaderboard0",
+    "exception": false
+  },
+  {
+    "domains": [
+      "usps.com"
+    ],
+    "selector": "#Mailpieces.item:has(.rideAlongLinkImage)",
     "exception": false
   },
   {
@@ -76663,6 +76679,13 @@
     "domains": [
       "kohls.com"
     ],
+    "selector": "#kmn-brand-spotlight",
+    "exception": false
+  },
+  {
+    "domains": [
+      "kohls.com"
+    ],
     "selector": "#kmn-featured-carousel",
     "exception": false
   },
@@ -81958,13 +81981,6 @@
       "jagranjosh.com"
     ],
     "selector": ".Ad720x90",
-    "exception": false
-  },
-  {
-    "domains": [
-      "thingiverse.com"
-    ],
-    "selector": ".AdBanner__adBanner--gSsno",
     "exception": false
   },
   {
@@ -89722,6 +89738,13 @@
   },
   {
     "domains": [
+      "euronews.com"
+    ],
+    "selector": ".as-site-main",
+    "exception": false
+  },
+  {
+    "domains": [
       "theinertia.com"
     ],
     "selector": ".asc-ad",
@@ -94134,6 +94157,7 @@
       "nokiapoweruser.com",
       "notalwaysright.com",
       "nxbrew.com",
+      "nxbrew.net",
       "organicfacts.net",
       "orlandoweekly.com",
       "patriotfetch.com",
@@ -103188,6 +103212,7 @@
       "suffolknews.co.uk",
       "supersport.com",
       "tattoofailure.com",
+      "techpartner.news",
       "thedriven.io",
       "thefashionspot.com",
       "thestar.com.my",
@@ -106668,6 +106693,13 @@
   },
   {
     "domains": [
+      "canadiantire.ca"
+    ],
+    "selector": ".nl-product__content[id^=\"ad\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "quipmag.com"
     ],
     "selector": ".nlg-sidebar-inner > .widget_text",
@@ -107331,6 +107363,13 @@
       "campaignlive.com"
     ],
     "selector": ".optanon-category-3",
+    "exception": false
+  },
+  {
+    "domains": [
+      "euronews.com"
+    ],
+    "selector": ".optidigital-wrapper-div",
     "exception": false
   },
   {
@@ -109671,6 +109710,13 @@
       "kathmandupost.com"
     ],
     "selector": ".pt-0",
+    "exception": false
+  },
+  {
+    "domains": [
+      "politico.com"
+    ],
+    "selector": ".pt-\\[1\\.25rem\\]",
     "exception": false
   },
   {
@@ -112856,6 +112902,13 @@
       "archaeology.org"
     ],
     "selector": ".site-header__iykyk",
+    "exception": false
+  },
+  {
+    "domains": [
+      "eneba.com"
+    ],
+    "selector": ".site-sponsors-container",
     "exception": false
   },
   {
@@ -116661,6 +116714,13 @@
       "telecomtalk.info"
     ],
     "selector": ".tt-ad",
+    "exception": false
+  },
+  {
+    "domains": [
+      "tweaktown.com"
+    ],
+    "selector": ".tt-price-board",
     "exception": false
   },
   {
@@ -123065,6 +123125,13 @@
   },
   {
     "domains": [
+      "adblock.turtlecute.org"
+    ],
+    "selector": "[role=\"link\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "myanimelist.net"
     ],
     "selector": "[src*=\"/c/img/images/event/\"]",
@@ -123075,6 +123142,13 @@
       "audioz.download"
     ],
     "selector": "[src*=\"/promo/\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "adblock.turtlecute.org"
+    ],
+    "selector": "[src*=\"blob:\"]",
     "exception": false
   },
   {
@@ -123230,6 +123304,15 @@
       "circleid.com"
     ],
     "selector": "[style*=\"995px;\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "filecrypt.cc",
+      "filecrypt.co",
+      "filecrypt.to"
+    ],
+    "selector": "[style*=\"background:url(https://static.filecrypt.to/images/\"]",
     "exception": false
   },
   {
@@ -125558,9 +125641,23 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "div.my-4.flex-1.rounded-md.border-2.border-gray-200",
+    "exception": false
+  },
+  {
+    "domains": [
       "thehackernews.com"
     ],
     "selector": "div.rocking",
+    "exception": false
+  },
+  {
+    "domains": [
+      "producthunt.com"
+    ],
+    "selector": "div.rounded-lg.bg-gray-50.p-3",
     "exception": false
   },
   {
@@ -125786,9 +125883,17 @@
   },
   {
     "domains": [
-      "dailymotion.com"
+      "dailymotion.com",
+      "thingiverse.com"
     ],
     "selector": "div[class^=\"AdBanner\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "thingiverse.com"
+    ],
+    "selector": "div[class^=\"AdCard_\"]",
     "exception": false
   },
   {
@@ -127321,6 +127426,13 @@
       "hulldailymail.co.uk"
     ],
     "selector": "div[data-tmdatatrack-type=\"commercial\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "euronews.com"
+    ],
+    "selector": "div[data-twig-component=\"Advertising-default\"]",
     "exception": false
   },
   {
@@ -129856,6 +129968,13 @@
   },
   {
     "domains": [
+      "emag.*"
+    ],
+    "selector": ".card-item[data-url=\"ref=sponsored_\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "douglas.*"
     ],
     "selector": ".cms-container:has([data-testid=\"CriteoAdFormatCategoryView\"])",
@@ -129915,6 +130034,13 @@
       "flashscore.*"
     ],
     "selector": ".outrightWidget",
+    "exception": false
+  },
+  {
+    "domains": [
+      "emag.*"
+    ],
+    "selector": ".page-section:has([data-tracking-engine=\"rec-ads\"])",
     "exception": false
   },
   {
@@ -130508,6 +130634,13 @@
       "swoodoo.*"
     ],
     "selector": "div[role=\"link\"]:has(.c_3eP-badge-content)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "skyscanner.*"
+    ],
+    "selector": "div[role=\"listitem\"]:has(button[data-testid=\"adInfoBtn\"])",
     "exception": false
   },
   {
@@ -132806,6 +132939,13 @@
   },
   {
     "domains": [
+      "x.com"
+    ],
+    "selector": "[id^=\"urt\"]>ul>li:has([class*=\"data-ad-disclosure\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "kayak.com"
     ],
     "selector": "[role=\"button\"]:has([class*=\"ad-marking\"])",
@@ -133985,6 +134125,13 @@
   },
   {
     "domains": [
+      "walgreens.com"
+    ],
+    "selector": "li.product-grid-item:has(.sponsored-badge)",
+    "exception": false
+  },
+  {
+    "domains": [
       "macys.com"
     ],
     "selector": "li.productThumbnailItem:has(.sponsored-items-label)",
@@ -134009,6 +134156,13 @@
       "temu.com"
     ],
     "selector": "li.splide__slide:has([role=\"text\"][aria-label=\"AD\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "makemytrip.com"
+    ],
+    "selector": "li:has(> [class=\"cardInteractive\"] img[src*=\"sponsoredtag\"])",
     "exception": false
   },
   {
@@ -134121,6 +134275,13 @@
       "aboutyou.de"
     ],
     "selector": "li[data-testid^=\"productTileTracker-\"]:has(button[data-testid=\"spo\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "producthunt.com"
+    ],
+    "selector": "main > div:has(> div.-mt-px.justify-end.pr-4)",
     "exception": false
   },
   {
@@ -139998,6 +140159,13 @@
   },
   {
     "domains": [
+      "cvs.com"
+    ],
+    "selector": "div[id^=\"product-tile-\"]:has(div[dir=\"auto\"]:has-text(Sponsored))",
+    "exception": false
+  },
+  {
+    "domains": [
       "deccanherald.com"
     ],
     "selector": "div#container-text:has-text(ADVERTISEMENT)",
@@ -140713,6 +140881,13 @@
       "nordstrom.com"
     ],
     "selector": "ul[style^=\"padding: 0px; position: relative;\"] > li[class]:has-text(Sponsored)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "nordstromrack.com"
+    ],
+    "selector": "[data-container-type=\"product-grid\"] article:has-text(Sponsored)",
     "exception": false
   },
   {
@@ -141655,6 +141830,13 @@
       "yourdictionary.com"
     ],
     "selector": ".header {top:0;}",
+    "exception": false
+  },
+  {
+    "domains": [
+      "producthunt.com"
+    ],
+    "selector": "[data-test^=\"homepage-section-\"] > section[data-container]:xpath(self::*[not(contains(\"0123456789\", substring(normalize-space(.),1,1)))])",
     "exception": false
   },
   {
@@ -146889,6 +147071,13 @@
       "xepn.com"
     ],
     "selector": ".link-sponsor",
+    "exception": false
+  },
+  {
+    "domains": [
+      "thegay.com"
+    ],
+    "selector": ".listing-item.nopop",
     "exception": false
   },
   {
@@ -153232,6 +153421,7 @@
       "calgarysun.com",
       "cbs19.tv",
       "cbs8.com",
+      "chattanoogacw.com",
       "cleveland.com",
       "crooksandliars.com",
       "deadline.com",
@@ -153285,6 +153475,7 @@
       "rollingstone.com",
       "sherdog.com",
       "sidereel.com",
+      "silive.com",
       "sportico.com",
       "superherohype.com",
       "syracuse.com",
@@ -153531,6 +153722,7 @@
       "cbssports.com",
       "foxnews.com",
       "gbatemp.net",
+      "news.com.au",
       "pcworld.com",
       "usatoday.com"
     ],
@@ -154669,136 +154861,6 @@
   {
     "domains": [],
     "selector": "#back-to-top-scroll",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-top-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-top-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backToTopButton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backToTop_RT",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back_to_top_now",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backtotop-scroll",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backtotopbutton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backtotoplink",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#base_scrollToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bigslam-footer-back-to-top-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bktotopbtn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#block-backtotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bt-backtop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bt-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn--back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn-back-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn-go-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn-scroll-up",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn_backtt",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn_control_totop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#button-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#button-totop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#buttonScrollTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bw-scroll-top",
     "exception": false
   }
 ]
