@@ -15,6 +15,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-rules
+  cancel-in-progress: false
+
 jobs:
   build-rules:
     runs-on: ubuntu-latest
