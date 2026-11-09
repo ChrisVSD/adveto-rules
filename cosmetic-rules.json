@@ -81338,6 +81338,13 @@
   },
   {
     "domains": [
+      "uqload.vc"
+    ],
+    "selector": "#uqcs-bar",
+    "exception": false
+  },
+  {
+    "domains": [
       "my.juno.com"
     ],
     "selector": "#usWorldTile",
@@ -133363,6 +133370,13 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "div:has(> div.-mt-px.justify-end.pr-4)",
+    "exception": false
+  },
+  {
+    "domains": [
       "staples.com"
     ],
     "selector": "div:has(> div[class*=\"configurator-container__\"] .topsort-video-configurator__monetizationContainer)",
@@ -134163,6 +134177,13 @@
       "makemytrip.com"
     ],
     "selector": "li:has(> [class=\"cardInteractive\"] img[src*=\"sponsoredtag\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "producthunt.com"
+    ],
+    "selector": "li:has(> div.relative.isolate.grid img[alt=\"Promoted\"])",
     "exception": false
   },
   {
@@ -141836,7 +141857,7 @@
     "domains": [
       "producthunt.com"
     ],
-    "selector": "[data-test^=\"homepage-section-\"] > section[data-container]:xpath(self::*[not(contains(\"0123456789\", substring(normalize-space(.),1,1)))])",
+    "selector": "[data-test^=\"homepage-section-\"] > section[data-container]:xpath(self::*[.//img[@alt=\"Promoted\"]/@src != //div[starts-with(@data-test,\"homepage-section-\")]/section[@data-container][substring(normalize-space(.),1,1) != \"\"][contains(\"0123456789\", substring(normalize-space(.),1,1))]//img[@alt=\"Promoted\"]/@src])",
     "exception": false
   },
   {
@@ -154846,21 +154867,6 @@
   {
     "domains": [],
     "selector": "#back-to-top-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-icon",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-scroll",
     "exception": false
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:02:56.364Z",
+  "generatedAt": "2026-11-09T11:11:13.959Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,19 +7,19 @@
     },
     {
       "name": "https://easylist.to/easylist/easylist.txt",
-      "sha256": "71b5ca3f80989e64de36db5c8fcfbaae5a4e9c7b1165f217a7f2a10671c70e0c"
+      "sha256": "7577b24f271ce483f7392502ebe9d59aaf8261c6ac750021aebcb03aeb9eb01d"
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "9ef83700ebdad889b9b64de4d18d8e45b4e071ff9d57c5e1202e353071edd1ba"
+      "sha256": "3f97c36380afbfd0311de24ed9467e9432a92051a216616595f107e67a8b4ab1"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "sha256": "1c60bb0f68f77a3b35c6cee0bc77db24e4bcb8df1b50138f028f36ba477c620c"
+      "sha256": "baf0e1ebb6573ed920366f7d74a12841efb30770d8be9bc278ab02ef6fada436"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-social.txt",
-      "sha256": "f675c9cb9cce2bfa0930cf86a5264280525fda539104b84f907fed1e0959996b"
+      "sha256": "3b57db65791770ba0dc4ba2db6806b4592c16cdadcde7b5fc7577c9cb0fbf3c9"
     },
     {
       "name": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
@@ -31,7 +31,7 @@
     },
     {
       "name": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt",
-      "sha256": "1ab543b8f1a7609225393836a485147f819f0e01bba43e293c75cb5a21d93b64"
+      "sha256": "a81c122c31058e57df70031915bfb7612f554cf8e206eead497ac3bc4dffae81"
     }
   ],
   "networkRules": 59800,
@@ -40,7 +40,7 @@
   "cosmeticRules": 25000,
   "nsfwSource": {
     "name": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nsfw.txt",
-    "sha256": "83a71dbeb772f9f3be445e89d90eace0cef8aed29ff54706d4529d0ee00390cf"
+    "sha256": "798e70519049e67ee0029d86694c3e472ef538685c80e366ed0d87c837568507"
   },
   "nsfwRules": 29900
 }
