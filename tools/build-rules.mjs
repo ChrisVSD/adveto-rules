@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
+import https from "node:https";
 
 const root = process.cwd();
 const listsDirectory = path.join(root, "Lists");
@@ -173,16 +174,41 @@ async function loadSources() {
   return sources;
 }
 
+// Uses node:https instead of the global fetch(): Node 24's bundled undici can crash the whole process
+// with "assert(!this.paused)" when a server closes the connection (an uncaught error that try/catch
+// around fetch() cannot intercept). node:https errors are normal, catchable events.
+function httpGetText(url, redirectsLeft = 5) {
+  return new Promise((resolve, reject) => {
+    const request = https.get(url, { headers: { "User-Agent": "vetoly-rules-builder" }, timeout: 30000 }, response => {
+      const status = response.statusCode || 0;
+      if (status >= 300 && status < 400 && response.headers.location) {
+        response.resume();
+        if (redirectsLeft <= 0) return reject(new Error("Too many redirects"));
+        return resolve(httpGetText(new URL(response.headers.location, url).toString(), redirectsLeft - 1));
+      }
+      if (status !== 200) {
+        response.resume();
+        return reject(new Error(`HTTP ${status}`));
+      }
+      const chunks = [];
+      response.on("data", chunk => chunks.push(chunk));
+      response.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+      response.on("error", reject);
+      response.on("aborted", () => reject(new Error("Connection aborted")));
+    });
+    request.on("timeout", () => request.destroy(new Error("Request timed out")));
+    request.on("error", reject);
+  });
+}
+
 async function fetchText(url) {
   let lastError;
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < 4; attempt++) {
     try {
-      const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      return await response.text();
+      return await httpGetText(url);
     } catch (error) {
       lastError = error;
-      if (attempt < 2) await new Promise(resolve => setTimeout(resolve, 500 * (2 ** attempt)));
+      if (attempt < 3) await new Promise(resolve => setTimeout(resolve, 1000 * (2 ** attempt)));
     }
   }
   throw new Error(`Failed to fetch required rules source ${url}: ${lastError?.message || lastError}`);
