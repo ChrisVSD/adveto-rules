@@ -101264,6 +101264,13 @@
   },
   {
     "domains": [
+      "pons.com"
+    ],
+    "selector": ".idm_topslot_container",
+    "exception": false
+  },
+  {
+    "domains": [
       "indianexpress.com"
     ],
     "selector": ".ie-ads-block-frontend",
@@ -112551,6 +112558,13 @@
       "ixbt.games"
     ],
     "selector": ".sidebar-c",
+    "exception": false
+  },
+  {
+    "domains": [
+      "brighteon.com"
+    ],
+    "selector": ".sidebar-content-wrapper > div:has(.main-ad)",
     "exception": false
   },
   {
@@ -125774,6 +125788,14 @@
   },
   {
     "domains": [
+      "copilot.com",
+      "copilot.microsoft.com"
+    ],
+    "selector": "div[aria-live=\"polite\"][aria-atomic=\"true\"]:has(span[data-ad-part=\"title\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "imginn.com"
     ],
     "selector": "div[class$=\"-money\"]",
@@ -128988,6 +129010,13 @@
   },
   {
     "domains": [
+      "lastampausa.com"
+    ],
+    "selector": "img[alt^=\"Static banner\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "pasty.info"
     ],
     "selector": "img[aria-label=\"Aliexpress partner network affiliate Link\"]",
@@ -129971,6 +130000,13 @@
       "yandex.*"
     ],
     "selector": ".business-card-title-view__advert",
+    "exception": false
+  },
+  {
+    "domains": [
+      "emag.*"
+    ],
+    "selector": ".card-item[data-aid]",
     "exception": false
   },
   {
@@ -132533,6 +132569,13 @@
   },
   {
     "domains": [
+      "pexels.com"
+    ],
+    "selector": "[class*=\"GridLayout_item\"]:has(img[src*=\"media.istockphoto.com/\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "priceline.com"
     ],
     "selector": "[class*=\"ListingCardWrapper\"]:has([class*=\"PromoText\"])",
@@ -132557,6 +132600,13 @@
       "livejournal.com"
     ],
     "selector": "[class*=\"categories\"] + div[class]:has(> [class*=\"-commercial\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pixabay.com"
+    ],
+    "selector": "[class*=\"cell--\"]:has([role=\"link\"]:not(a))",
     "exception": false
   },
   {
@@ -133359,6 +133409,13 @@
       "openalternative.co"
     ],
     "selector": "div:has(> div > a[href^=\"/advertise\"]):has(> a[target=\"_blank\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pixabay.com"
+    ],
+    "selector": "div:has(> div > button):has(> div > div > [role=\"link\"] > img)",
     "exception": false
   },
   {
@@ -138054,13 +138111,6 @@
       "youtube.com"
     ],
     "selector": "#sticker-layer",
-    "exception": false
-  },
-  {
-    "domains": [
-      "youtube.com"
-    ],
-    "selector": ".ytReelMetapanelViewModelHost > .ytReelMetapanelViewModelMetapanelItem > .ytShortsSuggestedActionViewModelStaticHost",
     "exception": false
   },
   {
@@ -144743,6 +144793,13 @@
   },
   {
     "domains": [
+      "directstripper.com"
+    ],
+    "selector": ".big-spot",
+    "exception": false
+  },
+  {
+    "domains": [
       "hqporner.com"
     ],
     "selector": ".black_friday",
@@ -146202,6 +146259,13 @@
       "nightdreambabe.com"
     ],
     "selector": ".g-owner-banner",
+    "exception": false
+  },
+  {
+    "domains": [
+      "directstripper.com"
+    ],
+    "selector": ".gallery-button",
     "exception": false
   },
   {
@@ -148918,6 +148982,7 @@
   },
   {
     "domains": [
+      "directstripper.com",
       "drtuber.com",
       "thisvid.com",
       "vivatube.com",
@@ -150272,6 +150337,13 @@
       "xjav.tube"
     ],
     "selector": ".wrapper > article",
+    "exception": false
+  },
+  {
+    "domains": [
+      "directstripper.com"
+    ],
+    "selector": ".wrapper > center > a[href*=\"/go/\"]",
     "exception": false
   },
   {
@@ -153445,6 +153517,7 @@
       "chattanoogacw.com",
       "cleveland.com",
       "crooksandliars.com",
+      "cwtv.com",
       "deadline.com",
       "dpreview.com",
       "driving.ca",
@@ -154817,56 +154890,6 @@
   {
     "domains": [],
     "selector": "#ScrollToTopContainer",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#T-Hoch-Btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ToTopButtom",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#WidgetScrollToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#arrow-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#arrow_to_site_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ast-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#auto-top-link",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-the-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-arrow",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-btn",
     "exception": false
   }
 ]
