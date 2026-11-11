@@ -69234,6 +69234,13 @@
   },
   {
     "domains": [
+      "convertcase.net"
+    ],
+    "selector": ".ads-desktop",
+    "exception": true
+  },
+  {
+    "domains": [
       "ads.nipr.ac.jp",
       "burzahrane.hr"
     ],
@@ -125085,13 +125092,6 @@
   },
   {
     "domains": [
-      "gamepadla.com"
-    ],
-    "selector": "a[href^=\"https://www.amazon.com/\"] + div + picture",
-    "exception": false
-  },
-  {
-    "domains": [
       "wjbc.com"
     ],
     "selector": "a[href^=\"https://www.farmweeknow.com/rfd_radio/\"]",
@@ -131902,34 +131902,6 @@
   },
   {
     "domains": [
-      "gamepadla.com"
-    ],
-    "selector": ".pMain:has(a[href^=\"/go/\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "gamepadla.com"
-    ],
-    "selector": ".pMain:has(div[class^=\"asd_\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "gamepadla.com"
-    ],
-    "selector": ".pMain:has(div[title=\"Partner placement\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "gamepadla.com"
-    ],
-    "selector": ".panel-container:has(.media-header-row-item)",
-    "exception": false
-  },
-  {
-    "domains": [
       "thefederal.com"
     ],
     "selector": ".pb-3 > .col-xl-3.col-lg-6.col-md-6:has(> [id^=\"ad_slot\"])",
@@ -133416,6 +133388,13 @@
       "pixabay.com"
     ],
     "selector": "div:has(> div > button):has(> div > div > [role=\"link\"] > img)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "gamepadla.com"
+    ],
+    "selector": "div:has(> div > div > a[href^=\"/visit/\"][href*=\"cmp=slider\"])",
     "exception": false
   },
   {
@@ -140491,20 +140470,6 @@
   },
   {
     "domains": [
-      "gamepadla.com"
-    ],
-    "selector": ".pMain:has-text(Partner)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "gamepadla.com"
-    ],
-    "selector": ".sliderBlock:has-text(ADS)",
-    "exception": false
-  },
-  {
-    "domains": [
       "gamersnexus.net"
     ],
     "selector": ".moduleContent:has-text(Advertisement)",
@@ -141562,13 +141527,6 @@
       "yourstory.com"
     ],
     "selector": "[width]:has-text(ADVERTISEMENT)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "gamepadla.com"
-    ],
-    "selector": ".pMain:has(div:-abp-properties(Partner))",
     "exception": false
   },
   {
@@ -154890,6 +154848,36 @@
   {
     "domains": [],
     "selector": "#ScrollToTopContainer",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#T-Hoch-Btn",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#ToTopButtom",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#WidgetScrollToTop",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#arrow-scroll-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#arrow_to_site_top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#ast-scroll-top",
     "exception": false
   }
 ]
