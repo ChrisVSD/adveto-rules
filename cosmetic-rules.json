@@ -75460,13 +75460,6 @@
   },
   {
     "domains": [
-      "mangakakalot.gg"
-    ],
-    "selector": "#fly_chapter_01",
-    "exception": false
-  },
-  {
-    "domains": [
       "12tomatoes.com"
     ],
     "selector": "#footboard",
@@ -76509,13 +76502,6 @@
   },
   {
     "domains": [
-      "thefinancialexpress.com.bd"
-    ],
-    "selector": "#innerAds",
-    "exception": false
-  },
-  {
-    "domains": [
       "timesofmalta.com"
     ],
     "selector": "#inscroll-banner",
@@ -76561,6 +76547,13 @@
       "whatismyip.com"
     ],
     "selector": "#ip-box-ad",
+    "exception": false
+  },
+  {
+    "domains": [
+      "edugeek.net"
+    ],
+    "selector": "#ipsLayout_mainArea > .ipsResponsive_hidePhone",
     "exception": false
   },
   {
@@ -78892,6 +78885,13 @@
   },
   {
     "domains": [
+      "edugeek.net"
+    ],
+    "selector": "#rev-0-1",
+    "exception": false
+  },
+  {
+    "domains": [
       "apexcharts.com"
     ],
     "selector": "#revealDemandbaseAwarenesAnimationContainer",
@@ -81038,6 +81038,73 @@
       "nytimes.com"
     ],
     "selector": "#top-wrapper",
+    "exception": false
+  },
+  {
+    "domains": [
+      "3addedminutes.com",
+      "anguscountyworld.co.uk",
+      "banburyguardian.co.uk",
+      "bedfordtoday.co.uk",
+      "biggleswadetoday.co.uk",
+      "blackpoolgazette.co.uk",
+      "bucksherald.co.uk",
+      "burnleyexpress.net",
+      "buxtonadvertiser.co.uk",
+      "chad.co.uk",
+      "daventryexpress.co.uk",
+      "derbyshiretimes.co.uk",
+      "derbyworld.co.uk",
+      "derryjournal.com",
+      "dewsburyreporter.co.uk",
+      "doncasterfreepress.co.uk",
+      "falkirkherald.co.uk",
+      "fifetoday.co.uk",
+      "glasgowworld.com",
+      "halifaxcourier.co.uk",
+      "harboroughmail.co.uk",
+      "harrogateadvertiser.co.uk",
+      "hartlepoolmail.co.uk",
+      "hemeltoday.co.uk",
+      "hucknalldispatch.co.uk",
+      "lancasterguardian.co.uk",
+      "leightonbuzzardonline.co.uk",
+      "lep.co.uk",
+      "lincolnshireworld.com",
+      "liverpoolworld.uk",
+      "londonworld.com",
+      "lutontoday.co.uk",
+      "manchesterworld.uk",
+      "meltontimes.co.uk",
+      "miltonkeynes.co.uk",
+      "newcastleworld.com",
+      "newryreporter.com",
+      "newsletter.co.uk",
+      "northamptonchron.co.uk",
+      "northantstelegraph.co.uk",
+      "northernirelandworld.com",
+      "northumberlandgazette.co.uk",
+      "nottinghamworld.com",
+      "peterboroughtoday.co.uk",
+      "portsmouth.co.uk",
+      "rotherhamadvertiser.co.uk",
+      "scotsman.com",
+      "shieldsgazette.com",
+      "stornowaygazette.co.uk",
+      "sunderlandecho.com",
+      "surreyworld.co.uk",
+      "thescarboroughnews.co.uk",
+      "thesouthernreporter.co.uk",
+      "thestar.co.uk",
+      "totallysnookered.com",
+      "wakefieldexpress.co.uk",
+      "warwickshireworld.com",
+      "wigantoday.net",
+      "worksopguardian.co.uk",
+      "yorkshireeveningpost.co.uk",
+      "yorkshirepost.co.uk"
+    ],
+    "selector": "#topBanner",
     "exception": false
   },
   {
@@ -84771,6 +84838,13 @@
   },
   {
     "domains": [
+      "syfy.com"
+    ],
+    "selector": ".ad-block--midbanner",
+    "exception": false
+  },
+  {
+    "domains": [
       "issuu.com"
     ],
     "selector": ".ad-block--wide",
@@ -84987,6 +85061,7 @@
       "refinery29.com",
       "ringsidenews.com",
       "roadandtrack.com",
+      "runguides.com",
       "scroll.in",
       "seaislenews.com",
       "seattletimes.com",
@@ -85031,20 +85106,6 @@
       "huffpost.com"
     ],
     "selector": ".ad-container--1",
-    "exception": false
-  },
-  {
-    "domains": [
-      "apponic.com"
-    ],
-    "selector": ".ad-container-atf",
-    "exception": false
-  },
-  {
-    "domains": [
-      "apponic.com"
-    ],
-    "selector": ".ad-container-compact",
     "exception": false
   },
   {
@@ -87072,24 +87133,10 @@
   },
   {
     "domains": [
-      "thefinancialexpress.com.bd"
-    ],
-    "selector": ".ads-carousel-container",
-    "exception": false
-  },
-  {
-    "domains": [
       "mangabats.com",
       "nelomanga.net"
     ],
     "selector": ".ads-contain",
-    "exception": false
-  },
-  {
-    "domains": [
-      "mangakakalot.gg"
-    ],
-    "selector": ".ads-contain-v2",
     "exception": false
   },
   {
@@ -87107,6 +87154,20 @@
       "time.now"
     ],
     "selector": ".ads-container",
+    "exception": false
+  },
+  {
+    "domains": [
+      "apponic.com"
+    ],
+    "selector": ".ads-container-middle",
+    "exception": false
+  },
+  {
+    "domains": [
+      "apponic.com"
+    ],
+    "selector": ".ads-container-top",
     "exception": false
   },
   {
@@ -90332,35 +90393,24 @@
   {
     "domains": [
       "1001games.com",
-      "3addedminutes.com",
       "4rfv.co.uk",
       "808fubo808.com",
       "alistapart.com",
-      "anguscountyworld.co.uk",
       "antrimnow.co.uk",
       "arcadebomb.com",
       "armageddonexpo.com",
-      "banburyguardian.co.uk",
-      "bedfordtoday.co.uk",
-      "biggleswadetoday.co.uk",
       "bikechatforums.com",
       "birminghamworld.uk",
-      "blackpoolgazette.co.uk",
       "bristolworld.com",
       "bsc.news",
       "bucksherald.co.uk",
-      "burnleyexpress.net",
-      "buxtonadvertiser.co.uk",
       "ca-flyers.com",
       "caixinglobal.com",
       "caribvision.tv",
-      "chad.co.uk",
       "cinemadeck.com",
       "coryarcangel.com",
       "csstats.gg",
-      "daventryexpress.co.uk",
       "deathbycaptcha.com",
-      "derbyshiretimes.co.uk",
       "derbyworld.co.uk",
       "derryjournal.com",
       "dewsburyreporter.co.uk",
@@ -90392,7 +90442,6 @@
       "hemeltoday.co.uk",
       "hiphopdx.com",
       "hortidaily.com",
-      "hucknalldispatch.co.uk",
       "hyipexplorer.com",
       "ibtimes.co.in",
       "ibtimes.co.uk",
@@ -90406,18 +90455,9 @@
       "kissasians.org",
       "koreaherald.com",
       "kotaku.com",
-      "lancasterguardian.co.uk",
       "laserpointerforums.com",
-      "leightonbuzzardonline.co.uk",
-      "lep.co.uk",
-      "lincolnshireworld.com",
-      "liverpoolworld.uk",
       "livescore.in",
-      "londonworld.com",
-      "lutontoday.co.uk",
-      "manchesterworld.uk",
       "marinelink.com",
-      "meltontimes.co.uk",
       "mercopress.com",
       "meteoradar.co.uk",
       "miltonkeynes.co.uk",
@@ -90425,7 +90465,6 @@
       "mob.org",
       "myflr.org",
       "nationalworld.com",
-      "newcastleworld.com",
       "newryreporter.com",
       "news.am",
       "news.net",
@@ -90434,7 +90473,6 @@
       "northamptonchron.co.uk",
       "northantstelegraph.co.uk",
       "northernirelandworld.com",
-      "northumberlandgazette.co.uk",
       "nottinghamworld.com",
       "oncyprus.com",
       "onlineconvertfree.com",
@@ -90452,15 +90490,10 @@
       "rvtrader.com",
       "sat24.com",
       "scientificamerican.com",
-      "scotsman.com",
-      "shieldsgazette.com",
       "slidescorner.com",
       "speedcafe.com",
       "starradionortheast.co.uk",
-      "stornowaygazette.co.uk",
       "subscene.com",
-      "sunderlandecho.com",
-      "surreyworld.co.uk",
       "sussexexpress.co.uk",
       "sweeting.org",
       "swzz.xyz",
@@ -90468,9 +90501,6 @@
       "theconsensus.dev",
       "thefringepodcast.com",
       "theoldreader.com",
-      "thescarboroughnews.co.uk",
-      "thesouthernreporter.co.uk",
-      "thestar.co.uk",
       "timeslive.co.za",
       "totallysnookered.com",
       "townhall.com",
@@ -90479,17 +90509,13 @@
       "vibilagare.se",
       "vloot.io",
       "vnexpress.net",
-      "wakefieldexpress.co.uk",
       "warwickshireworld.com",
       "weatheronline.co.uk",
       "weekly-ads.us",
       "wigantoday.net",
-      "worksopguardian.co.uk",
       "worldtimeserver.com",
       "xbiz.com",
       "ynetnews.com",
-      "yorkshireeveningpost.co.uk",
-      "yorkshirepost.co.uk",
       "yuntrack.com"
     ],
     "selector": ".banner",
@@ -91672,7 +91698,6 @@
       "northamptonchron.co.uk",
       "qpbriefing.com",
       "scotsman.com",
-      "shieldsgazette.com",
       "talksport.com",
       "the-sun.com",
       "thescottishsun.co.uk",
@@ -94214,6 +94239,7 @@
       "techrounder.com",
       "techviral.net",
       "the-gadgeteer.com",
+      "theautopian.com",
       "thebeaverton.com",
       "theblueoceansgroup.com",
       "thecinemaholic.com",
@@ -95771,6 +95797,13 @@
       "4chan.org"
     ],
     "selector": ".danbo-slot",
+    "exception": false
+  },
+  {
+    "domains": [
+      "producthunt.com"
+    ],
+    "selector": ".dark\\:border-\\[--contest-border\\].border-gray-200",
     "exception": false
   },
   {
@@ -100574,14 +100607,6 @@
       "cubdomain.com"
     ],
     "selector": ".hello-bar",
-    "exception": false
-  },
-  {
-    "domains": [
-      "lincolnshireworld.com",
-      "nationalworld.com"
-    ],
-    "selector": ".helper__AdContainer-sc-12ggaoi-0",
     "exception": false
   },
   {
@@ -108501,13 +108526,6 @@
   },
   {
     "domains": [
-      "mangakakalot.gg"
-    ],
-    "selector": ".pinned-ad-popular",
-    "exception": false
-  },
-  {
-    "domains": [
       "9animetv.to",
       "hianime.to"
     ],
@@ -114922,13 +114940,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": ".styles_item__hNPI1",
-    "exception": false
-  },
-  {
-    "domains": [
       "egamersworld.com"
     ],
     "selector": ".styles_sidebar__m6yLy",
@@ -117708,6 +117719,13 @@
   },
   {
     "domains": [
+      "cbr.com"
+    ],
+    "selector": ".w-display-card-vignette",
+    "exception": false
+  },
+  {
+    "domains": [
       "androidpolice.com"
     ],
     "selector": ".w-pencil-banner",
@@ -118469,6 +118487,20 @@
       "ign.com"
     ],
     "selector": ".wiki-bobble",
+    "exception": false
+  },
+  {
+    "domains": [
+      "wikily.gg"
+    ],
+    "selector": ".wiki-top-takeover",
+    "exception": false
+  },
+  {
+    "domains": [
+      "wikily.gg"
+    ],
+    "selector": ".wiki-venatus-sticky",
     "exception": false
   },
   {
@@ -119416,7 +119448,8 @@
   },
   {
     "domains": [
-      "thepointsguy.com"
+      "thepointsguy.com",
+      "wikily.gg"
     ],
     "selector": "[aria-label=\"Advertisement\"]",
     "exception": false
@@ -120833,13 +120866,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "[data-test^=\"homepage-section-\"] > section:not([class])",
-    "exception": false
-  },
-  {
-    "domains": [
       "costco.com"
     ],
     "selector": "[data-testid=\"AdSet-all-pdp_criteo_-_sponsored_products\"]",
@@ -121269,73 +121295,6 @@
   },
   {
     "domains": [
-      "3addedminutes.com",
-      "anguscountyworld.co.uk",
-      "banburyguardian.co.uk",
-      "bedfordtoday.co.uk",
-      "biggleswadetoday.co.uk",
-      "blackpoolgazette.co.uk",
-      "bucksherald.co.uk",
-      "burnleyexpress.net",
-      "buxtonadvertiser.co.uk",
-      "chad.co.uk",
-      "daventryexpress.co.uk",
-      "derbyshiretimes.co.uk",
-      "derbyworld.co.uk",
-      "derryjournal.com",
-      "dewsburyreporter.co.uk",
-      "doncasterfreepress.co.uk",
-      "falkirkherald.co.uk",
-      "fifetoday.co.uk",
-      "glasgowworld.com",
-      "halifaxcourier.co.uk",
-      "harboroughmail.co.uk",
-      "harrogateadvertiser.co.uk",
-      "hartlepoolmail.co.uk",
-      "hemeltoday.co.uk",
-      "hucknalldispatch.co.uk",
-      "lancasterguardian.co.uk",
-      "leightonbuzzardonline.co.uk",
-      "lep.co.uk",
-      "lincolnshireworld.com",
-      "liverpoolworld.uk",
-      "londonworld.com",
-      "lutontoday.co.uk",
-      "manchesterworld.uk",
-      "meltontimes.co.uk",
-      "miltonkeynes.co.uk",
-      "newcastleworld.com",
-      "newryreporter.com",
-      "newsletter.co.uk",
-      "northamptonchron.co.uk",
-      "northantstelegraph.co.uk",
-      "northernirelandworld.com",
-      "northumberlandgazette.co.uk",
-      "nottinghamworld.com",
-      "peterboroughtoday.co.uk",
-      "portsmouth.co.uk",
-      "rotherhamadvertiser.co.uk",
-      "scotsman.com",
-      "shieldsgazette.com",
-      "stornowaygazette.co.uk",
-      "sunderlandecho.com",
-      "surreyworld.co.uk",
-      "thescarboroughnews.co.uk",
-      "thesouthernreporter.co.uk",
-      "thestar.co.uk",
-      "totallysnookered.com",
-      "wakefieldexpress.co.uk",
-      "warwickshireworld.com",
-      "wigantoday.net",
-      "worksopguardian.co.uk",
-      "yorkshireeveningpost.co.uk",
-      "yorkshirepost.co.uk"
-    ],
-    "selector": "[data-type=\"AdRowBillboard\"]",
-    "exception": false
-  },
-  {
-    "domains": [
       "goal.com"
     ],
     "selector": "[data-type=\"AdSlot\"]",
@@ -121361,6 +121320,13 @@
       "libertycity.net"
     ],
     "selector": "[data-umami-event=\"Difmark Brand Click\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "wikily.gg"
+    ],
+    "selector": "[data-venatus-placement]",
     "exception": false
   },
   {
@@ -122235,8 +122201,7 @@
   },
   {
     "domains": [
-      "artificialintelligence-news.com",
-      "mangakakalot.gg"
+      "artificialintelligence-news.com"
     ],
     "selector": "[href^=\"https://bit.ly/\"]",
     "exception": false
@@ -125662,23 +125627,9 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div.my-4.flex-1.rounded-md.border-2.border-gray-200",
-    "exception": false
-  },
-  {
-    "domains": [
       "thehackernews.com"
     ],
     "selector": "div.rocking",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div.rounded-lg.bg-gray-50.p-3",
     "exception": false
   },
   {
@@ -125935,73 +125886,6 @@
   },
   {
     "domains": [
-      "3addedminutes.com",
-      "anguscountyworld.co.uk",
-      "banburyguardian.co.uk",
-      "bedfordtoday.co.uk",
-      "biggleswadetoday.co.uk",
-      "blackpoolgazette.co.uk",
-      "bucksherald.co.uk",
-      "burnleyexpress.net",
-      "buxtonadvertiser.co.uk",
-      "chad.co.uk",
-      "daventryexpress.co.uk",
-      "derbyshiretimes.co.uk",
-      "derbyworld.co.uk",
-      "derryjournal.com",
-      "dewsburyreporter.co.uk",
-      "doncasterfreepress.co.uk",
-      "falkirkherald.co.uk",
-      "fifetoday.co.uk",
-      "glasgowworld.com",
-      "halifaxcourier.co.uk",
-      "harboroughmail.co.uk",
-      "harrogateadvertiser.co.uk",
-      "hartlepoolmail.co.uk",
-      "hemeltoday.co.uk",
-      "hucknalldispatch.co.uk",
-      "lancasterguardian.co.uk",
-      "leightonbuzzardonline.co.uk",
-      "lep.co.uk",
-      "lincolnshireworld.com",
-      "liverpoolworld.uk",
-      "londonworld.com",
-      "lutontoday.co.uk",
-      "manchesterworld.uk",
-      "meltontimes.co.uk",
-      "miltonkeynes.co.uk",
-      "newcastleworld.com",
-      "newryreporter.com",
-      "newsletter.co.uk",
-      "northamptonchron.co.uk",
-      "northantstelegraph.co.uk",
-      "northernirelandworld.com",
-      "northumberlandgazette.co.uk",
-      "nottinghamworld.com",
-      "peterboroughtoday.co.uk",
-      "portsmouth.co.uk",
-      "rotherhamadvertiser.co.uk",
-      "scotsman.com",
-      "shieldsgazette.com",
-      "stornowaygazette.co.uk",
-      "sunderlandecho.com",
-      "surreyworld.co.uk",
-      "thescarboroughnews.co.uk",
-      "thesouthernreporter.co.uk",
-      "thestar.co.uk",
-      "totallysnookered.com",
-      "wakefieldexpress.co.uk",
-      "warwickshireworld.com",
-      "wigantoday.net",
-      "worksopguardian.co.uk",
-      "yorkshireeveningpost.co.uk",
-      "yorkshirepost.co.uk"
-    ],
-    "selector": "div[class^=\"AdLoadingText\"]",
-    "exception": false
-  },
-  {
-    "domains": [
       "pricespy.co.nz",
       "pricespy.co.uk"
     ],
@@ -126182,73 +126066,6 @@
       "games.dailymail.co.uk"
     ],
     "selector": "div[class^=\"RightRail__displayAdRight_\"]",
-    "exception": false
-  },
-  {
-    "domains": [
-      "3addedminutes.com",
-      "anguscountyworld.co.uk",
-      "banburyguardian.co.uk",
-      "bedfordtoday.co.uk",
-      "biggleswadetoday.co.uk",
-      "blackpoolgazette.co.uk",
-      "bucksherald.co.uk",
-      "burnleyexpress.net",
-      "buxtonadvertiser.co.uk",
-      "chad.co.uk",
-      "daventryexpress.co.uk",
-      "derbyshiretimes.co.uk",
-      "derbyworld.co.uk",
-      "derryjournal.com",
-      "dewsburyreporter.co.uk",
-      "doncasterfreepress.co.uk",
-      "falkirkherald.co.uk",
-      "fifetoday.co.uk",
-      "glasgowworld.com",
-      "halifaxcourier.co.uk",
-      "harboroughmail.co.uk",
-      "harrogateadvertiser.co.uk",
-      "hartlepoolmail.co.uk",
-      "hemeltoday.co.uk",
-      "hucknalldispatch.co.uk",
-      "lancasterguardian.co.uk",
-      "leightonbuzzardonline.co.uk",
-      "lep.co.uk",
-      "lincolnshireworld.com",
-      "liverpoolworld.uk",
-      "londonworld.com",
-      "lutontoday.co.uk",
-      "manchesterworld.uk",
-      "meltontimes.co.uk",
-      "miltonkeynes.co.uk",
-      "newcastleworld.com",
-      "newryreporter.com",
-      "newsletter.co.uk",
-      "northamptonchron.co.uk",
-      "northantstelegraph.co.uk",
-      "northernirelandworld.com",
-      "northumberlandgazette.co.uk",
-      "nottinghamworld.com",
-      "peterboroughtoday.co.uk",
-      "portsmouth.co.uk",
-      "rotherhamadvertiser.co.uk",
-      "scotsman.com",
-      "shieldsgazette.com",
-      "stornowaygazette.co.uk",
-      "sunderlandecho.com",
-      "surreyworld.co.uk",
-      "thescarboroughnews.co.uk",
-      "thesouthernreporter.co.uk",
-      "thestar.co.uk",
-      "totallysnookered.com",
-      "wakefieldexpress.co.uk",
-      "warwickshireworld.com",
-      "wigantoday.net",
-      "worksopguardian.co.uk",
-      "yorkshireeveningpost.co.uk",
-      "yorkshirepost.co.uk"
-    ],
-    "selector": "div[class^=\"SidebarAds_\"]",
     "exception": false
   },
   {
@@ -126594,73 +126411,6 @@
   },
   {
     "domains": [
-      "3addedminutes.com",
-      "anguscountyworld.co.uk",
-      "banburyguardian.co.uk",
-      "bedfordtoday.co.uk",
-      "biggleswadetoday.co.uk",
-      "blackpoolgazette.co.uk",
-      "bucksherald.co.uk",
-      "burnleyexpress.net",
-      "buxtonadvertiser.co.uk",
-      "chad.co.uk",
-      "daventryexpress.co.uk",
-      "derbyshiretimes.co.uk",
-      "derbyworld.co.uk",
-      "derryjournal.com",
-      "dewsburyreporter.co.uk",
-      "doncasterfreepress.co.uk",
-      "falkirkherald.co.uk",
-      "fifetoday.co.uk",
-      "glasgowworld.com",
-      "halifaxcourier.co.uk",
-      "harboroughmail.co.uk",
-      "harrogateadvertiser.co.uk",
-      "hartlepoolmail.co.uk",
-      "hemeltoday.co.uk",
-      "hucknalldispatch.co.uk",
-      "lancasterguardian.co.uk",
-      "leightonbuzzardonline.co.uk",
-      "lep.co.uk",
-      "lincolnshireworld.com",
-      "liverpoolworld.uk",
-      "londonworld.com",
-      "lutontoday.co.uk",
-      "manchesterworld.uk",
-      "meltontimes.co.uk",
-      "miltonkeynes.co.uk",
-      "newcastleworld.com",
-      "newryreporter.com",
-      "newsletter.co.uk",
-      "northamptonchron.co.uk",
-      "northantstelegraph.co.uk",
-      "northernirelandworld.com",
-      "northumberlandgazette.co.uk",
-      "nottinghamworld.com",
-      "peterboroughtoday.co.uk",
-      "portsmouth.co.uk",
-      "rotherhamadvertiser.co.uk",
-      "scotsman.com",
-      "shieldsgazette.com",
-      "stornowaygazette.co.uk",
-      "sunderlandecho.com",
-      "surreyworld.co.uk",
-      "thescarboroughnews.co.uk",
-      "thesouthernreporter.co.uk",
-      "thestar.co.uk",
-      "totallysnookered.com",
-      "wakefieldexpress.co.uk",
-      "warwickshireworld.com",
-      "wigantoday.net",
-      "worksopguardian.co.uk",
-      "yorkshireeveningpost.co.uk",
-      "yorkshirepost.co.uk"
-    ],
-    "selector": "div[class^=\"helper__AdContainer\"]",
-    "exception": false
-  },
-  {
-    "domains": [
       "mydramalist.com"
     ],
     "selector": "div[class^=\"htlad-film_box_\"]",
@@ -126848,73 +126598,6 @@
       "tennews.in"
     ],
     "selector": "div[data-adid]",
-    "exception": false
-  },
-  {
-    "domains": [
-      "3addedminutes.com",
-      "anguscountyworld.co.uk",
-      "banburyguardian.co.uk",
-      "bedfordtoday.co.uk",
-      "biggleswadetoday.co.uk",
-      "blackpoolgazette.co.uk",
-      "bucksherald.co.uk",
-      "burnleyexpress.net",
-      "buxtonadvertiser.co.uk",
-      "chad.co.uk",
-      "daventryexpress.co.uk",
-      "derbyshiretimes.co.uk",
-      "derbyworld.co.uk",
-      "derryjournal.com",
-      "dewsburyreporter.co.uk",
-      "doncasterfreepress.co.uk",
-      "falkirkherald.co.uk",
-      "fifetoday.co.uk",
-      "glasgowworld.com",
-      "halifaxcourier.co.uk",
-      "harboroughmail.co.uk",
-      "harrogateadvertiser.co.uk",
-      "hartlepoolmail.co.uk",
-      "hemeltoday.co.uk",
-      "hucknalldispatch.co.uk",
-      "lancasterguardian.co.uk",
-      "leightonbuzzardonline.co.uk",
-      "lep.co.uk",
-      "lincolnshireworld.com",
-      "liverpoolworld.uk",
-      "londonworld.com",
-      "lutontoday.co.uk",
-      "manchesterworld.uk",
-      "meltontimes.co.uk",
-      "miltonkeynes.co.uk",
-      "newcastleworld.com",
-      "newryreporter.com",
-      "newsletter.co.uk",
-      "northamptonchron.co.uk",
-      "northantstelegraph.co.uk",
-      "northernirelandworld.com",
-      "northumberlandgazette.co.uk",
-      "nottinghamworld.com",
-      "peterboroughtoday.co.uk",
-      "portsmouth.co.uk",
-      "rotherhamadvertiser.co.uk",
-      "scotsman.com",
-      "shieldsgazette.com",
-      "stornowaygazette.co.uk",
-      "sunderlandecho.com",
-      "surreyworld.co.uk",
-      "thescarboroughnews.co.uk",
-      "thesouthernreporter.co.uk",
-      "thestar.co.uk",
-      "totallysnookered.com",
-      "wakefieldexpress.co.uk",
-      "warwickshireworld.com",
-      "wigantoday.net",
-      "worksopguardian.co.uk",
-      "yorkshireeveningpost.co.uk",
-      "yorkshirepost.co.uk"
-    ],
-    "selector": "div[data-ads-params]",
     "exception": false
   },
   {
@@ -129399,13 +129082,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "section.group + div > section.group",
-    "exception": false
-  },
-  {
-    "domains": [
       "engadget.com"
     ],
     "selector": "section.md\\:min-h-\\[310px\\]",
@@ -131399,13 +131075,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": ".cursor-pointer:has(img[alt=\"Promoted\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "gsmarena.com"
     ],
     "selector": ".d-flex:has(pgs-ad)",
@@ -132870,13 +132539,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "[data-test=\"launch\"] > section:has(span.rounded-b-xl.bg-brand-500)",
-    "exception": false
-  },
-  {
-    "domains": [
       "stockx.com"
     ],
     "selector": "[data-testid=\"banner-collage\"] .chakra-aspect-ratio:has(a[title*=\"Promo\"])",
@@ -133112,23 +132774,9 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "article:has(> div.cursor-pointer > img)",
-    "exception": false
-  },
-  {
-    "domains": [
       "tympanus.net"
     ],
     "selector": "article:has(header:has(.ct-sponsored))",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "article:has(img[alt=\"Promoted\"])",
     "exception": false
   },
   {
@@ -133238,13 +132886,6 @@
       "inverse.com"
     ],
     "selector": "div > p + div:has(amp-ad)",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div.cursor-pointer.overflow-hidden:has(> img.object-contain)",
     "exception": false
   },
   {
@@ -133406,13 +133047,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div:has(> div.-mt-px.justify-end.pr-4)",
-    "exception": false
-  },
-  {
-    "domains": [
       "staples.com"
     ],
     "selector": "div:has(> div[class*=\"configurator-container__\"] .topsort-video-configurator__monetizationContainer)",
@@ -133515,41 +133149,6 @@
       "walmart.*"
     ],
     "selector": "div[class=\"mb1 ph1 pa0-xl bb b--near-white w-25\"]:has(div[data-ad-component-type=\"wpa-tile\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(a[href=\"/sponsor\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src=\"/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src^=\"/i/\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[class=\"my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200\"]:has(img[srcset^=\"https://ph-files.imgix.net/\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[class=\"my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200\"]:has(video[poster^=\"https://ph-files.imgix.net/\"])",
     "exception": false
   },
   {
@@ -133802,27 +133401,6 @@
       "mail.aol.com"
     ],
     "selector": "div[data-test-id=\"virtual-list\"] > ul[role=\"list\"][aria-label] > li[style]:has(a[href^=\"https://api.taboola.com/\"][href*=\"/yahoo-aol-mail/\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[data-test] > section:has(a[href^=\"/r/ad/\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[data-test] > section:has(img[src=\"/i/299a62819c7092e196f7fc2c331cc11ef4f93a0f32c3b3069c4fd974cda0cb4c\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "div[data-test]:not([data-test^=\"homepage-section-\"]) > section[data-test^=\"post-item-\"]",
     "exception": false
   },
   {
@@ -134217,13 +133795,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "li:has(> div.relative.isolate.grid img[alt=\"Promoted\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "cars.com"
     ],
     "selector": "li:has(> fuse-card[data-listing-id] .spr)",
@@ -134336,13 +133907,6 @@
   },
   {
     "domains": [
-      "producthunt.com"
-    ],
-    "selector": "main > div:has(> div.-mt-px.justify-end.pr-4)",
-    "exception": false
-  },
-  {
-    "domains": [
       "classcentral.com"
     ],
     "selector": "p + div:has(.responsive-post:has([href^=\"https://www.semrush.com\"]))",
@@ -134395,13 +133959,6 @@
       "pixiv.net"
     ],
     "selector": "section:has(> div > div > iframe[name=\"illusttop_appeal\"])",
-    "exception": false
-  },
-  {
-    "domains": [
-      "producthunt.com"
-    ],
-    "selector": "section:has(> div > div > span.rounded-b-xl.bg-brand-500)",
     "exception": false
   },
   {
@@ -136331,7 +135888,67 @@
   },
   {
     "domains": [
-      "portsmouth.co.uk"
+      "3addedminutes.com",
+      "anguscountyworld.co.uk",
+      "banburyguardian.co.uk",
+      "bedfordtoday.co.uk",
+      "biggleswadetoday.co.uk",
+      "blackpoolgazette.co.uk",
+      "bucksherald.co.uk",
+      "burnleyexpress.net",
+      "buxtonadvertiser.co.uk",
+      "chad.co.uk",
+      "daventryexpress.co.uk",
+      "derbyshiretimes.co.uk",
+      "derbyworld.co.uk",
+      "derryjournal.com",
+      "dewsburyreporter.co.uk",
+      "doncasterfreepress.co.uk",
+      "falkirkherald.co.uk",
+      "fifetoday.co.uk",
+      "glasgowworld.com",
+      "halifaxcourier.co.uk",
+      "harboroughmail.co.uk",
+      "harrogateadvertiser.co.uk",
+      "hartlepoolmail.co.uk",
+      "hemeltoday.co.uk",
+      "hucknalldispatch.co.uk",
+      "lancasterguardian.co.uk",
+      "leightonbuzzardonline.co.uk",
+      "lep.co.uk",
+      "lincolnshireworld.com",
+      "liverpoolworld.uk",
+      "londonworld.com",
+      "lutontoday.co.uk",
+      "manchesterworld.uk",
+      "meltontimes.co.uk",
+      "miltonkeynes.co.uk",
+      "newcastleworld.com",
+      "newryreporter.com",
+      "newsletter.co.uk",
+      "northamptonchron.co.uk",
+      "northantstelegraph.co.uk",
+      "northernirelandworld.com",
+      "northumberlandgazette.co.uk",
+      "nottinghamworld.com",
+      "peterboroughtoday.co.uk",
+      "portsmouth.co.uk",
+      "rotherhamadvertiser.co.uk",
+      "scotsman.com",
+      "shieldsgazette.com",
+      "stornowaygazette.co.uk",
+      "sunderlandecho.com",
+      "surreyworld.co.uk",
+      "thescarboroughnews.co.uk",
+      "thesouthernreporter.co.uk",
+      "thestar.co.uk",
+      "totallysnookered.com",
+      "wakefieldexpress.co.uk",
+      "warwickshireworld.com",
+      "wigantoday.net",
+      "worksopguardian.co.uk",
+      "yorkshireeveningpost.co.uk",
+      "yorkshirepost.co.uk"
     ],
     "selector": ".exco-video-player",
     "exception": false
@@ -136515,6 +136132,17 @@
   },
   {
     "domains": [
+      "pickleball.com",
+      "pickleballclubs.com",
+      "pickleballleagues.com",
+      "pickleballteamleagues.com",
+      "pickleballtournaments.com"
+    ],
+    "selector": ".justify-center.flex.w-full:has([name])",
+    "exception": false
+  },
+  {
+    "domains": [
       "edmunds.com"
     ],
     "selector": ".justify-content-center:has(.exco-player)",
@@ -136621,13 +136249,6 @@
   },
   {
     "domains": [
-      "pickleballleagues.com"
-    ],
-    "selector": ".min-\\[500px\\]\\:col-span-2.justify-center.flex.w-full:has(.pickleballleagues-com_incontent_300x250_reusable)",
-    "exception": false
-  },
-  {
-    "domains": [
       "insideevs.com"
     ],
     "selector": ".minutely_video_wrap",
@@ -136642,9 +136263,9 @@
   },
   {
     "domains": [
-      "historydefined.net"
+      "culturealberta.com"
     ],
-    "selector": ".mv-ad-box",
+    "selector": ".mv-video-target",
     "exception": false
   },
   {
@@ -147639,13 +147260,6 @@
   },
   {
     "domains": [
-      "mangakakalot.gg"
-    ],
-    "selector": ".owl-item:has(a[href^=\"https://bit.ly/\"])",
-    "exception": false
-  },
-  {
-    "domains": [
       "javtiful.com"
     ],
     "selector": ".p-0[style=\"margin-top: 0.45rem !important\"]",
@@ -154878,6 +154492,131 @@
   {
     "domains": [],
     "selector": "#ast-scroll-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#auto-top-link",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-to-the-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-to-top-arrow",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-to-top-btn",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-to-top-button",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-to-top-icon",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-to-top-scroll",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-top-btn",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back-top-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#backToTopButton",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#backToTop_RT",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#back_to_top_now",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#backtotop-scroll",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#backtotopbutton",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#backtotoplink",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#base_scrollToTop",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#bigslam-footer-back-to-top-button",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#bktotopbtn",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#block-backtotop",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#bt-backtop",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#bt-scroll-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#btn--back-to-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#btn-back-top",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "#btn-go-top",
     "exception": false
   }
 ]
