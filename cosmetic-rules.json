@@ -129682,6 +129682,13 @@
     "domains": [
       "emag.*"
     ],
+    "selector": ".card-item:has(a[href*=\"ref=sponsored_products\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "emag.*"
+    ],
     "selector": ".card-item[data-aid]",
     "exception": false
   },
@@ -132327,13 +132334,6 @@
   },
   {
     "domains": [
-      "timesofindia.indiatimes.com"
-    ],
-    "selector": "[class]:has(> .wdt-taboola)",
-    "exception": false
-  },
-  {
-    "domains": [
       "vox.com"
     ],
     "selector": "[class]:has(> [data-concert])",
@@ -132623,6 +132623,13 @@
   },
   {
     "domains": [
+      "pahe.ink"
+    ],
+    "selector": "[href^=\"https://theshorten.net/\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "alibaba.com"
     ],
     "selector": "[id^=\"sse-fluent-wending\"]:has(.creative-ad-tag)",
@@ -132819,6 +132826,13 @@
       "psychcentral.com"
     ],
     "selector": "aside:has([data-empty])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "askai.glarity.app"
+    ],
+    "selector": "aside[aria-label=\"Advertisement\"]",
     "exception": false
   },
   {
@@ -133078,6 +133092,13 @@
       "myutils.me"
     ],
     "selector": "div[aria-label=\"Advertisement\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "askai.glarity.app"
+    ],
+    "selector": "div[aria-label=\"Sponsored\"]",
     "exception": false
   },
   {
@@ -153167,6 +153188,7 @@
       "wkyc.com",
       "wltx.com",
       "wnep.com",
+      "wowhead.com",
       "wqad.com",
       "wthr.com",
       "wtol.com",
@@ -154602,21 +154624,6 @@
   {
     "domains": [],
     "selector": "#bt-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn--back-to-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn-back-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#btn-go-top",
     "exception": false
   }
 ]
