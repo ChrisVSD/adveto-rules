@@ -68934,6 +68934,13 @@
   },
   {
     "domains": [
+      "kwik.cx"
+    ],
+    "selector": ".adSense",
+    "exception": true
+  },
+  {
+    "domains": [
       "macys.com",
       "news24.jp"
     ],
@@ -119598,6 +119605,13 @@
   },
   {
     "domains": [
+      "wallapop.com"
+    ],
+    "selector": "[class*=\"__adSlot\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "everydaykoala.com",
       "playjunkie.com"
     ],
@@ -119610,6 +119624,13 @@
       "playjunkie.com"
     ],
     "selector": "[class*=\"__adv-block\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "wallapop.com"
+    ],
+    "selector": "[class*=\"__topSky\"]",
     "exception": false
   },
   {
@@ -130506,6 +130527,13 @@
   },
   {
     "domains": [
+      "airnavradar.com"
+    ],
+    "selector": "#history-ad-container",
+    "exception": false
+  },
+  {
+    "domains": [
       "gtaforums.com"
     ],
     "selector": "#ipsLayout_mainArea div:has(> #pwDeskLbAtf)",
@@ -130704,6 +130732,13 @@
       "manomano.it"
     ],
     "selector": ".Ssfiu-:has([data-testid=\"popoverTriggersponsoredLabel\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "carexpert.co.nz"
+    ],
+    "selector": "._26wjo84",
     "exception": false
   },
   {
@@ -131355,6 +131390,13 @@
       "motortrend.com"
     ],
     "selector": ".lg\\:min-h-\\[90px\\]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "motortrend.com"
+    ],
+    "selector": ".lg\\:top-16",
     "exception": false
   },
   {
@@ -132623,6 +132665,13 @@
   },
   {
     "domains": [
+      "freightwaves.com"
+    ],
+    "selector": "[href^=\"https://academy.freightwaves.com/\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "pahe.ink"
     ],
     "selector": "[href^=\"https://theshorten.net/\"]",
@@ -133022,6 +133071,13 @@
       "doordash.com"
     ],
     "selector": "div:has(> a[data-anchor-id=\"SponsoredStoreCard\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "wallapop.com"
+    ],
+    "selector": "div:has(> article[class*=\"RetrievalItemCard\"] [class*=\"RetrievalItemCard__highlighted\"])",
     "exception": false
   },
   {
@@ -133924,6 +133980,13 @@
       "aboutyou.de"
     ],
     "selector": "li[data-testid^=\"productTileTracker-\"]:has(button[data-testid=\"spo\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "motortrend.com"
+    ],
+    "selector": ".max-lg\\:hidden:has-text(ADVERTISEMENT)",
     "exception": false
   },
   {
@@ -145443,6 +145506,13 @@
   },
   {
     "domains": [
+      "f4scdn.com"
+    ],
+    "selector": ".f4s-pause-ad",
+    "exception": false
+  },
+  {
+    "domains": [
       "lewdzone.com"
     ],
     "selector": ".f8rpo",
@@ -147455,6 +147525,13 @@
       "xhamster.com"
     ],
     "selector": ".player-add-overlay",
+    "exception": false
+  },
+  {
+    "domains": [
+      "javct.net"
+    ],
+    "selector": ".player-ads-col",
     "exception": false
   },
   {
@@ -154569,61 +154646,6 @@
   {
     "domains": [],
     "selector": "#backToTopButton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backToTop_RT",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back_to_top_now",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backtotop-scroll",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backtotopbutton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backtotoplink",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#base_scrollToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bigslam-footer-back-to-top-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bktotopbtn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#block-backtotop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bt-backtop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#bt-scroll-top",
     "exception": false
   }
 ]
