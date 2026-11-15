@@ -131359,6 +131359,13 @@
   },
   {
     "domains": [
+      "timesofindia.indiatimes.com"
+    ],
+    "selector": ".js_tbl_article ~ div[class]:not([id]):has(> div.wdt-taboola[onclick=\"stpPgtn(event)\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "motortrend.com"
     ],
     "selector": ".justify-center:has(.nativo-news)",
@@ -132197,6 +132204,13 @@
       "navyamedia.com"
     ],
     "selector": ".wpb_text_column:has(> .wpb_wrapper > p >ins.adsbygoogle)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "timesofindia.indiatimes.com"
+    ],
+    "selector": ".wrapperclearfix > div[class] > div[class]:not([id]) > div[data-translate-id=\"cw\"]:has(> div:is(div[id^=\"div-gpt-ad\"], .taboolaBtmVsAd))",
     "exception": false
   },
   {
@@ -154636,16 +154650,6 @@
   {
     "domains": [],
     "selector": "#back-top-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-top-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#backToTopButton",
     "exception": false
   }
 ]
