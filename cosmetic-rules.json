@@ -65951,6 +65951,11 @@
   },
   {
     "domains": [],
+    "selector": "sellwild-widget",
+    "exception": false
+  },
+  {
+    "domains": [],
     "selector": "span[data-ez-ph-id]",
     "exception": false
   },
@@ -92396,6 +92401,13 @@
       "yaledailynews.com"
     ],
     "selector": ".border-gray-200",
+    "exception": false
+  },
+  {
+    "domains": [
+      "clashreport.com"
+    ],
+    "selector": ".border-masthead-border.bg-off-white",
     "exception": false
   },
   {
@@ -123110,6 +123122,7 @@
       "metro.co.uk",
       "tld-list.com",
       "twitch-tools.rootonline.de",
+      "videocardz.com",
       "wccftech.com"
     ],
     "selector": "[rel*=\"sponsored\"]",
@@ -132702,7 +132715,7 @@
     "domains": [
       "x.com"
     ],
-    "selector": "[id^=\"urt\"]>ul>li:has([class*=\"data-ad-disclosure\"])",
+    "selector": "[id^=\"urt\"] > ul > li:has([class^=\"group-has-\\[\\[data-ad-disclosure\"])",
     "exception": false
   },
   {
@@ -154640,16 +154653,6 @@
   {
     "domains": [],
     "selector": "#back-to-top-scroll",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-top-btn",
     "exception": false
   }
 ]
