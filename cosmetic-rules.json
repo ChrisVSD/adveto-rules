@@ -110361,6 +110361,13 @@
   },
   {
     "domains": [
+      "pcguide.com"
+    ],
+    "selector": ".rdads",
+    "exception": false
+  },
+  {
+    "domains": [
       "birminghammail.co.uk",
       "bristolpost.co.uk",
       "dailyrecord.co.uk",
@@ -130510,6 +130517,13 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "#content > div:has(> img):not(:has(a))",
+    "exception": false
+  },
+  {
+    "domains": [
       "familytreenow.com"
     ],
     "selector": "#ftn_detail_left_side_organic",
@@ -132608,6 +132622,13 @@
   },
   {
     "domains": [
+      "producthunt.com"
+    ],
+    "selector": "[data-test^=\"homepage-section-\"] > section[data-container]:has(a[href=\"#\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "stockx.com"
     ],
     "selector": "[data-testid=\"banner-collage\"] .chakra-aspect-ratio:has(a[title*=\"Promo\"])",
@@ -133214,6 +133235,13 @@
   },
   {
     "domains": [
+      "noon.com"
+    ],
+    "selector": "div[class*=\"_emblaSlide_\"]:has(div[class*=\"_labelContainer_\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "pixabay.com"
     ],
     "selector": "div[class*=\"container--\"] > div:not([class*=\"--\"]):has(a[href*=\"sponsored_\"])",
@@ -133716,6 +133744,20 @@
   },
   {
     "domains": [
+      "noon.com"
+    ],
+    "selector": "div[id^=\"v-sensor-component-\"]:has(> div[class*=\"_dynamicBannerWrapper_\"] > div[class*=\"_dynamicBannerContainer_\"] > div[class*=\"_labelContainer_\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "noon.com"
+    ],
+    "selector": "div[id^=\"v-sensor-component-\"]:has(> div[class*=\"_labelContainer_\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "truthsocial.com"
     ],
     "selector": "div[item=\"[object Object]\"]:has(path[d=\"M17 7l-10 10\"])",
@@ -134007,6 +134049,13 @@
       "aboutyou.de"
     ],
     "selector": "li[data-testid^=\"productTileTracker-\"]:has(button[data-testid=\"spo\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "producthunt.com"
+    ],
+    "selector": "main > div[style*=\"cursor\"]:has(> div > span[style])",
     "exception": false
   },
   {
@@ -154618,41 +154667,6 @@
   {
     "domains": [],
     "selector": "#ast-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#auto-top-link",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-the-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-arrow",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-icon",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-top-scroll",
     "exception": false
   }
 ]
