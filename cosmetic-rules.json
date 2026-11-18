@@ -51811,6 +51811,11 @@
   },
   {
     "domains": [],
+    "selector": ".ii-snigel-billboard",
+    "exception": false
+  },
+  {
+    "domains": [],
     "selector": ".image-advertisement",
     "exception": false
   },
@@ -64142,6 +64147,11 @@
   {
     "domains": [],
     "selector": "[data-revive-zoneid]",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": "[data-shutterstock-state]",
     "exception": false
   },
   {
@@ -86238,6 +86248,13 @@
   },
   {
     "domains": [
+      "watzatsong.com"
+    ],
+    "selector": ".ad_container",
+    "exception": false
+  },
+  {
+    "domains": [
       "tribuneindia.com"
     ],
     "selector": ".ad_div_incls",
@@ -89218,6 +89235,13 @@
       "rok.guide"
     ],
     "selector": ".ancr-top-spacer",
+    "exception": false
+  },
+  {
+    "domains": [
+      "leetcode.com"
+    ],
+    "selector": ".announcement-bar__container",
     "exception": false
   },
   {
@@ -94219,6 +94243,7 @@
       "organicfacts.net",
       "orlandoweekly.com",
       "patriotfetch.com",
+      "pcguide.com",
       "pcoptimizedsettings.com",
       "politizoom.com",
       "premiumtimesng.com",
@@ -97312,6 +97337,13 @@
   },
   {
     "domains": [
+      "notmeter.com"
+    ],
+    "selector": ".exitlag-badge",
+    "exception": false
+  },
+  {
+    "domains": [
       "streamingmedia.com"
     ],
     "selector": ".expand",
@@ -98283,6 +98315,13 @@
       "pbs.org"
     ],
     "selector": ".footer__sub",
+    "exception": false
+  },
+  {
+    "domains": [
+      "arkadium.com"
+    ],
+    "selector": ".footer_ad--bottom",
     "exception": false
   },
   {
@@ -99763,6 +99802,13 @@
       "thenewdaily.com.au"
     ],
     "selector": ".h-\\[100px\\]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "emojipedia.org"
+    ],
+    "selector": ".h-\\[112px\\]",
     "exception": false
   },
   {
@@ -111053,6 +111099,13 @@
   },
   {
     "domains": [
+      "watzatsong.com"
+    ],
+    "selector": ".right-column-why-ads",
+    "exception": false
+  },
+  {
+    "domains": [
       "countrylife.co.uk",
       "cyclingweekly.com"
     ],
@@ -112187,6 +112240,34 @@
   },
   {
     "domains": [
+      "shattered.io"
+    ],
+    "selector": ".sh-ad-ia",
+    "exception": false
+  },
+  {
+    "domains": [
+      "shattered.io"
+    ],
+    "selector": ".sh-ad-leaderboard",
+    "exception": false
+  },
+  {
+    "domains": [
+      "shattered.io"
+    ],
+    "selector": ".sh-ad-rail",
+    "exception": false
+  },
+  {
+    "domains": [
+      "shattered.io"
+    ],
+    "selector": ".sh-eng-adslot",
+    "exception": false
+  },
+  {
+    "domains": [
       "soaphub.com"
     ],
     "selector": ".sh-sh_belowpost",
@@ -112804,9 +112885,23 @@
   },
   {
     "domains": [
+      "watzatsong.com"
+    ],
+    "selector": ".sidebar_lhs",
+    "exception": false
+  },
+  {
+    "domains": [
       "bxr.com"
     ],
     "selector": ".sidebar_promo",
+    "exception": false
+  },
+  {
+    "domains": [
+      "watzatsong.com"
+    ],
+    "selector": ".sidebar_rhs",
     "exception": false
   },
   {
@@ -113668,6 +113763,13 @@
   },
   {
     "domains": [
+      "news.lavx.hu"
+    ],
+    "selector": ".sponsor-slot",
+    "exception": false
+  },
+  {
+    "domains": [
       "cricketireland.ie"
     ],
     "selector": ".sponsor-strip",
@@ -113977,6 +114079,13 @@
       "libhunt.com"
     ],
     "selector": ".sponsors-list-content",
+    "exception": false
+  },
+  {
+    "domains": [
+      "acode.app"
+    ],
+    "selector": ".sponsors-section",
     "exception": false
   },
   {
@@ -119675,6 +119784,13 @@
   },
   {
     "domains": [
+      "notmeter.com"
+    ],
+    "selector": "[class*=\"ad-rail\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "cointelegraph.com",
       "doodle.com"
     ],
@@ -119791,6 +119907,13 @@
       "nocibe.fr"
     ],
     "selector": "[class=\"cms-criteo\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "notmeter.com"
+    ],
+    "selector": "[class=\"exitlag-promotion\"]",
     "exception": false
   },
   {
@@ -120080,6 +120203,13 @@
       "axios.com"
     ],
     "selector": "[data-ad-status=\"AD\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pngtree.com"
+    ],
+    "selector": "[data-ad-status]",
     "exception": false
   },
   {
@@ -120640,6 +120770,13 @@
   },
   {
     "domains": [
+      "arkadium.com"
+    ],
+    "selector": "[data-placement]",
+    "exception": false
+  },
+  {
+    "domains": [
       "extremetech.com"
     ],
     "selector": "[data-pogo=\"sidebar\"]",
@@ -120692,6 +120829,13 @@
       "washingtonpost.com"
     ],
     "selector": "[data-qa=\"right-rail-ad\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "arkadium.com"
+    ],
+    "selector": "[data-rail-widgets-below-ads]",
     "exception": false
   },
   {
@@ -129172,6 +129316,13 @@
   },
   {
     "domains": [
+      "chatgpt.com"
+    ],
+    "selector": "section[data-conversation-ads-supplement]",
+    "exception": false
+  },
+  {
+    "domains": [
       "bbc.com"
     ],
     "selector": "section[data-e2e=\"advertisement\"]",
@@ -133453,6 +133604,13 @@
   },
   {
     "domains": [
+      "chatgpt.com"
+    ],
+    "selector": "div[class^=\"scope-\"]:has(button[aria-haspopup=\"menu\"][aria-labelledby]):has(div[role=\"link\"]):has(img[inert][src^=\"data:image/\"], img[inert][src^=\"https://bzrcdn.openai.com/\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "staples.com"
     ],
     "selector": "div[class^=\"sku-configurator__banner\"]:has([aria-label=\"Sponsored Products\"])",
@@ -133628,6 +133786,13 @@
       "kohls.com"
     ],
     "selector": "div[data-testid^=\"wallet-wrapper-\"]:has(div[class=\"mt-3 text-xs\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "noon.com"
+    ],
+    "selector": "div[id*=\"-adBrandVideo-\"]",
     "exception": false
   },
   {
@@ -153356,6 +153521,13 @@
   },
   {
     "domains": [
+      "foxnews.com"
+    ],
+    "selector": "+js(aeld, /load|error/, \\,G=null)\\,clearTimeout(K)\\,!)",
+    "exception": false
+  },
+  {
+    "domains": [
       "ranker.com"
     ],
     "selector": "+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\\/\\d{4}\\./)",
@@ -153413,6 +153585,13 @@
       "mensjournal.com"
     ],
     "selector": "+js(json-edit, ..props.children.*[?.key==\"admiral-script\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "foxnews.com"
+    ],
+    "selector": "+js(nostif, \\,G=null)\\,clearTimeout(K)\\,!)",
     "exception": false
   },
   {
@@ -153561,7 +153740,6 @@
   {
     "domains": [
       "cbssports.com",
-      "foxnews.com",
       "gbatemp.net",
       "news.com.au",
       "pcworld.com",
@@ -153575,6 +153753,13 @@
       "usatoday.com"
     ],
     "selector": "+js(set, gnt.x.adm, '')",
+    "exception": false
+  },
+  {
+    "domains": [
+      "foxnews.com"
+    ],
+    "selector": "+js(set-constant, admrlWpJsonP, emptyObj)",
     "exception": false
   },
   {
@@ -154532,141 +154717,6 @@
   {
     "domains": [],
     "selector": ".addthis-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".follow-link-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".follow-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".followRSS",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".follow__rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".follow_us_rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".footer-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".footerButtonRSS",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".footerRSS",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".p-footer-rssLink",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".rss-blogroll",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".rss-footer",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".widget_rssiconwidget",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ArrowToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#BackToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#BtmToPageTopArea",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#Imgback2top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#J_returntop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#PAGE_TOP_LINK",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ReturnToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ScrollToTopButton",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ScrollToTopContainer",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#T-Hoch-Btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ToTopButtom",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#WidgetScrollToTop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#arrow-scroll-top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#arrow_to_site_top",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#ast-scroll-top",
     "exception": false
   }
 ]
