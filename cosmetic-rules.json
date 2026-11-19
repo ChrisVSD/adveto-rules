@@ -5366,11 +5366,6 @@
   },
   {
     "domains": [],
-    "selector": "#adbanner1",
-    "exception": false
-  },
-  {
-    "domains": [],
     "selector": "#adbannerbox",
     "exception": false
   },
@@ -5427,21 +5422,6 @@
   {
     "domains": [],
     "selector": "#adblock-small",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#adblock1",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#adblock2",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#adblock4",
     "exception": false
   },
   {
@@ -74167,6 +74147,13 @@
   },
   {
     "domains": [
+      "eqmusicblog.com"
+    ],
+    "selector": "#cb-bg-to",
+    "exception": false
+  },
+  {
+    "domains": [
       "cbn.com"
     ],
     "selector": "#cbn_leaderboard_atf",
@@ -86255,6 +86242,13 @@
   },
   {
     "domains": [
+      "onlinepdfedit.com"
+    ],
+    "selector": ".ad_demo",
+    "exception": false
+  },
+  {
+    "domains": [
       "tribuneindia.com"
     ],
     "selector": ".ad_div_incls",
@@ -86580,6 +86574,7 @@
   },
   {
     "domains": [
+      "mobile57.com",
       "moviechat.org"
     ],
     "selector": ".adc",
@@ -91594,9 +91589,9 @@
   },
   {
     "domains": [
-      "ewn.co.za"
+      "upday.com"
     ],
-    "selector": ".bg-surface-03.text-content-secondary.space-y-\\[0\\.1875rem\\].p-spacing-s.flex.flex-col.w-max.mx-auto",
+    "selector": ".bg-subtle",
     "exception": false
   },
   {
@@ -100916,6 +100911,13 @@
       "evtech.news"
     ],
     "selector": ".home-intel-ad-stack",
+    "exception": false
+  },
+  {
+    "domains": [
+      "nbcbayarea.com"
+    ],
+    "selector": ".home-module_ad",
     "exception": false
   },
   {
@@ -153521,6 +153523,7 @@
   },
   {
     "domains": [
+      "foxbusiness.com",
       "foxnews.com"
     ],
     "selector": "+js(aeld, /load|error/, \\,G=null)\\,clearTimeout(K)\\,!)",
@@ -153589,6 +153592,7 @@
   },
   {
     "domains": [
+      "foxbusiness.com",
       "foxnews.com"
     ],
     "selector": "+js(nostif, \\,G=null)\\,clearTimeout(K)\\,!)",
@@ -153760,6 +153764,14 @@
       "foxnews.com"
     ],
     "selector": "+js(set-constant, admrlWpJsonP, emptyObj)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "foxbusiness.com",
+      "foxnews.com"
+    ],
+    "selector": "+js(set-cookie-reload, admbenefits, 1)",
     "exception": false
   },
   {
