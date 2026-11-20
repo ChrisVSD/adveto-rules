@@ -47101,6 +47101,16 @@
   },
   {
     "domains": [],
+    "selector": ".dappier-ad-chain",
+    "exception": false
+  },
+  {
+    "domains": [],
+    "selector": ".dappier-ads-top",
+    "exception": false
+  },
+  {
+    "domains": [],
     "selector": ".dart-ad",
     "exception": false
   },
@@ -80187,6 +80197,13 @@
   },
   {
     "domains": [
+      "beloitdailynews.com"
+    ],
+    "selector": "#sticky-right-rail-spacer",
+    "exception": false
+  },
+  {
+    "domains": [
       "gumtree.com.au"
     ],
     "selector": "#sticky-top-container",
@@ -85304,6 +85321,13 @@
       "andscape.com"
     ],
     "selector": ".ad-incontent-wrapper",
+    "exception": false
+  },
+  {
+    "domains": [
+      "albertleatribune.com"
+    ],
+    "selector": ".ad-indicator-text",
     "exception": false
   },
   {
@@ -92280,6 +92304,13 @@
   },
   {
     "domains": [
+      "indianmasterminds.com"
+    ],
+    "selector": ".bodyAds",
+    "exception": false
+  },
+  {
+    "domains": [
       "boingboing.net"
     ],
     "selector": ".boing-amp-triple13-amp-1",
@@ -97020,9 +97051,23 @@
   },
   {
     "domains": [
+      "indianmasterminds.com"
+    ],
+    "selector": ".elementor > .elementor-element:has(> div.e-con-inner > div.elementor-widget-html div.bodyAds)",
+    "exception": false
+  },
+  {
+    "domains": [
       "sashares.co.za"
     ],
     "selector": ".elementor-48612",
+    "exception": false
+  },
+  {
+    "domains": [
+      "indianmasterminds.com"
+    ],
+    "selector": ".elementor-element > .elementor-widget-container > div:not([id]):has(> div.lazyloadads)",
     "exception": false
   },
   {
@@ -97080,6 +97125,20 @@
       "canyoublockit.com"
     ],
     "selector": ".elementor-widget-container > center > p",
+    "exception": false
+  },
+  {
+    "domains": [
+      "indianmasterminds.com"
+    ],
+    "selector": ".elementor-widget-html > .elementor-widget-container > div:not([id]):has(> div[id^=\"div-gpt-ad\"][data-adcode])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "indianmasterminds.com"
+    ],
+    "selector": ".elementor-widget-image > .elementor-widget-container:has(a:not([href^=\"https://indianmasterminds.com/\"])[target=\"_blank\"])",
     "exception": false
   },
   {
@@ -98607,6 +98666,13 @@
       "familytreenow.com"
     ],
     "selector": ".ftn_detail_mid_two",
+    "exception": false
+  },
+  {
+    "domains": [
+      "indianmasterminds.com"
+    ],
+    "selector": ".ftrstkyad",
     "exception": false
   },
   {
@@ -117288,7 +117354,8 @@
   },
   {
     "domains": [
-      "venturebeat.com"
+      "venturebeat.com",
+      "victoriabuzz.com"
     ],
     "selector": ".vb-ad-slot",
     "exception": false
@@ -118102,6 +118169,34 @@
       "bollywoodshaadis.com"
     ],
     "selector": ".wgt-continue-title",
+    "exception": false
+  },
+  {
+    "domains": [
+      "whispersinthecorridors.in"
+    ],
+    "selector": ".wh-ad-slot",
+    "exception": false
+  },
+  {
+    "domains": [
+      "whispersinthecorridors.in"
+    ],
+    "selector": ".wh-after-header-ad",
+    "exception": false
+  },
+  {
+    "domains": [
+      "whispersinthecorridors.in"
+    ],
+    "selector": ".wh-rail-ad",
+    "exception": false
+  },
+  {
+    "domains": [
+      "whispersinthecorridors.in"
+    ],
+    "selector": ".wh-slider-banner-ad",
     "exception": false
   },
   {
@@ -124332,6 +124427,13 @@
       "alibaba.com"
     ],
     "selector": "a[campaignid][target=\"_blank\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "videocardz.com"
+    ],
+    "selector": "a[class][href^=\"https://www.amazon.com\"][target]",
     "exception": false
   },
   {
@@ -142938,6 +143040,13 @@
   },
   {
     "domains": [
+      "primepages.sbs"
+    ],
+    "selector": "#popupOverlay",
+    "exception": false
+  },
+  {
+    "domains": [
       "sextvx.com"
     ],
     "selector": "#porntube_hor_bottom_ads",
@@ -146280,6 +146389,7 @@
   },
   {
     "domains": [
+      "fulltaboo.tv",
       "hdporn92.com",
       "javflix.net",
       "ofansleaks.com"
@@ -146334,6 +146444,7 @@
       "deepfake-porn.com",
       "deepfucks.com",
       "faply.cc",
+      "fulltaboo.tv",
       "hdpornflix.com",
       "hentaisexclub.com",
       "sexkbj.com",
@@ -154649,86 +154760,6 @@
   {
     "domains": [],
     "selector": ".g-cta-subscribe",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".hdr-sub-ad-01",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".nca-block-promo-banner",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".newsblock-support-cta",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".newsltter-iframe",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".pn-single-post-wrapper__newsletter-signup",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".subscription-tout",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#floaty-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#follow-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#footer-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#footerrss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#rightSocialRss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#rss-subscribe",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#rsslisting",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#sidebar-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#social-links-rss",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".addthis-rss",
     "exception": false
   }
 ]
