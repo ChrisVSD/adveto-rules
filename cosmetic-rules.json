@@ -71658,6 +71658,13 @@
   },
   {
     "domains": [
+      "thedailybeast.com"
+    ],
+    "selector": "#ad--pre-comments",
+    "exception": false
+  },
+  {
+    "domains": [
       "nationalrail.co.uk"
     ],
     "selector": "#ad-aboveHeader-a-wrapper",
@@ -75910,6 +75917,13 @@
   },
   {
     "domains": [
+      "thedailybeast.com"
+    ],
+    "selector": "#header-ad__wrapper",
+    "exception": false
+  },
+  {
+    "domains": [
       "fxempire.com"
     ],
     "selector": "#header-ads-block",
@@ -78129,6 +78143,13 @@
       "fortune.com"
     ],
     "selector": "#outbrain-container",
+    "exception": false
+  },
+  {
+    "domains": [
+      "thedailybeast.com"
+    ],
+    "selector": "#outstream-video-ad-wrap",
     "exception": false
   },
   {
@@ -82561,20 +82582,6 @@
   },
   {
     "domains": [
-      "thedailybeast.com"
-    ],
-    "selector": ".CheatSheetList__placeholder",
-    "exception": false
-  },
-  {
-    "domains": [
-      "thedailybeast.com"
-    ],
-    "selector": ".Cheat__top-ad",
-    "exception": false
-  },
-  {
-    "domains": [
       "tutiempo.net"
     ],
     "selector": ".ContBannerTop",
@@ -82723,13 +82730,6 @@
       "icodrops.com"
     ],
     "selector": ".Feature-Line",
-    "exception": false
-  },
-  {
-    "domains": [
-      "thedailybeast.com"
-    ],
-    "selector": ".Footer__coupons-wrapper",
     "exception": false
   },
   {
@@ -83411,13 +83411,6 @@
       "ultimate-guitar.com"
     ],
     "selector": ".SiteWideBanner",
-    "exception": false
-  },
-  {
-    "domains": [
-      "thedailybeast.com"
-    ],
-    "selector": ".Sizer",
     "exception": false
   },
   {
@@ -85096,7 +85089,6 @@
       "storyboard18.com",
       "techrepublic.com",
       "the-decoder.com",
-      "thedailybeast.com",
       "thelocal.at",
       "thelocal.ch",
       "thelocal.de",
@@ -85672,6 +85664,13 @@
       "barandbench.com"
     ],
     "selector": ".ad-slot-row-m__ad-Wrapper__cusCS",
+    "exception": false
+  },
+  {
+    "domains": [
+      "thedailybeast.com"
+    ],
+    "selector": ".ad-slot-shell",
     "exception": false
   },
   {
@@ -92290,6 +92289,13 @@
   },
   {
     "domains": [
+      "thedailybeast.com"
+    ],
+    "selector": ".body-ad",
+    "exception": false
+  },
+  {
+    "domains": [
       "apkmody.mobi"
     ],
     "selector": ".body-fixed-footer",
@@ -92342,6 +92348,18 @@
       "myanimelist.net"
     ],
     "selector": ".bookstores-recommend-plugin",
+    "exception": false
+  },
+  {
+    "domains": [
+      "artnews.com",
+      "deadline.com",
+      "goldderby.com",
+      "hollywoodreporter.com",
+      "variety.com",
+      "vibe.com"
+    ],
+    "selector": ".boomerang",
     "exception": false
   },
   {
@@ -102590,6 +102608,13 @@
   },
   {
     "domains": [
+      "stackexchange.com"
+    ],
+    "selector": ".js-zone-container",
+    "exception": false
+  },
+  {
+    "domains": [
       "khaleejtimes.com"
     ],
     "selector": ".js_ad_st",
@@ -105666,13 +105691,6 @@
       "tipranks.com"
     ],
     "selector": ".mobile_displaynone.flexccc",
-    "exception": false
-  },
-  {
-    "domains": [
-      "thedailybeast.com"
-    ],
-    "selector": ".mobiledoc-sizer",
     "exception": false
   },
   {
@@ -115612,7 +115630,7 @@
     "domains": [
       "thedailybeast.com"
     ],
-    "selector": ".tdb-ads-block",
+    "selector": ".tdb-ad",
     "exception": false
   },
   {
@@ -130321,6 +130339,13 @@
   },
   {
     "domains": [
+      "pinterest.*"
+    ],
+    "selector": "[role=\"listitem\"]:has(.rounding0_j.fullWidth_1f .subtle_1h.lineClamp_1q)",
+    "exception": false
+  },
+  {
+    "domains": [
       "wayfair.*"
     ],
     "selector": "a[data-enzyme-id=\"WssBannerContainer\"]",
@@ -130517,7 +130542,7 @@
   },
   {
     "domains": [
-      "pinterest.com"
+      "pinterest.*"
     ],
     "selector": "div[data-grid-item]:has([data-test-pin-id] [data-test-id^=\"one-tap-desktop\"] > a[href^=\"http\"][rel=\"nofollow\"]):not(body > div)",
     "exception": false
@@ -131905,6 +131930,13 @@
       "property24.com"
     ],
     "selector": ".p24_tileContainer:has([src^=\"/Content/images/Optimized/Icons/icon_tag_tile.svg?\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "gamepadla.com"
+    ],
+    "selector": ".panel-container:has(img[src*=\"/upload/slider/\"])",
     "exception": false
   },
   {
@@ -138855,6 +138887,13 @@
       "msn.com"
     ],
     "selector": ".intra-article-ad-half",
+    "exception": false
+  },
+  {
+    "domains": [
+      "msn.com"
+    ],
+    "selector": ".me-stripe-tile-content:has(> a[href^=\"https://temuaffiliateprogram.pxf.io/\"])",
     "exception": false
   },
   {
@@ -154735,31 +154774,6 @@
   {
     "domains": [],
     "selector": ".consumer-marketing-unit--article-mid-content",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".cta_magazine_subscription_wrap",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".ecom-placement",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".ecom-promo2",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".featured-post-banner__newsletter-signup",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".g-cta-subscribe",
     "exception": false
   }
 ]
