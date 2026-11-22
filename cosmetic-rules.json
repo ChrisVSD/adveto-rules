@@ -74630,6 +74630,13 @@
   },
   {
     "domains": [
+      "indiatimes.com"
+    ],
+    "selector": "#custom_ad_wrapper_0",
+    "exception": false
+  },
+  {
+    "domains": [
       "miloserdov.org",
       "winaero.com",
       "wpneon.com"
@@ -107147,7 +107154,8 @@
   },
   {
     "domains": [
-      "english.nv.ua"
+      "english.nv.ua",
+      "kyivindependent.com"
     ],
     "selector": ".nts-ad",
     "exception": false
@@ -107913,6 +107921,13 @@
       "calculatorsoup.com"
     ],
     "selector": ".pages",
+    "exception": false
+  },
+  {
+    "domains": [
+      "amateurphotographer.com"
+    ],
+    "selector": ".pageskin-ads",
     "exception": false
   },
   {
@@ -120763,6 +120778,13 @@
   },
   {
     "domains": [
+      "igorslab.de"
+    ],
+    "selector": "[data-igorslab-trackid]",
+    "exception": false
+  },
+  {
+    "domains": [
       "jeffdornik.com"
     ],
     "selector": "[data-image-info]",
@@ -127671,6 +127693,13 @@
   },
   {
     "domains": [
+      "igorslab.de"
+    ],
+    "selector": "div[id^=\"advads_ad_widget-\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "antiguanewsroom.com"
     ],
     "selector": "div[id^=\"antig-\"]",
@@ -130804,6 +130833,13 @@
   },
   {
     "domains": [
+      "igorslab.de"
+    ],
+    "selector": "#extras > #single-sticky + div:has(img)",
+    "exception": false
+  },
+  {
+    "domains": [
       "familytreenow.com"
     ],
     "selector": "#ftn_detail_left_side_organic",
@@ -131490,6 +131526,13 @@
       "upfivedown.com"
     ],
     "selector": ".entry > hr.wp-block-separator:has(+ .has-text-align-center)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "igorslab.de"
+    ],
+    "selector": ".entry-content > a:has(> img):has(+ aside.ilab-ad-privacy-footer)",
     "exception": false
   },
   {
@@ -132473,6 +132516,13 @@
   },
   {
     "domains": [
+      "igorslab.de"
+    ],
+    "selector": ".widget_custom_html:has(> .widget-title + .textwidget:empty)",
+    "exception": false
+  },
+  {
+    "domains": [
       "evreporter.com"
     ],
     "selector": ".widget_media_image:not(:has(a[href^=\"https://evreporter.com/\"]))",
@@ -133023,7 +133073,7 @@
     "domains": [
       "x.com"
     ],
-    "selector": "[id^=\"urt\"] > ul > li:has([class^=\"group-has-\\[\\[data-ad-disclosure\"])",
+    "selector": "[id^=\"urt\"]>ul>li:has([class*=\"data-ad-disclosure\"])",
     "exception": false
   },
   {
@@ -133224,6 +133274,13 @@
       "kohls.com"
     ],
     "selector": "astro-island[component-export=\"KmnMarqueeBannerWrapper\"]:has(img[alt=\"Sponsored Banner\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "igorslab.de"
+    ],
+    "selector": "body > div:has(> [data-igorslab-trackid])",
     "exception": false
   },
   {
@@ -133462,6 +133519,13 @@
       "tripadvisor.*"
     ],
     "selector": "div:has(> div[class=\"ui_columns is-multiline \"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "indiatimes.com"
+    ],
+    "selector": "div:has(> div[id^=\"div-gpt-ad-\"][id*=\"-atf\"])",
     "exception": false
   },
   {
@@ -133926,6 +133990,13 @@
   },
   {
     "domains": [
+      "indiatimes.com"
+    ],
+    "selector": "div[data-type=\"in_view\"]:has(> span + div .adWrapperPlaceholder > div[id^=\"div-gpt-ad-mrec\"])",
+    "exception": false
+  },
+  {
+    "domains": [
       "noon.com"
     ],
     "selector": "div[id*=\"-adBrandVideo-\"]",
@@ -134231,6 +134302,13 @@
       "temu.com"
     ],
     "selector": "li.splide__slide:has([role=\"text\"][aria-label=\"AD\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "indiatimes.com"
+    ],
+    "selector": "li:has(> .adInv:only-child)",
     "exception": false
   },
   {
@@ -135690,6 +135768,13 @@
   },
   {
     "domains": [
+      "amateurphotographer.com"
+    ],
+    "selector": "#VideoAdContainer",
+    "exception": false
+  },
+  {
+    "domains": [
       "gunsandammo.com"
     ],
     "selector": "#VideoPlayerDivIframe",
@@ -136265,6 +136350,7 @@
   },
   {
     "domains": [
+      "amateurphotographer.com",
       "stuff.tv"
     ],
     "selector": ".c-squirrel-embed",
@@ -146391,7 +146477,9 @@
   },
   {
     "domains": [
-      "boyfriendtv.com"
+      "ashemaletube.com",
+      "boyfriendtv.com",
+      "fetishpapa.com"
     ],
     "selector": ".grid:has(a[href*=\"faphouse.com\"])",
     "exception": false
@@ -148417,7 +148505,9 @@
   },
   {
     "domains": [
-      "boyfriendtv.com"
+      "ashemaletube.com",
+      "boyfriendtv.com",
+      "fetishpapa.com"
     ],
     "selector": ".right-rail-block",
     "exception": false
@@ -151541,7 +151631,9 @@
   },
   {
     "domains": [
-      "boyfriendtv.com"
+      "ashemaletube.com",
+      "boyfriendtv.com",
+      "fetishpapa.com"
     ],
     "selector": "a[href*=\"faphouse.com\"]",
     "exception": false
@@ -152186,6 +152278,13 @@
       "twiman.net"
     ],
     "selector": "div[class*=\"my-\"][class*=\"px\\]\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "ashemaletube.com"
+    ],
+    "selector": "div[class*=\"pinbar\"]",
     "exception": false
   },
   {
@@ -154709,71 +154808,6 @@
   {
     "domains": [],
     "selector": ".js-stickyFooter.u-bottom0.u-fixed",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".postActionsBar-container",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".u-zIndexMetabar.u-fixed",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#back-to-home > .back-to-home-button",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#close-btn-wrapper > #close-back-btn",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".article-section > .ui-button-close",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".close-wrap > .close-overlay",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".gnt_m_fs.gnt_m",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#nca-behavioural-banner-wrapper",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".RelatedStoriesSupportUsComboInlineContentresponsive",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".cm-failsafe",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".cm-hero-container",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".cn_ecom_placement",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".consumer-marketing-unit--article-mid-content",
     "exception": false
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T09:53:09.270Z",
+  "generatedAt": "2026-11-22T09:49:42.412Z",
   "sources": [
     {
       "name": "priority-hosts.txt",
@@ -7,23 +7,23 @@
     },
     {
       "name": "https://easylist.to/easylist/easylist.txt",
-      "sha256": "a00ca86d6cb893c8f9a49f4deafe8227b046949f953e7834e9543b0f83c93d32"
+      "sha256": "e0a55447f98cef7ad3896d4ba99f28a5b81fcaa323eafafcaf3adf674f288f88"
     },
     {
       "name": "https://easylist.to/easylist/easyprivacy.txt",
-      "sha256": "ed26859151fbb4049bc12f1eff6a3bff30259a5a119c1f0c88c097f29ed84609"
+      "sha256": "99736a46e4883d8709be8167fdb486e2dad1a9a013fffa580ef767642534a356"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "sha256": "9a49eaa23d2851f6635079d87a362c1ff4af03fd1b138cdf9911f58fb4c7c3f8"
+      "sha256": "be62158bf58a7992f07bb9fceae8c7691d9b21dda58ab29db3d9a80051b8709d"
     },
     {
       "name": "https://easylist.to/easylist/fanboy-social.txt",
-      "sha256": "21f8ba098b4e3e080d3f8c7b157976baa8707acb0a48038bcf666f515dfaa9c5"
+      "sha256": "9ff1ac73c3b499565617586a3c820ee7b2e6e75850a1e91649f649b66a380c40"
     },
     {
       "name": "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
-      "sha256": "4f1558709583bb25c04f146c9c81c44503e1495ba9529f10d892e173d62495c8"
+      "sha256": "94a4266fda04756dcddf0b462d1c9a08b4f5d03faade8c129944de6cbe9d57db"
     },
     {
       "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
@@ -31,7 +31,7 @@
     },
     {
       "name": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt",
-      "sha256": "6e4328d240075c97aebe8c3f6cd61daa33a5f212a563acc8f5d1a3362fdaee18"
+      "sha256": "eacd97f7f03a5c5d8346072e366e5c5e86069e3135dd160e2d7a9300d99b3bdd"
     }
   ],
   "networkRules": 59800,
@@ -40,7 +40,7 @@
   "cosmeticRules": 25000,
   "nsfwSource": {
     "name": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/nsfw.txt",
-    "sha256": "57f9093fe8f02d5baee4016f3d7e7e5377ceed6f0a5cb66c00eae90ed426ef87"
+    "sha256": "13f79d71f99f2a0c0104b4ebe4fd7982d0c412fb1d0cb27d1a0fe4ca1746e98a"
   },
   "nsfwRules": 29900
 }
