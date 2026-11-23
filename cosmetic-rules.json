@@ -85198,6 +85198,13 @@
   },
   {
     "domains": [
+      "gamertweak.com"
+    ],
+    "selector": ".ad-fixed-container",
+    "exception": false
+  },
+  {
+    "domains": [
       "404media.co"
     ],
     "selector": ".ad-fixed__wrapper",
@@ -88301,6 +88308,7 @@
       "downzen.com",
       "dw.com",
       "escapeatx.com",
+      "europeantour.com",
       "foodsforbetterhealth.com",
       "gemtvasia.com",
       "hcn.org",
@@ -89098,6 +89106,13 @@
       "antimusic.com"
     ],
     "selector": ".am-center",
+    "exception": false
+  },
+  {
+    "domains": [
+      "gridinsoft.com"
+    ],
+    "selector": ".am-report-anchor",
     "exception": false
   },
   {
@@ -90647,6 +90662,7 @@
   },
   {
     "domains": [
+      "ascopost.com",
       "kingmods.net",
       "tappedout.net",
       "tvinsider.com"
@@ -92360,11 +92376,14 @@
   {
     "domains": [
       "artnews.com",
+      "billboard.com",
       "deadline.com",
       "goldderby.com",
       "hollywoodreporter.com",
+      "sportico.com",
       "variety.com",
-      "vibe.com"
+      "vibe.com",
+      "wwd.com"
     ],
     "selector": ".boomerang",
     "exception": false
@@ -94283,6 +94302,7 @@
       "mymodernmet.com",
       "mymotherlode.com",
       "nationalfile.com",
+      "navalnews.com",
       "nexdrive.lol",
       "nexusgames.to",
       "nintendoeverything.com",
@@ -112062,6 +112082,13 @@
   },
   {
     "domains": [
+      "ascopost.com"
+    ],
+    "selector": ".section--full-width-ad",
+    "exception": false
+  },
+  {
+    "domains": [
       "finextra.com"
     ],
     "selector": ".section--minitextad",
@@ -126244,6 +126271,13 @@
   },
   {
     "domains": [
+      "pexels.com"
+    ],
+    "selector": "div[class^=\"AfterDownloadModal_adContainer\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "sportinglife.com"
     ],
     "selector": "div[class^=\"Article__FlashTalkingWrapper-\"]",
@@ -132975,6 +133009,13 @@
     "domains": [
       "pexels.com"
     ],
+    "selector": "[data-testid=\"cell\"]:has(a[href*=\"/k/eyJ\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pexels.com"
+    ],
     "selector": "[data-testid=\"column\"] [data-testid=\"item\"]:has([class*=\"AIGCAdShared\"])",
     "exception": false
   },
@@ -133011,6 +133052,13 @@
       "farfetch.com"
     ],
     "selector": "[data-testid=\"featured\"]:has([data-ffref*=\"sponsoredBy\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pexels.com"
+    ],
+    "selector": "[data-testid=\"item\"]:has(a[href*=\"utm_campaign=aigc_pexelscampaign\"])",
     "exception": false
   },
   {
@@ -154779,35 +154827,5 @@
     ],
     "selector": "#credential_picker_container",
     "exception": true
-  },
-  {
-    "domains": [],
-    "selector": "#consumer-app > #navbar-wrap > .pm-root-announcement",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#consumer-app > .modals-wrap > .pm-follow-v2",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".pm-follow-wrap",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".bp-banner",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#hot-jobs",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".js-stickyFooter.u-bottom0.u-fixed",
-    "exception": false
   }
 ]
