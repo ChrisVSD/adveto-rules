@@ -133121,7 +133121,21 @@
     "domains": [
       "x.com"
     ],
-    "selector": "[id^=\"urt\"]>ul>li:has([class*=\"data-ad-disclosure\"])",
+    "selector": "[id^=\"urt\"] > ul > li:has([class*=\"data-ad-disclosure\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "x.com"
+    ],
+    "selector": "[id^=\"urt\"] > ul > li:has([target=\"_blank\"][href*=\"?twclid=\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "x.com"
+    ],
+    "selector": "[id^=\"urt\"] > ul > li[data-index]:has(.x-link+button [href=\"#icon-more-dots-hor\"])",
     "exception": false
   },
   {
@@ -154813,19 +154827,5 @@
     ],
     "selector": ".vspl__gtap-notification-content",
     "exception": false
-  },
-  {
-    "domains": [
-      "thebetterindia.com"
-    ],
-    "selector": ".vspl__gtap-notification-overlay",
-    "exception": false
-  },
-  {
-    "domains": [
-      "dashboard.razorpay.com"
-    ],
-    "selector": "#credential_picker_container",
-    "exception": true
   }
 ]
