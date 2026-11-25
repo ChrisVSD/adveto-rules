@@ -85818,6 +85818,13 @@
   },
   {
     "domains": [
+      "simpleflying.com"
+    ],
+    "selector": ".ad-zone",
+    "exception": false
+  },
+  {
+    "domains": [
       "robtex.com"
     ],
     "selector": ".ad0c",
@@ -102635,13 +102642,6 @@
   },
   {
     "domains": [
-      "stackexchange.com"
-    ],
-    "selector": ".js-zone-container",
-    "exception": false
-  },
-  {
-    "domains": [
       "khaleejtimes.com"
     ],
     "selector": ".js_ad_st",
@@ -112830,7 +112830,8 @@
   {
     "domains": [
       "makeuseof.com",
-      "polygon.com"
+      "polygon.com",
+      "simpleflying.com"
     ],
     "selector": ".sidebar-default",
     "exception": false
@@ -125593,6 +125594,13 @@
   },
   {
     "domains": [
+      "simpleflying.com"
+    ],
+    "selector": "a[rel*=\"sponsored\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "amishamerica.com"
     ],
     "selector": "a[rel=\"nofollow\"] > img",
@@ -125657,6 +125665,14 @@
       "kroger.com"
     ],
     "selector": "a[title^=\"Advertisement:\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "justjared.com",
+      "theblast.com"
+    ],
+    "selector": "ad-component",
     "exception": false
   },
   {
@@ -132396,6 +132412,13 @@
       "thesun.co.uk"
     ],
     "selector": ".sun-grid-container:has([class*=\"ad_widget\"])",
+    "exception": false
+  },
+  {
+    "domains": [
+      "aol.com"
+    ],
+    "selector": ".swiper-slide:has(.dl__slide--ad)",
     "exception": false
   },
   {
@@ -141189,6 +141212,13 @@
       "pexels.com"
     ],
     "selector": "[data-testid=\"column\"] [data-testid=\"item\"]:has-text(Sponsored)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "pinterest.com"
+    ],
+    "selector": "div[data-grid-item]:has(a:has-text(/(Ad|Sponsored|Sponsorisé|Gesponsert|Gesponsord|Promocionado|Patrocinado|Sponsorizzato|Sponsorowane|広告|贊助內容|赞助的 Pin 图|후원 핀|ממומן|قيد الدعم|Được tài trợ|प्रायोजित|স্পনসর করা|స్పాన్సర్ చేసారు|Спонсорований)[\\u200B-\\u200D\\uFEFF]*$/))",
     "exception": false
   },
   {
@@ -153889,7 +153919,9 @@
       "themarysue.com",
       "theoutlookonline.com",
       "touchtapplay.com",
-      "wegotthiscovered.com"
+      "tweaktown.com",
+      "wegotthiscovered.com",
+      "wfaa.com"
     ],
     "selector": "+js(aost, decodeURI, /(?=^(?!.*\\.js))/)",
     "exception": false
@@ -154798,34 +154830,6 @@
   {
     "domains": [],
     "selector": "#credential_picker_container",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#credential_picker_iframe",
-    "exception": false
-  },
-  {
-    "domains": [
-      "pinterest.com",
-      "reddit.com"
-    ],
-    "selector": "#credential_picker_container",
-    "exception": false
-  },
-  {
-    "domains": [
-      "pinterest.com",
-      "reddit.com"
-    ],
-    "selector": "#credential_picker_iframe",
-    "exception": false
-  },
-  {
-    "domains": [
-      "thebetterindia.com"
-    ],
-    "selector": ".vspl__gtap-notification-content",
     "exception": false
   }
 ]
