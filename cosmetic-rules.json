@@ -80494,6 +80494,13 @@
   },
   {
     "domains": [
+      "techmeme.com"
+    ],
+    "selector": "#tdbuacdq",
+    "exception": false
+  },
+  {
+    "domains": [
       "based-politics.com"
     ],
     "selector": "#tdi_107",
@@ -94806,6 +94813,13 @@
   },
   {
     "domains": [
+      "dotnetfiddle.net"
+    ],
+    "selector": ".container-sponsor",
+    "exception": false
+  },
+  {
+    "domains": [
       "thejournal-news.net"
     ],
     "selector": ".container.lightblue",
@@ -107761,6 +107775,13 @@
   },
   {
     "domains": [
+      "gamepadla.com"
+    ],
+    "selector": ".pMain + div:not([class])[style*=\"aspect-ratio\"]",
+    "exception": false
+  },
+  {
+    "domains": [
       "startpage.com"
     ],
     "selector": ".pa-amp",
@@ -111804,6 +111825,13 @@
   },
   {
     "domains": [
+      "geeksforgeeks.org"
+    ],
+    "selector": ".saleModalPanel",
+    "exception": false
+  },
+  {
+    "domains": [
       "takeuforward.org"
     ],
     "selector": ".sales-timer-banner",
@@ -113712,6 +113740,13 @@
       "semiengineering.com"
     ],
     "selector": ".sp_img_div",
+    "exception": false
+  },
+  {
+    "domains": [
+      "techmeme.com"
+    ],
+    "selector": ".sp_post",
     "exception": false
   },
   {
@@ -136935,6 +136970,13 @@
   },
   {
     "domains": [
+      "ign.com"
+    ],
+    "selector": ".pgOutstream",
+    "exception": false
+  },
+  {
+    "domains": [
       "picrew.me"
     ],
     "selector": ".play-Imagemaker_Footer",
@@ -140726,6 +140768,13 @@
       "fxempire.com"
     ],
     "selector": "span[display=\"inline-block\"]:has-text(Advertisement)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "gamepadla.com"
+    ],
+    "selector": ".pMain:has(> .relative > script:has-text(gpdl_hb_all))",
     "exception": false
   },
   {
@@ -146571,7 +146620,8 @@
     "domains": [
       "ashemaletube.com",
       "boyfriendtv.com",
-      "fetishpapa.com"
+      "fetishpapa.com",
+      "pornoxo.com"
     ],
     "selector": ".grid:has(a[href*=\"faphouse.com\"])",
     "exception": false
@@ -148599,7 +148649,8 @@
     "domains": [
       "ashemaletube.com",
       "boyfriendtv.com",
-      "fetishpapa.com"
+      "fetishpapa.com",
+      "pornoxo.com"
     ],
     "selector": ".right-rail-block",
     "exception": false
@@ -151492,6 +151543,13 @@
   },
   {
     "domains": [
+      "pornoxo.com"
+    ],
+    "selector": "a.player-click-layer",
+    "exception": false
+  },
+  {
+    "domains": [
       "freeuseporn.com"
     ],
     "selector": "a:has(svg[class*=\"lucide-chevron-right\"]):not([href^=\"/\"])",
@@ -151725,7 +151783,8 @@
     "domains": [
       "ashemaletube.com",
       "boyfriendtv.com",
-      "fetishpapa.com"
+      "fetishpapa.com",
+      "pornoxo.com"
     ],
     "selector": "a[href*=\"faphouse.com\"]",
     "exception": false
@@ -153329,6 +153388,14 @@
   },
   {
     "domains": [
+      "ashemaletube.com",
+      "boyfriendtv.com"
+    ],
+    "selector": "head > style:-abp-contains(page-shell) {remove:true;}",
+    "exception": false
+  },
+  {
+    "domains": [
       "boyfriendtv.com"
     ],
     "selector": "#b-page-frame > * {pointer-events:auto;}",
@@ -153770,6 +153837,7 @@
       "cbs8.com",
       "chattanoogacw.com",
       "cleveland.com",
+      "crazygames.com",
       "crooksandliars.com",
       "cwtv.com",
       "deadline.com",
@@ -153890,13 +153958,32 @@
   },
   {
     "domains": [
+      "10tv.com",
+      "11alive.com",
+      "12news.com",
+      "13newsnow.com",
+      "5newsonline.com",
+      "9news.com",
+      "abc10.com",
+      "abc15.com",
+      "ajc.com",
       "al.com",
       "attackofthefanboy.com",
       "beavertonvalleytimes.com",
+      "cbs8.com",
       "destructoid.com",
+      "firstcoastnews.com",
+      "fox2now.com",
+      "fox61.com",
       "gamepur.com",
       "gamerjournalist.com",
       "gameskinny.com",
+      "kare11.com",
+      "kens5.com",
+      "kgw.com",
+      "khou.com",
+      "king5.com",
+      "ksdk.com",
       "lehighvalleylive.com",
       "lehighvalleylivecom",
       "lgbtqnation.com",
@@ -153904,6 +153991,7 @@
       "masslive.com",
       "mlive.com",
       "news8000.com",
+      "newscentermaine.com",
       "oregonlive.com",
       "pcwelt.de",
       "pennlive.com",
@@ -153918,10 +154006,29 @@
       "thebeenews.com",
       "themarysue.com",
       "theoutlookonline.com",
+      "timesofindia.indiatimes.com",
       "touchtapplay.com",
       "tweaktown.com",
+      "wbir.com",
+      "wcnc.com",
       "wegotthiscovered.com",
-      "wfaa.com"
+      "wfaa.com",
+      "wfmynews2.com",
+      "wgrz.com",
+      "whas11.com",
+      "winnipegfreepress.com",
+      "wiz.io",
+      "wkyc.com",
+      "wltx.com",
+      "wnep.com",
+      "wqad.com",
+      "wsvn.com",
+      "wthr.com",
+      "wtol.com",
+      "wtsp.com",
+      "wusa9.com",
+      "wwltv.com",
+      "wzzm13.com"
     ],
     "selector": "+js(aost, decodeURI, /(?=^(?!.*\\.js))/)",
     "exception": false
@@ -154785,51 +154892,6 @@
   {
     "domains": [],
     "selector": ".js-pn.payment-notification",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".noti-container-main",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".source-woocommerce.nx-notification",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".wpcsn-notification-inner",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".yo-notification",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".es-badge-container",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".vjs-pip-y-bottom",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "div.l > .acu.act",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "[name=\"bridged-flipcard-div\"]",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#credential_picker_container",
     "exception": false
   }
 ]
