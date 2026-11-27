@@ -73508,9 +73508,31 @@
   },
   {
     "domains": [
-      "raspberrytips.com"
+      "raspberrytips.com",
+      "techbarrista.com"
     ],
     "selector": "#block-11",
+    "exception": false
+  },
+  {
+    "domains": [
+      "techbarrista.com"
+    ],
+    "selector": "#block-12",
+    "exception": false
+  },
+  {
+    "domains": [
+      "techbarrista.com"
+    ],
+    "selector": "#block-13",
+    "exception": false
+  },
+  {
+    "domains": [
+      "techbarrista.com"
+    ],
+    "selector": "#block-14",
     "exception": false
   },
   {
@@ -73525,6 +73547,13 @@
       "dodi-repacks.site"
     ],
     "selector": "#block-17",
+    "exception": false
+  },
+  {
+    "domains": [
+      "techbarrista.com"
+    ],
+    "selector": "#block-20",
     "exception": false
   },
   {
@@ -75961,6 +75990,13 @@
       "dominicantoday.com"
     ],
     "selector": "#header-banners",
+    "exception": false
+  },
+  {
+    "domains": [
+      "shiftdelete.net"
+    ],
+    "selector": "#header-container",
     "exception": false
   },
   {
@@ -94266,6 +94302,8 @@
       "epicdope.com",
       "eurweb.com",
       "fandomwire.com",
+      "fcportables.com",
+      "filecatchers.com",
       "firstcuriosity.com",
       "firstsportz.com",
       "flashbak.com",
@@ -112053,6 +112091,13 @@
   },
   {
     "domains": [
+      "shiftdelete.net"
+    ],
+    "selector": ".sd-ad",
+    "exception": false
+  },
+  {
+    "domains": [
       "cyclinguptodate.com",
       "tennisuptodate.com"
     ],
@@ -115288,6 +115333,13 @@
   },
   {
     "domains": [
+      "bestbuy.ca"
+    ],
+    "selector": ".superLeaderboard_dvejh",
+    "exception": false
+  },
+  {
+    "domains": [
       "atalayar.com",
       "express.co.uk",
       "the-express.com"
@@ -115864,6 +115916,13 @@
       "semiconductor-today.com"
     ],
     "selector": ".teaserexternal.teaser",
+    "exception": false
+  },
+  {
+    "domains": [
+      "techbarrista.com"
+    ],
+    "selector": ".techb-entity-placement",
     "exception": false
   },
   {
@@ -123404,6 +123463,13 @@
       "samfw.com"
     ],
     "selector": "[name=\"chimera_b\"]",
+    "exception": false
+  },
+  {
+    "domains": [
+      "phoronix.com"
+    ],
+    "selector": "[name=\"phoronix_desktop_leaderboard_header\"]",
     "exception": false
   },
   {
@@ -153968,6 +154034,8 @@
       "abc15.com",
       "ajc.com",
       "al.com",
+      "artforum.com",
+      "artnews.com",
       "attackofthefanboy.com",
       "beavertonvalleytimes.com",
       "cbs8.com",
@@ -153978,12 +154046,14 @@
       "gamepur.com",
       "gamerjournalist.com",
       "gameskinny.com",
+      "indiewire.com",
       "kare11.com",
       "kens5.com",
       "kgw.com",
       "khou.com",
       "king5.com",
       "ksdk.com",
+      "kvue.com",
       "lehighvalleylive.com",
       "lehighvalleylivecom",
       "lgbtqnation.com",
@@ -153999,6 +154069,8 @@
       "primagames.com",
       "progameguides.com",
       "queerty.com",
+      "robbreport.com",
+      "rollingstone.com",
       "siliconera.com",
       "silive.com",
       "sporcle.com",
@@ -154009,6 +154081,8 @@
       "timesofindia.indiatimes.com",
       "touchtapplay.com",
       "tweaktown.com",
+      "variety.com",
+      "vibe.com",
       "wbir.com",
       "wcnc.com",
       "wegotthiscovered.com",
@@ -154027,6 +154101,7 @@
       "wtol.com",
       "wtsp.com",
       "wusa9.com",
+      "wwd.com",
       "wwltv.com",
       "wzzm13.com"
     ],
@@ -154186,7 +154261,8 @@
       "baeldung.com",
       "cheatsheet.com",
       "pcwelt.de",
-      "pwinsider.com"
+      "pwinsider.com",
+      "tasteofhome.com"
     ],
     "selector": "+js(rmnt, script, admiral)",
     "exception": false
@@ -154347,6 +154423,20 @@
       "search.rakuten.co.jp"
     ],
     "selector": "+js(aeld, mouseup, sendClickEvent)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "ekitan.com"
+    ],
+    "selector": "+js(set, executeImpressionTicketTracking, noopFunc)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "ekitan.com"
+    ],
+    "selector": "+js(set, initHomesTracking, noopFunc)",
     "exception": false
   },
   {
@@ -154837,61 +154927,6 @@
   {
     "domains": [],
     "selector": ".preezie-widget-modal",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#cb-widget-sales-pop",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#goodreviews-wrapper",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#message-purchased.wn-background-template-type-2",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#message-purchased.wn-extended",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#mps-sales-notification",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#recent_sales_ticker",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "#sales-pop-plugin",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".cbSalesPopContainer",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".ck-sp-app-wrapper",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".fomo-notification-container",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".js-pn.payment-notification",
     "exception": false
   }
 ]
