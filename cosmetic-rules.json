@@ -76697,6 +76697,13 @@
   },
   {
     "domains": [
+      "steamdb.info"
+    ],
+    "selector": "#js-deals",
+    "exception": false
+  },
+  {
+    "domains": [
       "cnn.com"
     ],
     "selector": "#js-outbrain-rightrail-ads-module",
@@ -125827,6 +125834,13 @@
   },
   {
     "domains": [
+      "steamdb.info"
+    ],
+    "selector": "app-sale-events",
+    "exception": false
+  },
+  {
+    "domains": [
       "arkadiumhosted.com"
     ],
     "selector": "ark-top-ad",
@@ -131485,6 +131499,13 @@
   },
   {
     "domains": [
+      "filecrypt.*"
+    ],
+    "selector": ".butt1ns :is(button, a):has(> svg):not(form *), :has(> [name=\"hidden_cnl_id\"]) :is(button, a):has(> svg):not(form *), [onclick*=\"/Link/\"], :has(> svg:is(.hghdsp, .hghspd, .hghsdp))",
+    "exception": false
+  },
+  {
+    "domains": [
       "justwatch.com"
     ],
     "selector": ".buybox_international_offers_row__header__icons:has([rel=\"nofollow sponsored noopener\"])",
@@ -131684,6 +131705,13 @@
       "igorslab.de"
     ],
     "selector": ".entry-content > a:has(> img):has(+ aside.ilab-ad-privacy-footer)",
+    "exception": false
+  },
+  {
+    "domains": [
+      "igorslab.de"
+    ],
+    "selector": ".entry-content > a:has(> img):not([href*=\"igorslab.de\"]):has(~ aside.ilab-ad-privacy-footer)",
     "exception": false
   },
   {
@@ -153490,6 +153518,33 @@
   },
   {
     "domains": [
+      "boyfriendtv.com",
+      "ashemaletube.com",
+      "pornoxo.com"
+    ],
+    "selector": "#page-shell > * {pointer-events:auto;}",
+    "exception": false
+  },
+  {
+    "domains": [
+      "boyfriendtv.com",
+      "ashemaletube.com",
+      "pornoxo.com"
+    ],
+    "selector": "#page-shell {padding-top:0;background-image:none;cursor:auto;pointer-events:none;}",
+    "exception": false
+  },
+  {
+    "domains": [
+      "boyfriendtv.com",
+      "ashemaletube.com",
+      "pornoxo.com"
+    ],
+    "selector": "body {background-image:none;}",
+    "exception": false
+  },
+  {
+    "domains": [
       "hentaihere.com"
     ],
     "selector": "body {padding-top:0;}",
@@ -154892,41 +154947,6 @@
   {
     "domains": [],
     "selector": ".widget_sdac_feedburner_widget",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".widget_social_icons",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".widget_tpd_dappier_widget",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".widget_wpjb-recent-jobs",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".widget_wysija",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".wpmchimpa-overlay-bg",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": "[data-aqa=\"widget-conversation-starter\"]",
-    "exception": false
-  },
-  {
-    "domains": [],
-    "selector": ".preezie-widget-modal",
     "exception": false
   }
 ]
